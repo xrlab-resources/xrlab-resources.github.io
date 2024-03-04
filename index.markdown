@@ -1,6 +1,6 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
 ---
+
+This is the library page for the eXtended Reality Lab at [Nokia](http://www.nokia.com), Spain. 

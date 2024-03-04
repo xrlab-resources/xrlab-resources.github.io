@@ -1,0 +1,42 @@
+title: Technology
+videos:
+-
+    Thumbnail: _
+    Name: Tapas
+    Dur: 1:09
+    Date: August 2018
+    Type: tech promo
+    Description: Demonstration of Distributed Reality (Tapas in Mars)
+    Links: https://youtu.be/L_yIhf_Q61A
+-
+    Thumbnail: _
+    Name: VR Conference
+    Dur: 1:20
+    Date: October 2018
+    Type: tech promo
+    Description: Conferencing application based on immersive telepresence
+    Links: https://youtu.be/BetA_9ILK7s
+-
+    Thumbnail: _
+    Name: NaturalUI
+    Dur: _
+    Date: February 2020
+    Type: tech
+    Description: Natural UI interactions for DR using Magic Leap and Zed Mini
+    Links: https://youtu.be/o7trempRUao
+-
+    Thumbnail: _
+    Name: Drone Photogrammetry
+    Dur: 2:45
+    Date: March 2021
+    Type: tech
+    Description: Photogrammetry based on captures from a drone
+    Links: https://youtu.be/a-9wh85MSE0
+-
+    Thumbnail: _
+    Name: Teleoperated AGV (IFEMA video)
+    Dur: 2:13
+    Date: November 2021
+    Type: tech
+    Description: Our Hathi robot driven through the immersive cockpit application.
+    Links: https://youtu.be/rC0RKhLoI74
