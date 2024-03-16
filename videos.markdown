@@ -6,7 +6,7 @@ permalink: /videos/
 
 Videos from our projects and experiment.
 
-{% for video_hash in site.data.videos %}
+{% for video_hash in site.data.videos  %}
 {% assign video_category = video_hash[1] %}
 
 ## {{video_category.title}}
