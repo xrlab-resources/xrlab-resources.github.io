@@ -2,41 +2,33 @@ title: Technology
 videos:
 -
     Thumbnail: _
-    Name: Tapas
-    Dur: 1:09
-    Date: August 2018
+    Name: Distributed Reality
+    Dur: _
+    Date: 2018-2024
     Type: tech promo
-    Description: Demonstration of Distributed Reality (Tapas in Mars)
+    Description: Practical demonstration of our Distributed Reality technology through a simple (but tasty) gastronomic use case. You cannot do this with VR or AR!
     Links: https://youtu.be/L_yIhf_Q61A
 -
     Thumbnail: _
-    Name: VR Conference
-    Dur: 1:20
-    Date: October 2018
+    Name: Immersive Communication (The Owl)
+    Dur: 
+    Date: 2019-2024
     Type: tech promo
-    Description: Conferencing application based on immersive telepresence
-    Links: https://youtu.be/BetA_9ILK7s
+    Description: The Owl is a protoype implementing our concept of immersive communication, see what it can do for enhancing human communications.
+    Links: https://www.youtube.com/watch?v=YUa8QjFHGlA
 -
     Thumbnail: _
-    Name: NaturalUI
+    Name: Real Haptics
     Dur: _
-    Date: February 2020
+    Date: 2019-2021
     Type: tech
-    Description: Natural UI interactions for DR using Magic Leap and Zed Mini
-    Links: https://youtu.be/o7trempRUao
+    Description: The best simulation of real touch is... real touch. See what we can do merging our Distributed Reality with tracked objects, through a nice use case (an Escape Room) 
+    Links: https://youtu.be/E2k_5Hk-ONw
 -
     Thumbnail: _
-    Name: Drone Photogrammetry
-    Dur: 2:45
-    Date: March 2021
+    Name: Teleoperated Driving
+    Dur: _
+    Date: 2021-2024
     Type: tech
-    Description: Photogrammetry based on captures from a drone
-    Links: https://youtu.be/a-9wh85MSE0
--
-    Thumbnail: _
-    Name: Teleoperated AGV (IFEMA video)
-    Dur: 2:13
-    Date: November 2021
-    Type: tech
-    Description: Our Hathi robot driven through the immersive cockpit application.
+    Description: Our Distributed Reality can be complemented with the control of devices at a distance; see how we can drive remotely a vehicle with the combination of low latency video, a 3D model and VR goggles.
     Links: https://youtu.be/rC0RKhLoI74
