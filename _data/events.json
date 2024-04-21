@@ -1,0 +1,83 @@
+[
+  {
+  "title": "BioMed",
+  "type": "conference",
+  "date": "2024-04-08",
+  "duration": "2",
+  "location": "Granada",
+  "photo": "",
+  "description": "Bio Med & Tech Talks was an event on biomedicine and biotechnology aiming to give visibility to the latest advances of researchers, laboratories, and health professionals, national and international. It was the first edition of this conference, in Granada. The XRLab team went there with the idea of getting to know more about how our technology can help in this field and gathering feedback from biomedicine and health professionals. We presented as demos the phobia to stairs therapy and the Owl. We made also a presentation about Incluverso.",
+  "links": [
+    {
+      "name": "slides",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/xr_terapia_personas_vulnerables_vFinal.pptx"
+    }
+  ],
+  "otherTags": "",
+  "id": "2024-04-08BioMed"
+},
+  
+{
+  "title": "IEEEVR Conference",
+  "type": "event",
+  "date": "2024-03-18",
+  "duration": "4",
+  "location": "Orlando",
+  "photo": "",
+  "description": "We participated in the IEEEVR conference in Orlando, with some posters and demos. Our Owl prototype provided the visitors of our demo with their very first teleporting experience, and in some cases seasoned with a disturbing out-of-body experience 😊. It was very encouraging to see the good reception of our immersive communication concept based on video in such a relevant forum. Most people confirmed the potential, provided feedback and additional ideas; the application field seems to be endless.",
+  "links": [
+    null
+  ],
+  "tags": [
+    "ext",
+    "tradeshow",
+    "conference",
+    "demo"
+  ],
+  "otherTags": "",
+  "id": "2024-03-18IEEEVR Conference"
+},
+  {
+  "title": "FP visit",
+  "type": "event",
+  "date": "2024-02-21",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "We received the visit of a group of computer technology students from FP (Formacion Profesional) center Tres Olivos, in Madrid. We showed them our beloved new area, then Alvaro gave a talk about the Realverse, the motivation of our Research and what we do (and nobody got asleep!). The session finished with a set of demos that they will probably not forget easily: The Owl, Volcano and of course our dear Perkins.",
+  "links": [
+    null
+  ],
+  "tags": [
+    "talk",
+    "event",
+    "demo",
+    "internal"
+  ],
+  "otherTags": "",
+  "id": "2024-02-21FP visit"
+},
+  {
+  "title": "AIxVR conference",
+  "type": "conference",
+  "date": "2024-01-17",
+  "duration": "3",
+  "location": "Los Angeles",
+  "photo": "",
+  "description": "The AIVR (now rebranded as AIxVR) is a very interesting academic conference combining two of the technologies at the very core of our XRLab: Artificial Intelligence and Vistual Reality. This year we got accepted a poster describing the automatic positioning of avatars in the immersive scene during an Owl session. We proposed to add a demo to the poster and they accepted enthusiastically, and it was indeed a very good idea. Apart from getting first hand feedback aboout the Owl, the demo helped a lot explain what the algorithm was about. A demo is better than a thousand words!",
+  "links": [
+    {
+      "name": "conference",
+      "url": "https://aivr.science.uu.nl/"
+    }
+  ],
+  "tags": [
+    "talk",
+    "ext",
+    "conference",
+    "demo"
+  ],
+  "otherTags": "",
+  "id": "2024-01-17AIxVR conference"
+}
+]
