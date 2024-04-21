@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XRLab Event generator</title>
+<style>
+    label {
+        display: block;
+        margin-bottom: 5px;
+    }
+    input[type="text"],
+    textarea {
+        width: 100%;
+        padding: 5px;
+        margin-bottom: 10px;
+    }
+    .checkbox-group {
+        margin-bottom: 10px;
+    }
+    .checkbox-group label {
+        display: inline;
+        margin-right: 10px;
+    }
+    .checkbox-group div {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    button {
+        padding: 8px 15px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+<h2>XRLab Event Form</h2>
+<form id="eventform">
+   <label for="title">Títle:</label>    <input type="text" id="titlr" name="title" required>
+   <label for="type">Type::</label>
+   <select id="type" name="type">
+     <option value="event">event</option>
+     <option value="talk">talk</option>
+     <option value="conference">conference</option>
+     <option value="other">other</option>
+   </select>
+
+    <label for="date">Date:</label>    <input type="text" id="date" name="date" placeholder="YYYY-MM-DD" required>
+    <label for="duration">Duration:</label>    <input type="text" id="duration" name="duration" placeholder="number days (if >1)" >
+    <label for="location">Location:</label>    <input type="text" id="location" name="location" required>
+    <label for="photo">Photo:</label>    <input type="text" id="photo" name="photo" placeholder="URL">
+    <label for="description">Description:</label>   <textarea id="description" name="description" rows="4" required></textarea>
+    <label>Links:</label>
+    <textarea id="links" name="links" rows="2" placeholder="name1 URL1&#10;name2 URL2&#10;..."></textarea>
+    <label>Tags:</label>
+    <div id="checkbox-group" class="checkbox-group"></div>
+    <label for="ottherTags">Other Tags (comma separated):</label>
+    <input type="text" id="otherTags" name="otherTags">
+    <button type="button" onclick="generateJSON()">Generate JSON</button>
+</form>
+
+<script>
+// Default tags  array
+const defaultTags = ['talk', 'alvarov', 'ext', 'event', 'tradeshow', 'conference', 'university', 'prize', 'demo', 'internal'];
+
+// Función para generar los checkboxes de las etiquetas predeterminadas
+function generateCheckboxes() {
+    const checkboxGroup = document.getElementById('checkbox-group');
+    checkboxGroup.innerHTML = ''; // Cleanup
+
+    defaultTags.forEach((tag, index) => {
+        const checkbox = document.createElement('input');
+        checkbox.type = 'checkbox';
+        checkbox.name = 'tags[]';
+        checkbox.value = tag;
+        checkbox.id = 'tag' + (index + 1);
+
+        const label = document.createElement('label');
+        label.htmlFor = 'tag' + (index + 1);
+        label.textContent = tag;
+
+        const div = document.createElement('div');
+        div.appendChild(checkbox);
+        div.appendChild(label);
+
+        checkboxGroup.appendChild(div);
+    });
+}
+
+// Generate checkboxes on page load
+window.onload = generateCheckboxes;
+
+function generateJSON() {
+    const eventform = document.getElementById('eventform');
+    const formData = new FormData(eventform);
+    const jsonData = {};
+
+    formData.forEach((value, key) => {
+        if (key === 'tags[]') {
+            const selectedTags = [];
+            formData.getAll('tags[]').forEach(tag => {
+                selectedTags.push(tag);
+            });
+            jsonData['tags'] = selectedTags;
+        } else {
+            jsonData[key] = value;
+        }
+    });
+
+    jsonData['id'] = jsonData['date'] + jsonData['title'];
+    
+    const linksField = formData.get('links');
+    const linksArray = linksField.split('\n').map(line => {
+	if (line.includes(" ")) {
+                  const [name, url] = line.split(' ').map(item => item.trim());
+                 return { name, url };
+	}
+    });
+    jsonData['links'] = linksArray;
+
+    const otherTags = formData.get('otherTags');
+    if (otherTags) {
+        const ottherTagsArray = otherTags.split(',').map(tag => tag.trim());
+        if (jsonData['tags']) {
+            jsonData['tags'] = jsonData['tags'].concat(otherTagsArray);
+        } else {
+            jsonData['tags'] = otherTagsArray;
+        }
+    }
+
+    const jsonString = JSON.stringify(jsonData, null, 2);
+    alert("JSON generated:\n\n" + jsonString);
+}
+</script>
+</body>
+</html>
