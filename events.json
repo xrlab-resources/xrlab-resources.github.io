@@ -1,5 +1,333 @@
 [
   {
+  "title": "Telefonica Innovation Day",
+  "type": "event",
+  "date": "2023-05-31",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/perkinsbsoston.jpg",
+  "description": "This traditional event has been used to bring to Telefonica headquarters the most relevant demos from the MWC, so TEF managers and employees can have an easy access to them. Covid interrupted it and then shifted it a bit, but this year we have finally returned to normal operation, and that was noticeable with the amount of visitors. XRLab was once more present with a set of demos (Volcano with Haptics, Pinball and Perkins with superpowers). We got useful feedback and a lot of visibility.",
+  "links": [
+    {
+      "name": "brochure",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/Nokia%20-%20Telefonica%20Innovation%20Day%202023%20-%20ext.pdf"
+    },
+    {
+      "name": "photos",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/PhotosTefDay2023.zip"
+    },
+    {
+      "name": "perkins_vs_boston",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/perkinsbsoston.zip"
+    }
+  ],
+  "tags": [
+    "alvarov",
+    "ext",
+    "event",
+    "tradeshow",
+    "demo"
+  ],
+  "otherTags": "",
+  "id": "2023-05-31Telefonica Innovation Day"
+},
+  {
+  "title": "Owl Debate at Colegio Base",
+  "type": "event",
+  "date": "2023-05-11",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/debateowl.jpg",
+  "description": "A new experience in the field with our Owl, and once more in collaboration with Colegio Base. This time we challenged our telepresence system with a difficult task: run four debate sessions between two groups of teenagers having a remote participant per team. Apart from our usual media coverage by Miguel this time we also had the national TV (RTVE) present, what gave the experience a particularly high external impact. And we collected valuable scientific information too, with Marta chasing the participants with an appropriate questionnaire.",
+  "links": [
+    {
+      "name": "video",
+      "url": "https://youtu.be/Qvm-a0x6f2w"
+    },
+    {
+      "name": "photos",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/Photos-DebateOwl.zip"
+    },
+    {
+      "name": "tv_program_link",
+      "url": "https://www.rtve.es/play/videos/zoom-net/buho-altavoces-atmos-fictiorama-studios/6905303/"
+    },
+    {
+      "name": "tv_recording",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/202306_OwlDebate_ZoomNet.mp4"
+    }
+  ],
+  "tags": [
+    "alvarov",
+    "ext",
+    "event",
+    "demo"
+  ],
+  "otherTags": "",
+  "id": "2023-05-11Owl Debate at Colegio Base"
+},
+  {
+  "title": "INCLUVERSO at DigitalES",
+  "type": "talk",
+  "date": "",
+  "duration": "",
+  "location": "",
+  "photo": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/incluversoforoin.jpg",
+  "description": "DigitalES is the Spanish association of large Telecommunication companies (network operators and network providers), that organizes many events for its ecosystem. In particular ForoIN is a space dedicated to the socially responsible technical innovation. Nokia Spain has participated several times in this forum, and this time the event was particularly interesting, with the presentation of 5 projects that improve accessibility. It was therefore an excellent opportunity for Pablo Perez to present for the first time the new INCLUVERSO project, which was really well received.",
+  "links": [
+    {
+      "name": "recording",
+      "url": "https://youtu.be/74J20_Khesc?t=4482"
+    },
+    {
+      "name": "slides",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/ForoIN_INCLUVUERSO_5G.pptx"
+    },
+    {
+      "name": "press_release",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/NdP%20003%20DigitalES%20y%20Fundaci%C3%B3n%20ONCE%20reconocen%20cinco%20proyectos%20tecnol%C3%B3gicos%20para%20el%20fomento%20de%20la%20accesibilidad%20y%20la%20diversidad%20en%20Internet.pdf"
+    },
+    {
+      "name": "photos",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/Photos-foroin-incluverso.zip"
+    }
+  ],
+  "tags": [
+    "talk",
+    "ext",
+    "event"
+  ],
+  "otherTags": "",
+  "id": "INCLUVERSO at DigitalES"
+},
+  {
+  "title": "5GForum",
+  "type": "event",
+  "date": "2023-05-08",
+  "duration": "2",
+  "location": "Seville",
+  "photo": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/5gforum2023_card.jpg",
+  "description": "The 2023 edition of 5GForum, the National meeting which gathers the whole 5G ecosystem in Spain, took place in Sevilla. It was one of the largest we remember: a lot of visitors and activity. The XRLab was once more leading the Nokia representation, with a Keynote about Network as Code by Jaime Ruiz and a rich set of demos. We got a specially high metia attencion, including television in prime time. ",
+  "links": [
+    {
+      "name": "photos",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/5gforum2023.zip"
+    },
+    {
+      "name": "more_photos",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/5gforum2023.zip"
+    },
+    {
+      "name": "agenda",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/Agenda-5G-FORUM-2023.pdf"
+    },
+    {
+      "name": "tv_twitter_link",
+      "url": "https://twitter.com/hoyendiacstv/status/1655539062214742017?s=52&t=msz8i7qIJ0y5KDofSbgiRA"
+    },
+    {
+      "name": "newspaper",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/5gForum2023_newspaper.jpg"
+    },
+    {
+      "name": "video_summary",
+      "url": "https://vimeo.com/827321842"
+    }
+  ],
+  "tags": [
+    "talk",
+    "alvarov",
+    "ext",
+    "tradeshow",
+    "demo"
+  ],
+  "otherTags": "",
+  "id": "2023-05-085GForum"
+},
+  {
+  "title": "CHI Conference",
+  "type": "conference",
+  "date": "2023-04-23",
+  "duration": "6",
+  "location": "Hamburg",
+  "photo": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/chi2023.jpg",
+  "description": "CHI is one of the most relevant scientific conference for our research area, although a bit hard for us due to our special profile. This year we managed to be present with Ester and Diego, introducing Incluverso project in the workshop \"Towards and Inclusive and Accesible Metaverse\". Very interesting visit and good networking, including our colleague Mark Billinghurst (see photo). ",
+  "links": [
+    {
+      "name": "website",
+      "url": "https://chi2023.acm.org/"
+    },
+    {
+      "name": "paper",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/Incluverso_CHI_Inclusion-2.pdf"
+    }
+  ],
+  "tags": [
+    "talk",
+    "ext",
+    "conference"
+  ],
+  "otherTags": "",
+  "id": "2023-04-23CHI Conference"
+},
+  {
+  "title": "ATG/XRLab in CONOCE Program",
+  "type": "talk",
+  "date": "2023-04-20",
+  "duration": "",
+  "location": "MAdrid",
+  "photo": "",
+  "description": "Nokia Spain organizes the CONOCE program, a series of internal presentations in which different employees of the company present the group where they work and the things they do there. XRLab was asked to participate, and Alvaro Villegas gave a short presentation of the group: first ATG as a whole and then the specific team and work of eXtended Reality Lab in Madrid. The most repeated comment after the call was \"I want to work there\" :-)",
+  "links": [
+    {
+      "name": "slides",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/CONOCE_XRLab.pptx"
+    },
+    {
+      "name": "recording",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/PROYECTO%20CONOCE_%20Sesio%CC%81n%2020%20Abril%2012_00-12_30_%20CNS%20Tech_%20Advanced%20Technology%20Group-20230420_120357-Meeting%20Recording.mp4"
+    }
+  ],
+  "tags": [
+    "talk",
+    "alvarov",
+    "internal"
+  ],
+  "otherTags": "",
+  "id": "2023-04-20ATG/XRLab in CONOCE Program"
+},
+  {
+  "title": "CNS Tech Talk",
+  "type": "talk",
+  "date": "2023-04-20",
+  "duration": "",
+  "location": "Virtual",
+  "photo": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/techtalkcover.jpg",
+  "description": "Tech Talk is a program in which selected CNS people give an internal keynote about a technical topic of interest for the company. XRLab was asked to participate, and it happened in this slot, where Alvaro Villegas presented the main research focus of the lab with \"The Realverse: the XR killer app for 5G and beyond\". The presentation included the motivation, the concept, its taxonomy and practical considerations about its implementation and value for Nokia. Positive feedback!",
+  "links": [
+    {
+      "name": "slides(ppt)",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/CNSTechTalk_Realverse.pptx"
+    },
+    {
+      "name": "slides(pdf)",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/CNSTechTalk_Realverse.pdf"
+    },
+    {
+      "name": "recording",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/TECH%20Talk%20-%20Realverse_%20the%20XR%20killer%20app%20for%205G%20and%20beyond-20230420_080030-Meeting%20Recording.mp4"
+    }
+  ],
+  "tags": [
+    "talk",
+    "alvarov",
+    "internal"
+  ],
+  "otherTags": "",
+  "id": "2023-04-20CNS Tech Talk"
+},
+  {
+  "title": "IPCV Scholar at Universidad Autónoma de Madrid",
+  "type": "talk",
+  "date": "2023-03-28",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/ipcv2023.jpg",
+  "description": "New edition of the yearly workshop given at University, within the Image Processing and Computer Vision master program. The workshop explains to the students the motivations and tricks for achieving a pretty difficult goal (at least in Spain): doing researc in the industry. The provided example is, of course, XRLab, with its whole history from the BL days to the current success within CNS.",
+  "links": [
+    {
+      "name": "session1_ppt",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/Session1_IndustryResearch.pptx"
+    },
+    {
+      "name": "session2_ppt",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/Session2_XRLab.pptx"
+    },
+    {
+      "name": "session3_ppt",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/Session3_VRAR.pptx"
+    },
+    {
+      "name": "session1_pdf",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/Session1_IndustryResearch.pdf"
+    },
+    {
+      "name": "session2_pdf",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/Session2_XRLab.pdf"
+    },
+    {
+      "name": "session3_pdf",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/Session3_VRAR.pdf"
+    }
+  ],
+  "tags": [
+    "talk",
+    "alvarov",
+    "ext",
+    "university"
+  ],
+  "otherTags": "",
+  "id": "2023-03-28IPCV Scholar at Universidad Autónoma de Madrid"
+},
+  {
+  "title": "DRictionary at Colegio Base",
+  "type": "event",
+  "date": "2023-03-17",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/drictionary_cover.jpg",
+  "description": "Our collaboration with Colegio Base keeps getting good results. This time we went there with an updated version of our nice \"DRictionary\", a Distributed Reality version of the popular Pictionary implemented with VR plus video pass-through. Although our ML based segmentation is now fully functional we required a portable version on multiple HMDs, so we leveraged the opportunity to include chroma segmentation in Quest2. Result was great, kids had a lot of fun and we got interesting results for our research",
+  "links": [
+    {
+      "name": "video",
+      "url": "https://youtu.be/q0A9Zw0IECw"
+    },
+    {
+      "name": "photos",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/drictionary23_photos.zip"
+    }
+  ],
+  "otherTags": "",
+  "id": "2023-03-17DRictionary at Colegio Base"
+}
+  {
+  "title": "Transfiere Fair",
+  "type": "event",
+  "date": "2023-02-15",
+  "duration": "3",
+  "location": "Málaga",
+  "photo": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/transfiere_booth.jpg",
+  "description": "Foro Transfiere celebrated its 11th edition in Malaga, gathering more than 500 providers of new technologies plus public administrations. Nokia participated for the first time, encouraged by the Finnish embassy (Finland and Sweden were the invited countries this time), with a representation in the Finnish stand and also with our own booth. The Nokia presence, led by the XRLab, included several demos and the participation of Fernando Corredor in a round table.",
+  "links": [
+    {
+      "name": "photos",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/transfiere23_fotos.zip"
+    },
+    {
+      "name": "videos",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/transfiere23_videos.zip"
+    },
+    {
+      "name": "yammer",
+      "url": "https://web.yammer.com/main/org/nokia.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMjE0NjUyNDQzODExMDIwOCJ9?trk_event=com_yams_view_conversation&trk_outlook_origin=am&trk_integration_origin=am&trk_scenario_type=com&trk_scenario_sub_type=atmention&trk_notif_id=0d33e4bdf129ed06ab862e64c8a56052bccdb8c1865bb30698d8f97f28f521c9&trk_thread_id=2146524438110208"
+    },
+    {
+      "name": "website",
+      "url": "https://transfiere.fycma.com/"
+    }
+  ],
+  "tags": [
+    "talk",
+    "alvarov",
+    "ext",
+    "event",
+    "tradeshow",
+    "demo"
+  ],
+  "otherTags": "",
+  "id": "2023-02-15Transfiere Fair"
+}
+,  {
   "title": "BioMed",
   "type": "conference",
   "date": "2024-04-08",
