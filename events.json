@@ -1,5 +1,95 @@
 [
   {
+  "title": "Women in Leadership",
+  "type": "other",
+  "date": "2023-05-01",
+  "duration": "180",
+  "location": "Online",
+  "photo": "",
+  "description": "The Women in Leadership initiative in CNS aims at giving women in the organization a better visibility and engagement into the company goals and strategy. The XRLab participated in two of the teams that were created, with the specific target of presenting to Raghav proposals about Industrial Metaverse and the immersive communications that the Owl enables. Team members of XRLab coached the groups during several months, trying to help as much as possible with this initiative.",
+  "links": [
+    {
+      "name": "industrial_metaverse",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/Wil%20Project%20-%20Team%20working%20file%20.pdf"
+    },
+    {
+      "name": "owl_productization",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/WiL2_OwlProductization.pptx"
+    }
+  ],
+  "tags": [
+    "talk",
+    "event",
+    "internal"
+  ],
+  "otherTags": "",
+  "id": "2023-05-01Women in Leadership"
+},
+  {
+  "title": "Recruitment Day",
+  "type": "event",
+  "date": "2023-09-13",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "To help with the ongoing effort of Nokia to refresh its staff with new young talent the HR team in Madrid organized a recruitment day with the visit of a selected group of candidates for some positions in the commercial departments. As usual, to give them a good view of the advanced technology in which Nokia is working we (XRLab) were asked to give some demos. Of course, they were delighted....",
+  "links": [],
+  "otherTags": "",
+  "id": "2023-09-13Recruitment Day"
+},
+  {
+  "title": "XR Summer School",
+  "type": "event",
+  "date": "2023-07-18",
+  "duration": "4",
+  "location": "Madrid",
+  "photo": "",
+  "description": "Nokia XRLab organized jointly with Universidad Politecnica de Madrid a Summer School around XR technologies. It was held at the UPM premises, and XRLab contributed both with teachers and students. External relevant people from the XR sector provided keynotes and master classes, and practical activities were also included in the program. A big success that recommends repeating next year.",
+  "links": [
+    {
+      "name": "program",
+      "url": "https://www.gti.ssr.upm.es/summer_school/program.html"
+    }
+  ],
+  "tags": [
+    "talk",
+    "ext",
+    "event",
+    "conference",
+    "university",
+    "demo"
+  ],
+  "otherTags": "",
+  "id": "2023-07-18XR Summer School"
+},
+  {
+  "title": "Lawyer's visit",
+  "type": "event",
+  "date": "2023-06-08",
+  "duration": "2",
+  "location": "Madrid",
+  "photo": "",
+  "description": "The legal&compliance team at Nokia celebrated a large meeting in the Madrid office, and we were asked to show our work, demonstrating that the company does not only sell state of the art technology, but we also research on the communications of the future. A presentation of our research for non-technical people followed by a selection of demos in the auditorium made it. They had fun!",
+  "links": [
+    {
+      "name": "ppt",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/Realverse_Intro.pptx"
+    },
+    {
+      "name": "pdf",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/Realverse_Intro.pdf"
+    }
+  ],
+  "tags": [
+    "talk",
+    "event",
+    "demo",
+    "internal"
+  ],
+  "otherTags": "",
+  "id": "2023-06-08Lawyer's visit"
+},
+  {
   "title": "Telefonica Innovation Day",
   "type": "event",
   "date": "2023-05-31",
@@ -69,7 +159,7 @@
   {
   "title": "INCLUVERSO at DigitalES",
   "type": "talk",
-  "date": "",
+  "date": "2023-05-11",
   "duration": "",
   "location": "",
   "photo": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/incluversoforoin.jpg",
@@ -175,7 +265,7 @@
   "type": "talk",
   "date": "2023-04-20",
   "duration": "",
-  "location": "MAdrid",
+  "location": "Madrid",
   "photo": "",
   "description": "Nokia Spain organizes the CONOCE program, a series of internal presentations in which different employees of the company present the group where they work and the things they do there. XRLab was asked to participate, and Alvaro Villegas gave a short presentation of the group: first ATG as a whole and then the specific team and work of eXtended Reality Lab in Madrid. The most repeated comment after the call was \"I want to work there\" :-)",
   "links": [
@@ -289,7 +379,7 @@
   ],
   "otherTags": "",
   "id": "2023-03-17DRictionary at Colegio Base"
-}
+},
   {
   "title": "Transfiere Fair",
   "type": "event",
