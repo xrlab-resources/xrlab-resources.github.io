@@ -1,5 +1,148 @@
 [
   {
+  "title": "V5G Days",
+  "type": "event",
+  "date": "2023-11-14",
+  "duration": "2",
+  "location": "Valencia",
+  "photo": "",
+  "description": "The University of Valencia (UPV), with which we have several innovation projects in common, organizes every year an event at their premises to gather the most relevant national players in the world of 5G. The event consists on talks and stands with demos, and this time we contributed with the latter. We took with us the demos which are closest to the projects with UPV, with a strong focus on haptics.",
+  "links": [
+    {
+      "name": "website",
+      "url": "https://v5g.es/v5g-days-2023/"
+    }
+  ],
+  "tags": [
+    "ext",
+    "event",
+    "tradeshow",
+    "university",
+    "demo"
+  ],
+  "otherTags": "",
+  "id": "2023-11-14V5G Days"
+},
+  {
+  "title": "Enterprise Innovation Day",
+  "type": "event",
+  "date": "2023-10-26",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "Nokia Spain organizes periodically an event with its most relevant customersfrom the Enterprise field. Our sales people take the opportunity to present the latest products and features, and present the strategic lines. We are usually invited too, to provide a longer-view in the future of technology, and show it practically with demos. This time we showed the latest version of the Owl, the new version of Volcano (which again became quickly a popular demo) and our robotic dog with AI eyes.",
+  "links": [],
+  "tags": [
+    "alvarov",
+    "ext",
+    "event",
+    "demo"
+  ],
+  "otherTags": "",
+  "id": "2023-10-26Enterprise Innovation Day"
+},
+  {
+  "title": "PRESURA Fair",
+  "type": "event",
+  "date": "2023-10-20",
+  "duration": "3",
+  "location": "Pamplona",
+  "photo": "",
+  "description": "Some Spanish government entities organize regularly events to promote rural spaces in the country and mitigate the population leakage that they suffer. We were invited to participate in this edition, to show how advanced networks in general and our specific technologies in particular can help in this task. A good representation of XRLab was present onsite with several talks and a rich amount of demos, which became very popular. Exhausting, but also refreshing!",
+  "links": [
+    {
+      "name": "program",
+      "url": "https://repoblacion.es/programacion2023.pdf"
+    },
+    {
+      "name": "website",
+      "url": "https://repoblacion.es/"
+    },
+    {
+      "name": "slides_comodia",
+      "url": "https://nokia.sharepoint.com/:p:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/Presura_Comodia.pptx?d=w03c89eedfad54ac484ca3344b8a0857c&csf=1&web=1&e=1P746n"
+    }
+  ],
+  "tags": [
+    "talk",
+    "alvarov",
+    "ext",
+    "event",
+    "tradeshow",
+    "demo"
+  ],
+  "otherTags": "",
+  "id": "2023-10-20PRESURA Fair"
+},
+  {
+  "title": "CSCW Conference Workshop",
+  "type": "conference",
+  "date": "2023-10-13",
+  "duration": "2",
+  "location": "Minneapolis",
+  "photo": "",
+  "description": "ACM organizes every year the Computer-Supported Cooperative Work And Social Computing (CSCW) conference, and in this year edition we proposed and got accepted a workshop proposal about telepresence technologies for hybrid meetings. A representation of the XRLab travelled to Minnesota to help driving the workshop, and also to participate in it with a full demonstration of our Owl. Onsite demonstration was a recommendation and we could also see other interesting approaches, andw we realized again that we are very well positioned in this space. Real time communication with very far places (including Spain) was also carried out.",
+  "links": [
+    {
+      "name": "website",
+      "url": "https://cscw.acm.org/2023/"
+    },
+    {
+      "name": "agenda",
+      "url": "https://nokia.sharepoint.com/:b:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/folleto_cscw_2023.pdf?csf=1&web=1&e=unQpKu"
+    },
+    {
+      "name": "slides",
+      "url": "https://nokia.sharepoint.com/:p:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/CSCW_Owl.pptx?d=w81f62da632e7446bbc90fe2c1b11adf4&csf=1&web=1&e=Cb7vXa"
+    }
+  ],
+  "tags": [
+    "talk",
+    "alvarov",
+    "ext",
+    "conference",
+    "demo"
+  ],
+  "otherTags": "",
+  "id": "2023-10-13CSCW Conference Workshop"
+},
+  {
+  "title": "Event at FJ23",
+  "type": "event",
+  "date": "2023-10-05",
+  "duration": "",
+  "location": "",
+  "photo": "",
+  "description": "Nokia Spain has a long history of collaboration with Foundation Juan XXIII, focused on people with mental disabilities. In the last months this relation is event stronger thanks to several innovation projecs we have in common (COMODIA, INCLUVERSO) and we have a growing number of collaborations and visits to their site. In this case we attended an event called \"Positive Future in the Elderly with intellectual and development diseases\". Many authorized voices spoke and as usual it was an incredibly satisfying experience for all attendees",
+  "links": [
+    {
+      "name": "instagram",
+      "url": "https://www.instagram.com/reel/CxVT1l7y5Dw/?next=%2Ftv%2FCHxAx8KniFZ%2F&hl=bn"
+    }
+  ],
+  "tags": [
+    "ext",
+    "event"
+  ],
+  "otherTags": "",
+  "id": "2023-10-05Event at FJ23"
+},
+  {
+  "title": "QoE workshops",
+  "type": "other",
+  "date": "2023-05-01",
+  "duration": "180",
+  "location": "Online",
+  "photo": "",
+  "description": "Quality of Experience is a key component of XRLab research, and it is also important for many other parts of the company. For that reason our main experts in this topic (Pablo and Marta) got in contact with other groups in different BGs to organize a series of online meetings to discuss related topics. Very well received initiative, and a full success.",
+  "links": [],
+  "tags": [
+    "internal"
+  ],
+  "otherTags": "",
+  "id": "2023-05-01QoE workshops"
+},
+  {
   "title": "Women in Leadership",
   "type": "other",
   "date": "2023-05-01",
