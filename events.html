@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XRLab Events</title>
+<style>
+  h2 {
+      color: #2ea0e6;
+      font-weight: 100;
+      font-size: 2.3em;
+      font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+  }
+  .event {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 2px;
+      padding-left:15px;
+      margin-bottom: 10px;
+      margin-left:10px;
+      margin-right: 20px;
+      display:flex;
+  }
+  .eventimg {
+      margin: 5px;
+      width: 100px;
+      height: 64px;
+      margin-right: 10px;
+      padding: 6px;
+      padding-bottom: 33px;
+      background-color: #e6e6e6;
+      border-top: 1px solid #c4d0d7;
+      border-bottom: 1px solid #99b0c1;
+      border-left: 1px solid #c4d0d7;
+      border-right: 1px solid #99b0c1;
+      background-repeat: repeat-x;
+      background-position: top;      
+      
+  }
+  .eventcontent {
+      flex:1;
+  };
+
+        .contenido-evento {
+            flex: 1;
+        }  
+    .title {
+	color: #2ea0e6;
+	font-size: 1.23em;
+	font-style:italic;
+	line-height:1.4;
+	margin-top: 5px;
+              margin-bottom: 3px;
+	font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+	font-weight: 300;
+    }
+    .locationdate {
+	font-size: 0.8em;
+    }
+    .date {
+        font-size: 14px;
+        margin-bottom: 5px;
+    }
+    .description {
+	color: #1c4269;
+	font-size: 13px;
+	font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+	font-weight: 300;
+	word-wrap: break-word;
+	margin-bottom: 5px;
+    }
+</style>
+</head>
+<body>
+<h2 id="pagetitle">XRLab Events</h2>
+<div id="eventList"></div>
+
+<script>
+
+
+  function getOrdinal(num) {
+    if (typeof num !== 'number' || isNaN(num)) {
+        return ''; 
+    }
+
+    const lastDigit = num % 10;
+    const lastTwoDigits = num % 100;
+
+    if (lastTwoDigits >= 11 && lastTwoDigits <= 13) {
+        return num + 'th';
+    } else if (lastDigit === 1) {
+        return num+'st';
+    } else if (lastDigit === 2) {
+        return num+'nd';
+    } else if (lastDigit === 3) {
+        return num+'rd';
+    } else {
+        return num+'th';
+    }
+}
+
+
+  
+ function formatDate(inputDate) {
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+
+    const year = inputDate.getFullYear();
+    const monthIndex = inputDate.getMonth();
+    const day = inputDate.getDate();
+    const monthName = months[monthIndex];
+
+    return `${monthName} ${getOrdinal(day)}, ${year}`;
+}
+
+// Function to get month name from month index
+function getMonthName(monthIndex) {
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    return months[monthIndex];
+}
+
+
+
+function generateDateRange(startDate, durationInDays) {
+    // Convert the start date to a Date object
+    const startDateObj = new Date(startDate);
+
+    // If the duration is 0 or 1, return only the start date
+    if (durationInDays === 0 || durationInDays === 1) {
+        return formatDate(startDateObj);
+    }
+
+    // Calculate the end date by adding the duration in days
+    const endDateObj = new Date(startDateObj.getTime() + (durationInDays - 1) * 86400000); // 86400000 milisegundos en un día
+    
+
+    // Generate the text for the date range
+    const startDateTxt = formatDate(startDateObj);
+    const endDateTxt = formatDate(endDateObj);
+    
+    // If both dates are in the same month, mention the month only once
+    if (startDateObj.getMonth() ===  endDateObj.getMonth()) {
+        const monthName = getMonthName(startDateObj.getMonth());
+        return `${monthName} ${getOrdinal(startDateObj.getDay())}-${getOrdinal(endDateObj.getDay())}, ${startDateObj.getFullYear()}`;
+    } else {
+        return `${startDateTxt} - ${endDateTxt}`;
+    }
+}
+
+  function generateLinks(links) {
+
+      if (links.length == 0)
+	  return("");
+
+      let linksTxt = "See also: ";
+
+      links.forEach(link => {
+	  name = link["name"];
+	  url = link["url"];
+	  linksTxt = linksTxt +   ` <a href="${url}">${name}</a>`;
+      });
+
+      return(linksTxt);
+    }
+      
+
+   
+  // Load events JSON
+  fetch('https://xrlab-resources.github.io/events.json', {cache: 'no-cache'})
+  //fetch('events.json', {cache: 'no-cache'})
+    .then(response => response.json())
+    .then(rawdata => {
+	const eventList = document.getElementById('eventList');
+
+	const queryString = window.location.search;
+	const params = new URLSearchParams(queryString);
+	const year = params.get('year');
+	if (year) {
+	    obj =  document.getElementById("pagetitle");
+	    obj.innerHTML = obj.innerHTML + " " + year;
+	}
+
+	const data = rawdata.filter(event => {
+	    const date = new Date(event["date"]);
+	    if (year)
+		return(date.getFullYear() == year);
+	    else
+		return true;
+	});
+
+	
+        data.forEach(event => {
+	    if (!event.duration)
+		dur = 0;
+	    else
+		dur = event.duration;
+
+
+	    let thumb='';
+	    if (event.photo != '') {
+		thumburl = event.photo;
+	    } else {
+		thumburl = "https://nokia.sharepoint.com/:i:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/logo_xrlab_2023.jpg"
+	    }
+	    thumb=`<img src="${thumburl}" alt="xrlab" class="eventimg">`;
+                  const dateTxt=generateDateRange(event.date, dur);
+	    const seeAlso = generateLinks(event.links);
+
+	    
+	    const eventDiv = document.createElement('div');
+	    eventDiv.innerHTML =
+		'<div class="event">' +
+		thumb + '<div class="eventcontent">' +
+		`<div class="title"><span style="font-weight:bold;">${event.title}</span> <span class="locationdate">(${event.location}, ${dateTxt})</span></div>` +
+		`<div class="description">${event.description}</div>` +
+		`<div class="description">${seeAlso}</div>` +
+		'</div>' +
+		'</div>';
+	    eventList.appendChild(eventDiv);
+        });
+    })
+    .catch(error => console.error('Error loading events:', error));
+</script>
+</body>
+</html>
