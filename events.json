@@ -13,6 +13,7 @@
       "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Events/xr_terapia_personas_vulnerables_vFinal.pptx"
     }
   ],
+  "tags" : [],
   "otherTags": "",
   "id": "2024-04-08BioMed"
 },
@@ -31,7 +32,8 @@
     "ext",
     "tradeshow",
     "conference",
-    "demo"
+    "demo",
+    "alvarov"
   ],
   "otherTags": "",
   "id": "2024-03-18IEEEVR Conference"
@@ -90,7 +92,8 @@
     "talk",
     "ext",
     "conference",
-    "demo"
+    "demo",
+    "alvarov"
   ],
   "otherTags": "",
   "id": "2024-01-17AIxVR conference"
