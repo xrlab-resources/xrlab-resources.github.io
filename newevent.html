@@ -5,6 +5,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>XRLab Event generator</title>
 <style>
+  h2 {
+      color: #2ea0e6;
+      font-weight: 100;
+      font-size: 2.3em;
+      font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+      text-align: center;
+  }
     label {
         display: block;
         margin-bottom: 5px;
@@ -16,11 +23,12 @@
         margin-bottom: 10px;
     }
     .checkbox-group {
-        margin-bottom: 10px;
+	margin-bottom: 10px;
     }
     .checkbox-group label {
         display: inline;
         margin-right: 10px;
+       font-weight: normal !important;
     }
     .checkbox-group div {
         display: inline-block;
@@ -33,39 +41,121 @@
         border: none;
         cursor: pointer;
     }
+    .blink {
+	-border: 2px solid blue;
+	background-color: #f0f8ff; 
+	transition: background-color 0.2s ease;
+    }
+
+
+    .form-container {
+	max-width: 90%; /* Ancho máximo del formulario */
+	margin: 20px auto; /* Margen superior e inferior automático, centrará el formulario */
+	background-color: #eeeeee;
+	padding: 20px; /* Espacio interno del contenedor */
+	border: 1px solid #ddd; /* Borde sólido */
+	border-radius: 10px; /* Esquinas redondeadas del contenedor */
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    }
+
+    
+    .form-group button {
+	padding: 8px 15px;
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	border-radius: 20px; /* Esquinas redondeadas */
+	margin: 0 auto; /* Centrar los botones */
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
+    }
+    
+    .form-group {
+	display: flex;
+	margin-bottom: 10px;
+    }
+    .form-group label {
+	flex: 1;
+	margin-right: 10px;
+	text-align: right;
+	font-family: Arial, sans-serif; 
+	font-size: 14px;
+	font-weight: bold;
+    }
+    .form-group input, .form-group textarea, .form-group div {
+	flex: 10;
+    }
+    .form-group select {
+	flex: 10;
+	width: auto;
+	align-self: flex-start;
+    }
+
+    .form-group button {
+	padding: 8px 15px;
+	background-color: #007bff;
+	color: #ff;
+	border: none;
+	cursor: pointer;
+	border-radius: 10px; /* Esquinas redondeadas */
+	margin: 0 auto; /* Centrar los botones */
+	box-shadow:  2px 2px 0  rgba(0, 0, 0, 0.1); /* Sombra */
+    }
+
+    .form-group {
+	display: flex;
+	justify-content: space-between;
+	margin-top: 20px; 
+    }
+    
 </style>
 </head>
 <body>
-<h2>XRLab Event Form</h2>
-<form id="eventform">
-   <label for="title">Títle:</label>    <input type="text" id="titlr" name="title" required>
-   <label for="type">Type::</label>
-   <select id="type" name="type">
-     <option value="event">event</option>
-     <option value="talk">talk</option>
-     <option value="conference">conference</option>
-     <option value="other">other</option>
-   </select>
+  <h2>XRLab Event Generator</h2>
+  <div class="form-container" id="formcontainer">
+    <form id="eventform">
+      <div class="form-group">   <label for="title">Title:</label>    <input type="text" id="titlr" name="title" required></div>
+      <div class="form-group">   <label for="type">Type:</label>
 
-    <label for="date">Date:</label>    <input type="text" id="date" name="date" placeholder="YYYY-MM-DD" required>
-    <label for="duration">Duration:</label>    <input type="text" id="duration" name="duration" placeholder="number days (if >1)" >
-    <label for="location">Location:</label>    <input type="text" id="location" name="location" required>
-    <label for="photo">Photo:</label>    <input type="text" id="photo" name="photo" placeholder="URL">
-    <label for="description">Description:</label>   <textarea id="description" name="description" rows="4" required></textarea>
-    <label>Links:</label>
-    <textarea id="links" name="links" rows="2" placeholder="name1 URL1&#10;name2 URL2&#10;..."></textarea>
-    <label>Tags:</label>
-    <div id="checkbox-group" class="checkbox-group"></div>
-    <label for="ottherTags">Other Tags (comma separated):</label>
-    <input type="text" id="otherTags" name="otherTags">
-    <button type="button" onclick="generateJSON()">Generate JSON</button>
-</form>
+	<div>
+	<select id="type" name="type">
+	  <option value="event">event</option>
+	  <option value="talk">talk</option>
+	  <option value="conference">conference</option>
+	  <option value="other">other</option>
+	</select>
+	</div>
+      </div>
+      
+      <div class="form-group"><label for="date">Date:</label>    <input type="text" id="date" name="date" placeholder="YYYY-MM-DD" required></div>
+      <div class="form-group"><label for="duration">Duration:</label>    <input type="text" id="duration" name="duration" placeholder="number days (if >1)" ></div>
+      <div class="form-group"><label for="location">Location:</label>    <input type="text" id="location" name="location" required></div>
+      <div class="form-group"><label for="photo">Photo:</label>    <input type="text" id="photo" name="photo" placeholder="URL"></div>
+      <div class="form-group"><label for="description">Description:</label>   <textarea id="description" name="description" rows="4" required></textarea></div>
+      <div class="form-group"><label>Links:</label>
+	<textarea id="links" name="links" rows="2" placeholder="name1 URL1&#10;name2 URL2&#10;..."></textarea></div>
+      <div class="form-group"><label for="tags">Tags:</label> <div id="checkbox-group" class="checkbox-group"></div></div>
+      <div class="form-group"><label for="ottherTags">Custom Tags:</label>
+	<input type="text" id="otherTags" name="otherTags" placeholder="comma-separated tags"></div>
+      
+      <div class="form-group">
+	<button type="button" onclick="generateJSON(1)">Preview JSON</button>
+	<button type="button" onclick="generateJSON(0)">Copy to clipboard</button>
+	<button type="button" onclick="cleanForm()">Clean Form</button>
+	<button type="button" onclick="openDepot()">Open Depot</button>
+      </div>
+      
+    </form>
+  </div>
 
 <script>
 // Default tags  array
-const defaultTags = ['talk', 'alvarov', 'ext', 'event', 'tradeshow', 'conference', 'university', 'prize', 'demo', 'internal'];
+  const defaultTags = ['talk', 'ext', 'event', 'tradeshow', 'conference', 'university', 'prize', 'demo', 'internal', 'alvarov'];
 
-// Función para generar los checkboxes de las etiquetas predeterminadas
+  function openDepot() {
+      window.open("https://nokia.sharepoint.com/sites/blspain/BLSpain%20Store/Forms/AllItems.aspx?id=%2Fsites%2Fblspain%2FBLSpain%20Store%2FIntranet%20Depot&viewid=5aea0eb8%2D4bb8%2D48d9%2D8b3b%2Dbc16322a6416", "_blank");
+  }
+
 function generateCheckboxes() {
     const checkboxGroup = document.getElementById('checkbox-group');
     checkboxGroup.innerHTML = ''; // Cleanup
@@ -89,10 +179,16 @@ function generateCheckboxes() {
     });
 }
 
+function cleanForm() {
+    const form = document.getElementById('eventform');
+    form.reset();
+}
+
+  
 // Generate checkboxes on page load
 window.onload = generateCheckboxes;
 
-function generateJSON() {
+function generateJSON(preview) {
     const eventform = document.getElementById('eventform');
     const formData = new FormData(eventform);
     const jsonData = {};
@@ -115,9 +211,9 @@ function generateJSON() {
     const linksArray = linksField.split('\n').map(line => {
 	if (line.includes(" ")) {
                   const [name, url] = line.split(' ').map(item => item.trim());
-                 return { name, url };
+                  return  {name, url} ;
 	}
-    });
+    }).filter(item => item != null);
     jsonData['links'] = linksArray;
 
     const otherTags = formData.get('otherTags');
@@ -130,9 +226,23 @@ function generateJSON() {
         }
     }
 
-    const jsonString = JSON.stringify(jsonData, null, 2);
-    alert("JSON generated:\n\n" + jsonString);
-}
+    const jsonString = JSON.stringify(jsonData, null, 2) + ',';
+    if (preview) {
+	alert("JSON generated:\n\n" + jsonString);
+    } else {
+	navigator.clipboard.writeText(jsonString)
+	    .then(function() {
+                    var form= document.getElementById("eventform");
+                    form.classList.add("blink");
+                    setTimeout(function() {
+                        form.classList.remove("blink");
+                    }, 500); // Restore after 500ms
+                })
+                .catch(function(error) {
+                    console.error('Error al copiar al portapapeles: ', error);
+                });
+        }	
+    }
 </script>
 </body>
 </html>
