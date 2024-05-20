@@ -41,6 +41,13 @@
         border: none;
         cursor: pointer;
     }
+    buttonaux {
+        padding: 8px 15px;
+        background-color: #aaaaaa;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
     .blink {
 	-border: 2px solid blue;
 	background-color: #f0f8ff; 
@@ -114,7 +121,7 @@
   <h2>XRLab Event Generator</h2>
   <div class="form-container" id="formcontainer">
     <form id="eventform">
-      <div class="form-group">   <label for="title">Title:</label>    <input type="text" id="titlr" name="title" required></div>
+      <div class="form-group">   <label for="title">Title:</label>    <input type="text" id="title" name="title" required></div>
       <div class="form-group">   <label for="type">Type:</label>
 
 	<div>
@@ -128,7 +135,7 @@
       </div>
       
       <div class="form-group"><label for="date">Date:</label>    <input type="text" id="date" name="date" placeholder="YYYY-MM-DD" required></div>
-      <div class="form-group"><label for="duration">Duration:</label>    <input type="text" id="duration" name="duration" placeholder="number days (if >1)" ></div>
+      <div class="form-group"><label for="duration">Duration:</label>    <input type="text" id="duration" name="duration" placeholder="number of days (if >1)" ></div>
       <div class="form-group"><label for="location">Location:</label>    <input type="text" id="location" name="location" required></div>
       <div class="form-group"><label for="photo">Photo:</label>    <input type="text" id="photo" name="photo" placeholder="URL"></div>
       <div class="form-group"><label for="description">Description:</label>   <textarea id="description" name="description" rows="4" required></textarea></div>
@@ -136,22 +143,98 @@
 	<textarea id="links" name="links" rows="2" placeholder="name1 URL1&#10;name2 URL2&#10;..."></textarea></div>
       <div class="form-group"><label for="tags">Tags:</label> <div id="checkbox-group" class="checkbox-group"></div></div>
       <div class="form-group"><label for="ottherTags">Custom Tags:</label>
-	<input type="text" id="otherTags" name="otherTags" placeholder="comma-separated tags"></div>
+	<!--<input type="text" id="otherTags" name="otherTags" placeholder="comma-separated tags"></div>-->
+      <textarea id="othertags" name="othertags" rows="1" placeholder="comma-separated tags" required></textarea></div>
       
       <div class="form-group">
-	<button type="button" onclick="generateJSON(1)">Preview JSON</button>
-	<button type="button" onclick="generateJSON(0)">Copy to clipboard</button>
+	<button type="button" onclick="generateJSON(0)">Preview event</button>
+	<button type="button" onclick="generateJSON(1)">Copy event to clipboard</button>
+	<button type="button" onclick="generateJSON(2)">Add to events list</button>
 	<button type="button" onclick="cleanForm()">Clean Form</button>
 	<button type="button" onclick="openDepot()">Open Depot</button>
+	<button type="button" onclick="photoURLs()">Photo URLs</button>
       </div>
       
     </form>
   </div>
 
 <script>
-// Default tags  array
+
+  var jsonArray;
+  var eventid;
+  const jsonPath = "events.json";
+  // Default tags  array
   const defaultTags = ['talk', 'ext', 'event', 'tradeshow', 'conference', 'university', 'prize', 'demo', 'internal', 'alvarov'];
 
+
+  function fillForm(obj) {
+      for (var key in obj) {
+	  value = obj[key];
+	  if (key == "tags") {
+	      // Array of text tags
+	      othertags = [];
+	      value.forEach(function(tag) {
+		  var checkbox = document.querySelector(`input[type="checkbox"][name="tags"][value="${tag}"]`);
+		  if (checkbox) {
+		      checkbox.checked = true;
+		  } else {
+		      othertags.push(tag);
+		  }
+	      });
+	      if (othertags.length > 0) {
+		  document.getElementById("othertags").value = othertags;
+	      }
+	  } else if (key == "links") {
+	      linkstext = value.map(obj => `${obj.name} ${obj.url}`).join('\n');
+	      if (linkstext)
+		  document.getElementById("links").value = linkstext;
+	  } else {
+	      var formField = document.getElementById(key);
+	      if (formField) {
+		  formField.value = value;
+	      }
+	  }
+      }
+  }
+
+  function loadJsonArray() {
+      fetch(jsonPath, { cache: 'no-cache'})
+	  .then(response => {
+	      if (!response.ok) {
+		  throw new Error('Error cargando JSON');
+	      }
+	      return response.json();
+	  })
+	  .then(data => {
+	      jsonArray = data;
+	      if (eventid != null) {
+		  event = jsonArray.find(function(obj) {
+		      return obj.id === eventid;
+		  });
+		  if (event != null) {
+		      // Existing event, fill form with current data
+		      fillForm(event);
+		      //alert(event);
+		  }
+	      }
+	  })
+	  .catch(function(error) {
+              console.error('Error cargando fichero JSON: ', error);
+	  });
+  }
+      
+ 
+  function photoURLs() {
+      const urls = jsonArray
+	    .map(item => item.photo)
+	    .filter(photo => photo != null && photo.trim() !== "")
+	    .join('\n');
+      
+      navigator.clipboard.writeText(urls);
+      alert("Lista de URLSs copiada al portapeles" + urls);
+
+  }
+  
   function openDepot() {
       window.open("https://nokia.sharepoint.com/sites/blspain/BLSpain%20Store/Forms/AllItems.aspx?id=%2Fsites%2Fblspain%2FBLSpain%20Store%2FIntranet%20Depot&viewid=5aea0eb8%2D4bb8%2D48d9%2D8b3b%2Dbc16322a6416", "_blank");
   }
@@ -163,7 +246,7 @@ function generateCheckboxes() {
     defaultTags.forEach((tag, index) => {
         const checkbox = document.createElement('input');
         checkbox.type = 'checkbox';
-        checkbox.name = 'tags[]';
+        checkbox.name = 'tags';
         checkbox.value = tag;
         checkbox.id = 'tag' + (index + 1);
 
@@ -185,26 +268,34 @@ function cleanForm() {
 }
 
   
-// Generate checkboxes on page load
-window.onload = generateCheckboxes;
 
-function generateJSON(preview) {
+// generateJSON with form data. action controls what to do with it: 0:preview, 1:clipboard, 2:add to list
+function generateJSON(action) {
     const eventform = document.getElementById('eventform');
     const formData = new FormData(eventform);
     const jsonData = {};
 
+
+    
+    var tags = [];
     formData.forEach((value, key) => {
-        if (key === 'tags[]') {
-            const selectedTags = [];
-            formData.getAll('tags[]').forEach(tag => {
-                selectedTags.push(tag);
-            });
-            jsonData['tags'] = selectedTags;
-        } else {
+	//alert(key+' = '+value);
+        if (key === 'tags') {
+	    tags.push(value);
+            //formData.getAll('tags').forEach(tag => {
+            //    selectedTags.push(tag);
+            //});
+	} else if (key === 'othertags') {
+	    if (value) {
+		const othertagsArray = value.split(',').map(tag => tag.trim());
+		tags = tags.concat(othertagsArray);
+	    }
+	} else {
             jsonData[key] = value;
         }
     });
-
+    
+    jsonData['tags'] = tags;
     jsonData['id'] = jsonData['date'] + jsonData['title'];
     
     const linksField = formData.get('links');
@@ -216,20 +307,13 @@ function generateJSON(preview) {
     }).filter(item => item != null);
     jsonData['links'] = linksArray;
 
-    const otherTags = formData.get('otherTags');
-    if (otherTags) {
-        const ottherTagsArray = otherTags.split(',').map(tag => tag.trim());
-        if (jsonData['tags']) {
-            jsonData['tags'] = jsonData['tags'].concat(otherTagsArray);
-        } else {
-            jsonData['tags'] = otherTagsArray;
-        }
-    }
-
+    
     const jsonString = JSON.stringify(jsonData, null, 2) + ',';
-    if (preview) {
+    if (action == 0) {
+	// Presenta el JSON en un alert
 	alert("JSON generated:\n\n" + jsonString);
-    } else {
+    } else if (action ==1) {
+	// Copia al portapapeles
 	navigator.clipboard.writeText(jsonString)
 	    .then(function() {
                     var form= document.getElementById("eventform");
@@ -241,8 +325,56 @@ function generateJSON(preview) {
                 .catch(function(error) {
                     console.error('Error al copiar al portapapeles: ', error);
                 });
-        }	
+    } else {
+	
+	// Add to events JSON array, or replace if it existed
+	var idx = jsonArray.findIndex(function(obj) {
+	    return obj.id === jsonData.id;
+	});
+	if (idx != -1) {
+	    jsonArray[idx] = jsonData;
+	    msg = "Evento modificado en la lista\n";
+	} else {
+	    jsonArray.unshift(jsonData);
+	    msg = "Evento añadido a la lista\n";
+	}
+
+	// Copy array to clipboard
+	var text = JSON.stringify(jsonArray, null, 1); //.replace(/\},/g,'\},\n');
+	
+	navigator.clipboard.writeText(text);
+	msg = 
+	alert(msg + "Lista copiada al portapapeles ("+jsonArray.length+" eventos)");
+	
+	//var blob = new Blob([text], { type: 'application/json'});
+	//var url = URL.createObjectURL(blob);
+	//window.open(url, '_blank');
+	
+	//var a = document.createElement('a');
+	//a.href = url;
+	//a.download = jsonPath;
+	//a.click();
+	
+	//URL.revokeObjectURL(url);
     }
+}
+
+  function parseQueries() {
+      var urlParams = new URLSearchParams(window.location.search);
+      eventid = urlParams.get("id");
+  }
+
+
+  // Generate checkboxes on page load
+  window.onload = generateCheckboxes;
+  parseQueries();
+  loadJsonArray();
+  
+
+
+
+
+  
 </script>
 </body>
 </html>

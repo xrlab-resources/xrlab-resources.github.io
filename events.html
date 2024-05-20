@@ -40,41 +40,47 @@
   .eventcontent {
       flex:1;
   };
-
-        .contenido-evento {
-            flex: 1;
-        }  
-    .title {
-	color: #2ea0e6;
-	font-size: 1.23em;
-	font-style:italic;
-	line-height:1.4;
-	margin-top: 5px;
-              margin-bottom: 3px;
-	font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
-	font-weight: 300;
-    }
-    .locationdate {
-	font-size: 0.8em;
-    }
-    .date {
-        font-size: 14px;
-        margin-bottom: 5px;
-    }
-    .description {
-	color: #1c4269;
-	font-size: 13px;
-	font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
-	font-weight: 300;
-	word-wrap: break-word;
-	margin-bottom: 5px;
-    }
+  
+  .contenido-evento {
+      flex: 1;
+  }  
+  .title {
+      color: #2ea0e6;
+      font-size: 1.23em;
+      font-style:italic;
+      line-height:1.4;
+      margin-top: 5px;
+      margin-bottom: 3px;
+      font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+      font-weight: 300;
+  }
+  .locationdate {
+      font-size: 0.8em;
+  }
+  .date {
+      font-size: 14px;
+      margin-bottom: 5px;
+  }
+  .description {
+      color: #1c4269;
+      font-size: 13px;
+      font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+      font-weight: 300;
+      word-wrap: break-word;
+      margin-bottom: 5px;
+  }
+  .editicon {
+      margin-left: 10px;
+      max-width: 10px;
+      height: auto;
+  }
 </style>
 </head>
 <body>
 <h2 id="pagetitle">XRLab Events</h2>
 <div id="eventList"></div>
-
+<div class="description"><a href="events.html?edit=1">Edit</a></div>
+  
 <script>
 
 
@@ -156,14 +162,14 @@ function generateDateRange(startDate, durationInDays) {
       links.forEach(link => {
 	  name = link["name"];
 	  url = link["url"];
-	  linksTxt = linksTxt +   ` <a href="${url}">${name}</a>`;
+	  linksTxt = linksTxt +   `[<a href="${url}">${name}</a>] `;
       });
 
       return(linksTxt);
     }
       
 
-   
+
   // Load events JSON
   fetch('https://xrlab-resources.github.io/events.json', {cache: 'no-cache'})
   //fetch('events.json', {cache: 'no-cache'})
@@ -174,10 +180,12 @@ function generateDateRange(startDate, durationInDays) {
 	const queryString = window.location.search;
 	const params = new URLSearchParams(queryString);
 	const year = params.get('year');
+	const edit = params.get('edit');
 	if (year) {
 	    obj =  document.getElementById("pagetitle");
 	    obj.innerHTML = obj.innerHTML + " " + year;
 	}
+	
 
 	const data = rawdata.filter(event => {
 	    const date = new Date(event["date"]);
@@ -189,6 +197,7 @@ function generateDateRange(startDate, durationInDays) {
 
 	
         data.forEach(event => {
+	    eventid=encodeURIComponent(event.id);
 	    if (!event.duration)
 		dur = 0;
 	    else
@@ -207,13 +216,19 @@ function generateDateRange(startDate, durationInDays) {
 
 	    
 	    const eventDiv = document.createElement('div');
+	    if (edit)
+		icon = `<a href=newevent.html?id=${eventid}><img src="img/pencil.png" class="editicon"></a>`;
+	    else
+		icon = "";
+
 	    eventDiv.innerHTML =
 		'<div class="event">' +
 		thumb + '<div class="eventcontent">' +
-		`<div class="title"><span style="font-weight:bold;">${event.title}</span> <span class="locationdate">(${event.location}, ${dateTxt})</span></div>` +
-		`<div class="description">${event.description}</div>` +
-		`<div class="description">${seeAlso}</div>` +
-		'</div>' +
+		`  <div class="title"><span style="font-weight:bold;">${event.title}</span> <span class="locationdate">(${event.location}, ${dateTxt})</span>`
+		+ icon + `</div>` +
+		`    <div class="description">${event.description}</div>` +
+		`    <div class="description">${seeAlso}</div>` +
+		'  </div>' +
 		'</div>';
 	    eventList.appendChild(eventDiv);
         });
