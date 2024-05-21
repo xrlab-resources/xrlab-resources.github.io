@@ -74,16 +74,89 @@
       max-width: 10px;
       height: auto;
   }
+  
+  .button-bar {
+      display:flex;
+      justify-content: space-between;
+      align-items: center;      
+      font-size: 16px;
+      font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+      background-color: #fcfcfc;
+      padding: 0px 20px 0px 20px;
+      margin:10px;
+      text-align: left;
+      border-bottom: 2px solid #ccc;
+      border-radius: 10px;
+  }
+
+  .button-bar-left {
+      display:flex;
+      align-items: center;
+  }      
+  
+  .button-bar-right {
+      display: flex;
+      gap:10px;
+  }      
+  
+  .button-bar button {
+      display: flex;
+      -gap: 10px;
+      background-color: #1122ff;
+      padding: 4px 20px;
+      color: #fff;
+      border: none;
+      margin: 10px;
+      border-radius: 20px;
+      cursor: pointer;
+  }      
+  
+  .button-bar button:hover {
+      -color: #7bff;
+  }
+  
 </style>
 </head>
 <body>
-<h2 id="pagetitle">XRLab Events</h2>
+  <h2 id="pagetitle">XRLab Events</h2> 
+<div class="event-container">
+  <div class="button-bar">    
+    <div class="button-bar-left">
+      Year: <select id="select-year"></select>
+      </div>
+    
+    <div class="button-bar-right">
+      <button id="editButton" onclick="toggleEdit()">Edit</button>
+      <button onclick="window.location.href='newevent.html'">Add</button>
+    </div>
+  </div>
+</div>
 <div id="eventList"></div>
-<div class="description"><a href="events.html?edit=1">Edit</a></div>
+<div class="description"><a href="events.html?edit=1">Edit</a>  <a href="newevent.html">Add</a></div>
   
 <script>
 
 
+  function toggleEdit() {
+      var button = document.getElementById('editButton');
+      var style = window.getComputedStyle(button);
+      var back = style.backgroundColor;
+      var front = style.color;
+      button.style.color = back;
+      button.style.backgroundColor = front;
+
+      if (editmode == 0) {
+	  editmode = 1;
+	  //button.style.boxShadow = '0 2px 4px rgba(0, 0, 0, 0.2)';
+	  //button.style.transform = 'translateY(2px)';
+      } else {
+	  editmode = 0;
+	  //button.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.2)';
+	  //button.style.transform = 'translateY(0)';	  
+      }
+      fillEventList();
+  }
+  
   function getOrdinal(num) {
     if (typeof num !== 'number' || isNaN(num)) {
         return ''; 
@@ -167,71 +240,117 @@ function generateDateRange(startDate, durationInDays) {
 
       return(linksTxt);
     }
+
+
+  function addYearOption(obj, y) {
+      const optionYear = document.createElement('option');
+      optionYear.value = y;
+      optionYear.textContent = y;
+      yearlist.appendChild(optionYear);
+  }
       
+  
+  function fillYearSelect() {
+      yearlist = document.getElementById("select-year");
+      years = new Set();
+      addYearOption(yearlist, "All");
+      jsondata.forEach(event => {
+	  const date = new Date(event["date"]);
+	  const eventYear = date.getFullYear();
+	  if (!years.has(eventYear)) {
+	      years.add(eventYear);
+	      addYearOption(yearlist, eventYear);
+	  }
+      });
+  }
+  
+      
+  
+  function fillEventList() {
+
+      const eventList = document.getElementById('eventList');
+      eventList.innerHTML='';
+
+      // Get JSON filtered by different conditions
+      var data;
+      const yearFilter = document.getElementById('select-year').value;
+      data = jsondata.filter(event => {
+	  // if year does not match, filter out
+	  const date = new Date(event["date"]);
+	  if ((yearFilter != "All") && (date.getFullYear() != yearFilter))
+	      return false;
+
+	  // if draft state, only present in Edit mode
+	  if (!editmode && event.tags && event.tags.includes("draft"))
+	      return false;
+
+	  return true;
+	      
+      });
+        
+
+      // Now fill the list
+      data.forEach(event => {
+	  eventid=encodeURIComponent(event.id);
+
+	  if (!event.duration)
+	      dur = 0;
+	  else
+	      dur = event.duration;
+	  
+	  
+	  let thumb='';
+	  if (event.photo != '') {
+	      thumburl = event.photo;
+	  } else {
+	      thumburl = "img/logo_xrlab.png"
+	  }
+	  thumb=`<img src="${thumburl}" alt="xrlab" class="eventimg">`;
+          const dateTxt=generateDateRange(event.date, dur);
+	  const seeAlso = generateLinks(event.links);
+	  
+	  
+	  const eventDiv = document.createElement('div');
+	  if (editmode)
+	      icon = `<a href=newevent.html?id=${eventid}><img src="img/pencil.png" class="editicon"></a>`;
+	  else
+	      icon = "";
+	  
+	  eventDiv.innerHTML =
+	      '<div class="event">' +
+	      thumb + '<div class="eventcontent">' +
+	      `  <div class="title"><span style="font-weight:bold;">${event.title}</span> <span class="locationdate">(${event.location}, ${dateTxt})</span>`
+	      + icon + `</div>` +
+	      `    <div class="description">${event.description}</div>` +
+	      `    <div class="description">${seeAlso}</div>` +
+	      '  </div>' +
+	      '</div>';
+	  eventList.appendChild(eventDiv);
+      });
+  }
 
 
-  // Load events JSON
-  fetch('https://xrlab-resources.github.io/events.json', {cache: 'no-cache'})
+  // --- Read page URL queries
+  const queryString = window.location.search;
+  const params = new URLSearchParams(queryString);
+  const year = params.get('year');  // filter by year
+  var editmode = 0;
+  var jsondata;
+  
+  document.getElementById('select-year').addEventListener('change', fillEventList);
+  if (year) {
+      obj =  document.getElementById("pagetitle");
+      obj.innerHTML = obj.innerHTML + " " + year;
+  }
+  
+  // --- Load events JSON
+  fetch('events.json', {cache: 'no-cache'})
   //fetch('events.json', {cache: 'no-cache'})
     .then(response => response.json())
     .then(rawdata => {
-	const eventList = document.getElementById('eventList');
-
-	const queryString = window.location.search;
-	const params = new URLSearchParams(queryString);
-	const year = params.get('year');
-	const edit = params.get('edit');
-	if (year) {
-	    obj =  document.getElementById("pagetitle");
-	    obj.innerHTML = obj.innerHTML + " " + year;
-	}
-	
-
-	const data = rawdata.filter(event => {
-	    const date = new Date(event["date"]);
-	    if (year)
-		return(date.getFullYear() == year);
-	    else
-		return true;
-	});
-
-	
-        data.forEach(event => {
-	    eventid=encodeURIComponent(event.id);
-	    if (!event.duration)
-		dur = 0;
-	    else
-		dur = event.duration;
-
-
-	    let thumb='';
-	    if (event.photo != '') {
-		thumburl = event.photo;
-	    } else {
-		thumburl = "https://nokia.sharepoint.com/:i:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/logo_xrlab_2023.jpg"
-	    }
-	    thumb=`<img src="${thumburl}" alt="xrlab" class="eventimg">`;
-                  const dateTxt=generateDateRange(event.date, dur);
-	    const seeAlso = generateLinks(event.links);
-
-	    
-	    const eventDiv = document.createElement('div');
-	    if (edit)
-		icon = `<a href=newevent.html?id=${eventid}><img src="img/pencil.png" class="editicon"></a>`;
-	    else
-		icon = "";
-
-	    eventDiv.innerHTML =
-		'<div class="event">' +
-		thumb + '<div class="eventcontent">' +
-		`  <div class="title"><span style="font-weight:bold;">${event.title}</span> <span class="locationdate">(${event.location}, ${dateTxt})</span>`
-		+ icon + `</div>` +
-		`    <div class="description">${event.description}</div>` +
-		`    <div class="description">${seeAlso}</div>` +
-		'  </div>' +
-		'</div>';
-	    eventList.appendChild(eventDiv);
-        });
+	jsondata = rawdata;
+	fillYearSelect();
+	fillEventList();
     })
     .catch(error => console.error('Error loading events:', error));
 </script>
