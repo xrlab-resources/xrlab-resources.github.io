@@ -38,6 +38,28 @@
   "id": "2024-05-29Telefonica Innovation Day"
  },
  {
+  "title": "Treasure Hunt at Colegio Base",
+  "type": "event",
+  "date": "2024-05-16",
+  "durationlaga": "",
+  "location": "Madrid",
+  "photo": "img/eventicons/treasurehunt.jpg",
+  "description": "A new collaboration with Colegio Base, this time to do a field test of our Owl for a remote collaboration use case. We shaped it as an Escape Run, and we ran it with 12 teams of teenagers, 2 remotes (with VR goggles) in each team. Good feeling, interesting results and probably the seed for a richer XR Escape Room design!",
+  "links": [
+   {
+    "name": "photos",
+    "url": "https://nokia.sharepoint.com/:u:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/2024treasurehunt_photos.zip"
+   }
+  ],
+  "tags": [
+   "ext",
+   "event",
+   "demo",
+   "alvarov"
+  ],
+  "id": "2024-04-16Treasure Hunt at Colegio Base"
+ },
+ {
   "title": "5GForum 2024",
   "type": "event",
   "date": "2024-05-06",
@@ -45,7 +67,12 @@
   "location": "Sevilla",
   "photo": "img/eventicons/5gforum2024.jpg",
   "description": "This year Nokia XRLab had a very strong participation in 5GForum, the most relevant event in Spain for the 5G ecosystem. Jaime Ruiz gave a talk about 5GNaCAR, and the team brought demos from most of the active innovation projects we have: Fire Extinguisher, Network As Code, the Owl (with Snowl already), our new Spatial Barbershop, the Avatars Autoplacement and even the XaRaoke. Good feedback received and, as usual, good networking.",
-  "links": [],
+  "links": [
+   {
+    "name": "photos",
+    "url": "https://nokia.sharepoint.com/:u:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/20245gforum_photos.zip"
+   }
+  ],
   "tags": [
    "talk",
    "ext",
@@ -57,22 +84,25 @@
   "id": "2024-05-065GForum 2024"
  },
  {
-  "title": "Treasure Hunt at Colegio Base",
+  "title": "Visit from FJ23 users",
   "type": "event",
-  "date": "2024-04-16",
+  "date": "2024-04-17",
   "duration": "",
   "location": "Madrid",
-  "photo": "",
-  "description": "",
-  "links": [],
+  "photo": "img/eventicons/fj23visitmt9.jpg",
+  "description": "We received in the XRLab area of Nokia Spain the visit of a group of people from Fundación Juan XXIII, with which we have multiple collaborations. It was great to meet them in person, and they also had a great time with the demos that we had prepared for them. An event that will stay in our memories for a long time!",
+  "links": [
+   {
+    "name": "photos",
+    "url": "https://nokia.sharepoint.com/:u:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/2024fj23visit_photos.zip"
+   }
+  ],
   "tags": [
-   "ext",
    "event",
    "demo",
-   "draft",
    "alvarov"
   ],
-  "id": "2024-04-16Treasure Hunt at Colegio Base"
+  "id": "2024-04-17Visit from FJ23 users"
  },
  {
   "title": "Seminar at UAM",
@@ -126,8 +156,8 @@
   "date": "2024-03-18",
   "duration": "4",
   "location": "Orlando",
-  "photo": "",
-  "description": "We participated in the IEEEVR conference in Orlando, with some posters and demos. Our Owl prototype provided the visitors of our demo with their very first teleporting experience, and in some cases seasoned with a disturbing out-of-body experience 😊. It was very encouraging to see the good reception of our immersive communication concept based on video in such a relevant forum. Most people confirmed the potential, provided feedback and additional ideas; the application field seems to be endless.",
+  "photo": "img/eventicons/ieeevr2024.jpg",
+  "description": "We participated in the IEEEVR conference in Orlando, with some posters and demos. Our Owl prototype provided the visitors of our demo with their very first teleporting experience, and in some cases seasoned with a disturbing out-of-body experience. It was very encouraging to see the good reception of our immersive communication concept based on video in such a relevant forum. Most people confirmed the potential, provided feedback and additional ideas; the application field seems to be endless.",
   "links": [],
   "tags": [
    "ext",
@@ -136,7 +166,6 @@
    "demo",
    "alvarov"
   ],
-  "otherTags": "",
   "id": "2024-03-18IEEEVR Conference"
  },
  {
@@ -145,7 +174,7 @@
   "date": "2024-02-21",
   "duration": "",
   "location": "Madrid",
-  "photo": "",
+  "photo": "img/eventicons/fpvisit2024.jpg",
   "description": "We received the visit of a group of computer technology students from FP (Formacion Profesional) center Tres Olivos, in Madrid. We showed them our beloved new area, then Alvaro gave a talk about the Realverse, the motivation of our Research and what we do (and nobody got asleep!). The session finished with a set of demos that they will probably not forget easily: The Owl, Volcano and of course our dear Perkins.",
   "links": [],
   "tags": [
@@ -154,7 +183,6 @@
    "demo",
    "internal"
   ],
-  "otherTags": "",
   "id": "2024-02-21FP visit"
  },
  {
@@ -163,7 +191,7 @@
   "date": "2024-02-19",
   "duration": "",
   "location": "Madrid",
-  "photo": "",
+  "photo": "img/eventicons/quantum.jpg",
   "description": "We want to trigger a new usage of our brand new XRLab zone in Nokia building, and we did it through an excellent opportunity: we received the visit of David Pérez, an awarded researcher in the field of Quantum computing and math professor at Universidad Complutense. He gave a fascinating keynote about geopositioning with quantum security, with an experience for the audience that brounth us back to our university days. A very interesting chat completed the session.",
   "links": [],
   "tags": [
@@ -171,7 +199,6 @@
    "ext",
    "university"
   ],
-  "otherTags": "",
   "id": "2024-02-19Quantum Geopositioning Keynote "
  },
  {
@@ -180,7 +207,7 @@
   "date": "2024-01-17",
   "duration": "3",
   "location": "Los Angeles",
-  "photo": "",
+  "photo": "img/eventicons/aixvr2024.jpg",
   "description": "The AIVR (now rebranded as AIxVR) is a very interesting academic conference combining two of the technologies at the very core of our XRLab: Artificial Intelligence and Vistual Reality. This year we got accepted a poster describing the automatic positioning of avatars in the immersive scene during an Owl session. We proposed to add a demo to the poster and they accepted enthusiastically, and it was indeed a very good idea. Apart from getting first hand feedback aboout the Owl, the demo helped a lot explain what the algorithm was about. A demo is better than a thousand words!",
   "links": [
    {
@@ -195,7 +222,6 @@
    "demo",
    "alvarov"
   ],
-  "otherTags": "",
   "id": "2024-01-17AIxVR conference"
  },
  {
@@ -204,16 +230,20 @@
   "date": "2023-12-15",
   "duration": "",
   "location": "Madrid",
-  "photo": "",
+  "photo": "img/eventicons/stem2023.jpg",
   "description": "Before CoVID Nokia Spain used to organized every year an event to promote STEM careers among teenagers. We have now finally recovered it, and this year a successful event was celebrated in Nokia premises, with collaboration from many different BGs. XRLab contributed with one of our most popular demos for teenagers: DRictionary, a practical and enjoyable demonstration of our Distributed Technology through a game which is fun. The kids liked it a lot, and we hope that will help them love STEM a bit more!",
-  "links": [],
+  "links": [
+   {
+    "name": "photos",
+    "url": "https://nokia.sharepoint.com/:u:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/2023stem_photos.zip"
+   }
+  ],
   "tags": [
    "talk",
    "ext",
    "event",
    "demo"
   ],
-  "otherTags": "",
   "id": "2023-12-15STEM day at Nokia"
  },
  {
@@ -222,7 +252,7 @@
   "date": "2023-11-14",
   "duration": "2",
   "location": "Valencia",
-  "photo": "",
+  "photo": "img/eventicons/v5gdays2023.jpg",
   "description": "The University of Valencia (UPV), with which we have several innovation projects in common, organizes every year an event at their premises to gather the most relevant national players in the world of 5G. The event consists on talks and stands with demos, and this time we contributed with the latter. We took with us the demos which are closest to the projects with UPV, with a strong focus on haptics.",
   "links": [
    {
@@ -237,7 +267,6 @@
    "university",
    "demo"
   ],
-  "otherTags": "",
   "id": "2023-11-14V5G Days"
  },
  {
@@ -246,16 +275,15 @@
   "date": "2023-10-26",
   "duration": "",
   "location": "Madrid",
-  "photo": "",
+  "photo": "img/eventicons/enterprise2023.jpg",
   "description": "Nokia Spain organizes periodically an event with its most relevant customersfrom the Enterprise field. Our sales people take the opportunity to present the latest products and features, and present the strategic lines. We are usually invited too, to provide a longer-view in the future of technology, and show it practically with demos. This time we showed the latest version of the Owl, the new version of Volcano (which again became quickly a popular demo) and our robotic dog with AI eyes.",
   "links": [],
   "tags": [
-   "alvarov",
    "ext",
    "event",
-   "demo"
+   "demo",
+   "alvarov"
   ],
-  "otherTags": "",
   "id": "2023-10-26Enterprise Innovation Day"
  },
  {
@@ -264,7 +292,7 @@
   "date": "2023-10-20",
   "duration": "3",
   "location": "Pamplona",
-  "photo": "",
+  "photo": "img/eventicons/presura2023.jpg",
   "description": "Some Spanish government entities organize regularly events to promote rural spaces in the country and mitigate the population leakage that they suffer. We were invited to participate in this edition, to show how advanced networks in general and our specific technologies in particular can help in this task. A good representation of XRLab was present onsite with several talks and a rich amount of demos, which became very popular. Exhausting, but also refreshing!",
   "links": [
    {
@@ -278,19 +306,20 @@
    {
     "name": "slides_comodia",
     "url": "https://nokia.sharepoint.com/:p:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/Presura_Comodia.pptx?d=w03c89eedfad54ac484ca3344b8a0857c&csf=1&web=1&e=1P746n"
+   },
+   {
+    "name": "photos",
+    "url": "https://nokia.sharepoint.com/:u:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/2023presura_photos.zip"
    }
   ],
   "tags": [
    "talk",
-   "alvarov",
    "ext",
    "event",
    "tradeshow",
    "demo",
-   "pepe",
-   "pipo"
+   "alvarov"
   ],
-  "otherTags": "",
   "id": "2023-10-20PRESURA Fair"
  },
  {
@@ -299,7 +328,7 @@
   "date": "2023-10-13",
   "duration": "2",
   "location": "Minneapolis",
-  "photo": "",
+  "photo": "img/eventicons/cscw2023.jpg",
   "description": "ACM organizes every year the Computer-Supported Cooperative Work And Social Computing (CSCW) conference, and in this year edition we proposed and got accepted a workshop proposal about telepresence technologies for hybrid meetings. A representation of the XRLab travelled to Minnesota to help driving the workshop, and also to participate in it with a full demonstration of our Owl. Onsite demonstration was a recommendation and we could also see other interesting approaches, andw we realized again that we are very well positioned in this space. Real time communication with very far places (including Spain) was also carried out.",
   "links": [
    {
@@ -313,16 +342,19 @@
    {
     "name": "slides",
     "url": "https://nokia.sharepoint.com/:p:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/CSCW_Owl.pptx?d=w81f62da632e7446bbc90fe2c1b11adf4&csf=1&web=1&e=Cb7vXa"
+   },
+   {
+    "name": "photos",
+    "url": "https://nokia.sharepoint.com/:u:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/2023cscw_photos.zip"
    }
   ],
   "tags": [
    "talk",
-   "alvarov",
    "ext",
    "conference",
-   "demo"
+   "demo",
+   "alvarov"
   ],
-  "otherTags": "",
   "id": "2023-10-13CSCW Conference Workshop"
  },
  {
@@ -330,7 +362,7 @@
   "type": "event",
   "date": "2023-10-05",
   "duration": "",
-  "location": "",
+  "location": "Madrid",
   "photo": "",
   "description": "Nokia Spain has a long history of collaboration with Foundation Juan XXIII, focused on people with mental disabilities. In the last months this relation is event stronger thanks to several innovation projecs we have in common (COMODIA, INCLUVERSO) and we have a growing number of collaborations and visits to their site. In this case we attended an event called \"Positive Future in the Elderly with intellectual and development diseases\". Many authorized voices spoke and as usual it was an incredibly satisfying experience for all attendees",
   "links": [
@@ -343,7 +375,6 @@
    "ext",
    "event"
   ],
-  "otherTags": "",
   "id": "2023-10-05Event at FJ23"
  },
  {

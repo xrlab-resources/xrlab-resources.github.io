@@ -79,8 +79,6 @@
       display:flex;
       justify-content: space-between;
       align-items: center;      
-      font-size: 16px;
-      font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
       background-color: #fcfcfc;
       padding: 0px 20px 0px 20px;
       margin:10px;
@@ -88,6 +86,15 @@
       border-bottom: 2px solid #ccc;
       border-radius: 10px;
   }
+
+  .button-bar-text {
+      font-size: 16px;
+      font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+      display:flex;
+      align-items: center;
+      padding: 0px 10px 0px 10px;
+  }      
+  
 
   .button-bar-left {
       display:flex;
@@ -122,7 +129,8 @@
 <div class="event-container">
   <div class="button-bar">    
     <div class="button-bar-left">
-      Year: <select id="select-year"></select>
+      <div class="button-bar-text">Year: </div><select id="select-year"></select>
+      <div class="button-bar-text">Type: </div><select id="select-type"></select>
       </div>
     
     <div class="button-bar-right">
@@ -215,11 +223,12 @@ function generateDateRange(startDate, durationInDays) {
     // Generate the text for the date range
     const startDateTxt = formatDate(startDateObj);
     const endDateTxt = formatDate(endDateObj);
-    
+
+   
     // If both dates are in the same month, mention the month only once
     if (startDateObj.getMonth() ===  endDateObj.getMonth()) {
         const monthName = getMonthName(startDateObj.getMonth());
-        return `${monthName} ${getOrdinal(startDateObj.getDay())}-${getOrdinal(endDateObj.getDay())}, ${startDateObj.getFullYear()}`;
+        return `${monthName} ${getOrdinal(startDateObj.getDate())}-${getOrdinal(endDateObj.getDate())}, ${startDateObj.getFullYear()}`;
     } else {
         return `${startDateTxt} - ${endDateTxt}`;
     }
@@ -242,27 +251,38 @@ function generateDateRange(startDate, durationInDays) {
     }
 
 
-  function addYearOption(obj, y) {
-      const optionYear = document.createElement('option');
-      optionYear.value = y;
-      optionYear.textContent = y;
-      yearlist.appendChild(optionYear);
+  function addOption(select, val) {
+      const option = document.createElement('option');
+      option.value = val;
+      option.textContent = val;
+      select.appendChild(option);
   }
       
   
-  function fillYearSelect() {
-      yearlist = document.getElementById("select-year");
-      years = new Set();
-      addYearOption(yearlist, "All");
+  function fillSelect() {
+      const yearlist = document.getElementById("select-year");
+      var years = new Set();
+      addOption(yearlist, "All");
       jsondata.forEach(event => {
 	  const date = new Date(event["date"]);
 	  const eventYear = date.getFullYear();
 	  if (!years.has(eventYear)) {
 	      years.add(eventYear);
-	      addYearOption(yearlist, eventYear);
+	      addOption(yearlist, eventYear);
 	  }
       });
-  }
+
+      const typelist = document.getElementById("select-type");
+      var types = new Set();
+      addOption(typelist, "All");
+      jsondata.forEach(event => {
+	  type = event.type;
+	  if (!types.has(type)) {
+	      types.add(type);
+	      addOption(typelist, type);
+	  }
+      });
+}
   
       
   
@@ -274,10 +294,13 @@ function generateDateRange(startDate, durationInDays) {
       // Get JSON filtered by different conditions
       var data;
       const yearFilter = document.getElementById('select-year').value;
+      const typeFilter = document.getElementById('select-type').value;
       data = jsondata.filter(event => {
-	  // if year does not match, filter out
+	  // if year or type do not match, filter out
 	  const date = new Date(event["date"]);
 	  if ((yearFilter != "All") && (date.getFullYear() != yearFilter))
+	      return false;
+	  if ((typeFilter != "All") && (event["type"] != typeFilter))
 	      return false;
 
 	  // if draft state, only present in Edit mode
@@ -334,10 +357,13 @@ function generateDateRange(startDate, durationInDays) {
   const queryString = window.location.search;
   const params = new URLSearchParams(queryString);
   const year = params.get('year');  // filter by year
-  var editmode = 0;
+  var editmode = params.get('edit');  // filter by year
+  if (!editmode)
+      editmode = 0;
   var jsondata;
   
   document.getElementById('select-year').addEventListener('change', fillEventList);
+  document.getElementById('select-type').addEventListener('change', fillEventList);
   if (year) {
       obj =  document.getElementById("pagetitle");
       obj.innerHTML = obj.innerHTML + " " + year;
@@ -349,7 +375,7 @@ function generateDateRange(startDate, durationInDays) {
     .then(response => response.json())
     .then(rawdata => {
 	jsondata = rawdata;
-	fillYearSelect();
+	fillSelect();
 	fillEventList();
     })
     .catch(error => console.error('Error loading events:', error));
