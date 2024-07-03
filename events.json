@@ -1,5 +1,124 @@
 [
  {
+  "title": "IEEE PIMRC conference",
+  "type": "conference",
+  "date": "2024-09-02",
+  "duration": "4",
+  "location": "Valencia",
+  "photo": "",
+  "description": "",
+  "links": [
+    {
+      "name": "website",
+      "url": "https://pimrc2024.ieee-pimrc.org/"
+    }
+  ],
+  "tags": [
+    "event",
+    "conference",
+    "demo",
+    "draft",
+    "alvarov"
+  ],
+  "id": "2024-09-02IEEE PIMRC conference"
+},
+ {
+  "title": "XR Summer School 2024",
+  "type": "event",
+  "date": "2024-07-08",
+  "duration": "4",
+  "location": "Madrid",
+  "photo": "",
+  "description": "",
+  "links": [],
+  "tags": [
+    "talk",
+    "ext",
+    "event",
+    "university",
+    "demo"
+  ],
+  "id": "2024-07-08XR Summer School 2024"
+},
+ {
+  "title": "QoMEX 2024",
+  "type": "conference",
+  "date": "2024-06-18",
+  "duration": "3",
+  "location": "Karlshamn, Sweden",
+  "photo": "",
+  "description": "",
+  "links": [
+    {
+      "name": "website",
+      "url": "https://qomex.org/"
+    }
+  ],
+  "tags": [
+    "event",
+    "conference",
+    "demo",
+    "draft"
+  ],
+  "id": "2024-06-18QoMEX 2024"
+},
+ {
+  "title": "IMX 2024",
+  "type": "conference",
+  "date": "2024-06-12",
+  "duration": "2",
+  "location": "Stockholm",
+  "photo": "",
+  "description": "",
+  "links": [
+    {
+      "name": "website",
+      "url": "https://imx.acm.org/2024/"
+    }
+  ],
+  "tags": [
+    "talk",
+    "ext",
+    "conference",
+    "demo",
+    "draft"
+  ],
+  "id": "2024-06-12IMX 2024"
+},
+ {
+  "title": "Finland ambassador visit",
+  "type": "event",
+  "date": "2024-06-24",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "The ambassador of Finland in Spain is already well-know in our team. This year she came to Nokia building for a catch-up and the tour included a visit to our new XRLab area, to have a chat and get a first-hand experience with some of our newest demos. It is always a pleasure!",
+  "links": [],
+  "tags": [
+    "event",
+    "demo",
+    "draft"
+  ],
+  "id": "2024-06-24Finland ambassador visit"
+},
+ {
+  "title": "Nokia providers visit",
+  "type": "event",
+  "date": "2024-12-06",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "Nokia procurement in Spain celebrates every year a meeting with the main providers to get updates, do some networking and have some fun. For the latter, we were asked to provide a visit to our XRLab and give some demos to the visitors. We did it and, of course, they were delighted. We even identified commercial opportunities for some of our concepts.",
+  "links": [],
+  "tags": [
+    "event",
+    "demo",
+    "internal",
+    "draft"
+  ],
+  "id": "2024-12-06Nokia providers visit"
+},
+ {
   "title": "EuCNC 2024",
   "type": "event",
   "date": "2024-06-03",
