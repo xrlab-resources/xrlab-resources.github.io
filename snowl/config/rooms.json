@@ -40,6 +40,26 @@
     }
   },
   {
+    "name": "calabazon",
+    "audioServerUrl": "192.168.250.109:64738",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.250.109:5001",
+      "id": "nokia",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "calabazon_2",
+    "audioServerUrl": "192.168.250.109:64738",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.250.109:5001",
+      "id": "xrlab",
+      "code": "nokiaabc"
+    }
+  },
+  {
     "name": "production",
     "audioServerUrl": "192.168.223.1:64738",
     "isLocal": false,
