@@ -1,0 +1,6 @@
+[
+  {
+    "profile": "dev",
+    "rooms": ["local", "local_2", "test", "dev"]
+  }
+]

@@ -1,0 +1,40 @@
+{
+  "sessions": [
+    {
+      "id": "nokia",
+      "domain": "owl",
+      "information": {
+        "contentServer": "192.168.1.100:9000",
+        "title": "Test Snowl 1",
+        "organizer": "Nokia XR Lab Spain",
+        "where": "Virtual",
+        "when": "start_at",
+        "duration": "1h",
+        "adminGroup": ["alvaro", "juan"]
+      },
+      "accessControl": {
+        "maxClients": 10,
+        "password": "nokia123",
+        "authorizedUsers": []
+      }
+    },
+    {
+      "id": "xrlab",
+      "domain": "owl",
+      "information": {
+        "contentServer": "localhost:9000",
+        "title": "Test Snowl 2",
+        "organizer": "Nokia XR Lab Spain",
+        "where": "Virtual",
+        "when": "start_at",
+        "duration": "1h",
+        "adminGroup": ["alvaro", "juan"]
+      },
+      "accessControl": {
+        "maxClients": 10,
+        "password": "nokiaabc",
+        "authorizedUsers": []
+      }
+    }
+  ]
+}
