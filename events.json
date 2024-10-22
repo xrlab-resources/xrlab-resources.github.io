@@ -8,20 +8,20 @@
   "photo": "",
   "description": "",
   "links": [
-    {
-      "name": "website",
-      "url": "https://pimrc2024.ieee-pimrc.org/"
-    }
+   {
+    "name": "website",
+    "url": "https://pimrc2024.ieee-pimrc.org/"
+   }
   ],
   "tags": [
-    "event",
-    "conference",
-    "demo",
-    "draft",
-    "alvarov"
+   "event",
+   "conference",
+   "demo",
+   "draft",
+   "alvarov"
   ],
   "id": "2024-09-02IEEE PIMRC conference"
-},
+ },
  {
   "title": "XR Summer School 2024",
   "type": "event",
@@ -32,14 +32,14 @@
   "description": "",
   "links": [],
   "tags": [
-    "talk",
-    "ext",
-    "event",
-    "university",
-    "demo"
+   "talk",
+   "ext",
+   "event",
+   "university",
+   "demo"
   ],
   "id": "2024-07-08XR Summer School 2024"
-},
+ },
  {
   "title": "QoMEX 2024",
   "type": "conference",
@@ -49,19 +49,19 @@
   "photo": "",
   "description": "",
   "links": [
-    {
-      "name": "website",
-      "url": "https://qomex.org/"
-    }
+   {
+    "name": "website",
+    "url": "https://qomex.org/"
+   }
   ],
   "tags": [
-    "event",
-    "conference",
-    "demo",
-    "draft"
+   "event",
+   "conference",
+   "demo",
+   "draft"
   ],
   "id": "2024-06-18QoMEX 2024"
-},
+ },
  {
   "title": "IMX 2024",
   "type": "conference",
@@ -71,20 +71,20 @@
   "photo": "",
   "description": "",
   "links": [
-    {
-      "name": "website",
-      "url": "https://imx.acm.org/2024/"
-    }
+   {
+    "name": "website",
+    "url": "https://imx.acm.org/2024/"
+   }
   ],
   "tags": [
-    "talk",
-    "ext",
-    "conference",
-    "demo",
-    "draft"
+   "talk",
+   "ext",
+   "conference",
+   "demo",
+   "draft"
   ],
   "id": "2024-06-12IMX 2024"
-},
+ },
  {
   "title": "Finland ambassador visit",
   "type": "event",
@@ -95,12 +95,12 @@
   "description": "The ambassador of Finland in Spain is already well-know in our team. This year she came to Nokia building for a catch-up and the tour included a visit to our new XRLab area, to have a chat and get a first-hand experience with some of our newest demos. It is always a pleasure!",
   "links": [],
   "tags": [
-    "event",
-    "demo",
-    "draft"
+   "event",
+   "demo",
+   "draft"
   ],
   "id": "2024-06-24Finland ambassador visit"
-},
+ },
  {
   "title": "Nokia providers visit",
   "type": "event",
@@ -111,13 +111,13 @@
   "description": "Nokia procurement in Spain celebrates every year a meeting with the main providers to get updates, do some networking and have some fun. For the latter, we were asked to provide a visit to our XRLab and give some demos to the visitors. We did it and, of course, they were delighted. We even identified commercial opportunities for some of our concepts.",
   "links": [],
   "tags": [
-    "event",
-    "demo",
-    "internal",
-    "draft"
+   "event",
+   "demo",
+   "internal",
+   "draft"
   ],
   "id": "2024-12-06Nokia providers visit"
-},
+ },
  {
   "title": "EuCNC 2024",
   "type": "event",
@@ -144,14 +144,13 @@
   "duration": "",
   "location": "Madrid",
   "photo": "",
-  "description": "",
+  "description": "XRLab participated once more in the yearly event that Telefonica organizes in their headquarters in Madrid to let Nokia show to their whole employee base our latest products and innovation. This time we brought demos from two projects: the fire extintion training with Distributed Reality (COMODIA project) and the Augmented Reality display of 5G network parameters (5GNaCAR project).",
   "links": [],
   "tags": [
    "ext",
    "event",
    "tradeshow",
    "demo",
-   "draft",
    "alvarov"
   ],
   "id": "2024-05-29Telefonica Innovation Day"
@@ -170,7 +169,7 @@
     "url": "https://nokia.sharepoint.com/:u:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/2024treasurehunt_photos.zip"
    },
    {
-    "name": "video", 
+    "name": "video",
     "url": "https://youtu.be/OZ6-JxtNyPI"
    }
   ],
