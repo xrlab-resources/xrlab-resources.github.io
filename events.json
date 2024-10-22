@@ -6,22 +6,23 @@
   "duration": "4",
   "location": "Valencia",
   "photo": "",
-  "description": "",
+  "description": "This was our first attendance to the Personal Indoor and Mobile Radio Communication conference, which took place in Valencia. We leveraged the opportunity to demonstrate the latest versions of our immersive communication (Owl) and the AR monitoring app, and do dissemination of several of the related projects.",
   "links": [
-   {
-    "name": "website",
-    "url": "https://pimrc2024.ieee-pimrc.org/"
-   }
+    {
+      "name": "website",
+      "url": "https://pimrc2024.ieee-pimrc.org/"
+    }
   ],
   "tags": [
-   "event",
-   "conference",
-   "demo",
-   "draft",
-   "alvarov"
+    "ext",
+    "event",
+    "tradeshow",
+    "conference",
+    "demo",
+    "alvarov"
   ],
   "id": "2024-09-02IEEE PIMRC conference"
- },
+},
  {
   "title": "XR Summer School 2024",
   "type": "event",
@@ -125,16 +126,18 @@
   "duration": "3",
   "location": "Antwerp",
   "photo": "",
-  "description": "",
+  "description": "The EuCNC event gathers representatives from most of the companies executing EU funded projects, together with some official representation of the EU Government, what makes the event specially relevant. We are currently running two of those projects (6GSANDBOX and IMAGINE-B5G) and to support them we were present with a couple of demos in the coordinatoris (Keysight and UPV) booths.",
   "links": [],
   "tags": [
-   "ext",
-   "tradeshow",
-   "conference",
-   "demo",
-   "draft",
-   "alvarov"
+    "ext",
+    "event",
+    "tradeshow",
+    "conference",
+    "demo",
+    "alvarov"
   ],
+  "id": "2024-06-03EuCNC 2024"
+},
   "id": "2024-06-03EuCNC 2024"
  },
  {
