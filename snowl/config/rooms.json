@@ -20,21 +20,11 @@
     }
   },
   {
-    "name": "test",
-    "audioServerUrl": "127.0.0.1:64738",
+    "name": "juanXXIII",
+    "audioServerUrl": "192.168.23.12:64738",
     "isLocal": false,
     "conference": {
-      "url": "127.0.0.1:5000",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "dev",
-    "audioServerUrl": "192.168.223.1:64738",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.223.1:5000",
+      "url": "192.168.23.12:5000",
       "id": "nokia",
       "code": "nokia123"
     }
@@ -57,6 +47,16 @@
       "url": "192.168.250.109:5001",
       "id": "xrlab",
       "code": "nokiaabc"
+    }
+  },
+  {
+    "name": "test",
+    "audioServerUrl": "127.0.0.1:64738",
+    "isLocal": false,
+    "conference": {
+      "url": "127.0.0.1:5000",
+      "id": "nokia",
+      "code": "nokia123"
     }
   },
   {

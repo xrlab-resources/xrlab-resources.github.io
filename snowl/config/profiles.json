@@ -2,5 +2,9 @@
   {
     "profile": "dev",
     "rooms": ["local", "local_2", "test", "dev", "calabazon", "calabazon_2"]
+  },
+  {
+    "profile": "kepler",
+    "rooms": ["local", "juanXXIII"]
   }
 ]
