@@ -233,10 +233,15 @@
   "duration": "",
   "location": "Madrid",
   "photo": "",
-  "description": "",
+  "description": "One year more the UAM (Universidad Autonoma de Madrid) invited us to give a seminar about innovation to a selection of students of the Image Processing and Computer Vision master. Alvaro Villegas provided an overview of the different paths to do innovation in the industry, and a description of the success story of XRLab. We hope this will contribute to help them find their way in the professional life they are starting",
   "links": [],
   "tags": [
-   "draft"
+  "talk",
+   "ext",
+   "event",
+   "university",
+   "draft",
+   "alvarov"	   
   ],
   "id": "2024-04-09Seminar at UAM"
  },
