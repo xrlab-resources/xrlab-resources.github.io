@@ -136,6 +136,7 @@
     <div class="button-bar-right">
       <button id="editButton" onclick="toggleEdit()">Edit</button>
       <button onclick="window.location.href='newevent.html'">Add</button>
+      <button onclick="instructions()">i</button>
     </div>
   </div>
 </div>
@@ -144,7 +145,26 @@
   
 <script>
 
+  function instructions() {
+      txt = "UPDATE INSTRUCTIONS\n";
+      txt += "Recommended process to update this event list:\n";
+      txt += " 1. Using git clone the repository that contains these files\n";
+      txt += " 2. Launch an HTTP server on it, e.g.: python3 -m http.server 8000\n";
+      txt += " 3. Check from a browser that URL 127.0.0.1:8000 presents the page\n";
+      txt += " 4. Use the Edit or Add buttons here to modify/add content\n";
+      txt += " 5. Copy icon photos to img/eventicons directory (and add them to git)\n";
+      txt += " 6. Upload additional material to Depot (open it using button)\n";
+      txt += " 7. Copy to clipboard (a single event or the full list using the buttons\n";
+      txt += " 8. Using a text editor copy from clipboard to events.json\n";
+      txt += " 9. Reload the page and check it is correct. Goto 4 to add more content\n";
+      txt += "10. push to the repository using git\n";
+      txt += "Good luck!\n";
+   
+      alert(txt);
+  }
+     
 
+  
   function toggleEdit() {
       var button = document.getElementById('editButton');
       var style = window.getComputedStyle(button);
@@ -334,8 +354,11 @@ function generateDateRange(startDate, durationInDays) {
 	  
 	  
 	  const eventDiv = document.createElement('div');
-	  if (editmode)
+	  if (editmode) {
 	      icon = `<a href=newevent.html?id=${eventid}><img src="img/pencil.png" class="editicon"></a>`;
+	      if (event.tags && event.tags.includes("draft"))
+		  icon += "[draft]";
+	  }
 	  else
 	      icon = "";
 	  

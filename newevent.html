@@ -147,11 +147,13 @@
       <textarea id="othertags" name="othertags" rows="1" placeholder="comma-separated tags" required></textarea></div>
       
       <div class="form-group">
-	<button type="button" onclick="generateJSON(0)">Preview event</button>
-	<button type="button" onclick="generateJSON(1)">Copy event to clipboard</button>
+	<button type="button" onclick="instructions()">i</button>
 	<button type="button" onclick="generateJSON(2)">Add to events list</button>
+	<button type="button" onclick="generateJSON(1)">Copy event to clipboard</button>
+	<!--<button type="button" onclick="generateJSON(0)">Preview event</button>-->
 	<button type="button" onclick="cleanForm()">Clean Form</button>
 	<button type="button" onclick="openDepot()">Open Depot</button>
+	<button type="button" onclick="openGit()">Open Git</button>
 	<button type="button" onclick="photoURLs()">Photo URLs</button>
       </div>
       
@@ -235,8 +237,26 @@
 
   }
   
+
+  function instructions() {
+      t = 'INSTRUCTIONS FOR ADDING EVENTS\n';
+      t +='  1. Create a new event filling this form\n';
+      t +='  2. If needed, upload content to Depot (Intranet)\n';
+      t +='  3. If needed, add photoicons to img/eventicons (git)\n';
+      t +='  4. Click on "Add to events list"\n';
+      t +='  5. If desired, click on "Clean Form" and repeat 1-4 to add more\n';
+      t +='  6. Update events.josn in git with clipboard content. Can be done online with button below\n';
+      
+      alert(t);
+  }
+  
+
   function openDepot() {
       window.open("https://nokia.sharepoint.com/sites/blspain/BLSpain%20Store/Forms/AllItems.aspx?id=%2Fsites%2Fblspain%2FBLSpain%20Store%2FIntranet%20Depot&viewid=5aea0eb8%2D4bb8%2D48d9%2D8b3b%2Dbc16322a6416", "_blank");
+  }
+
+  function openGit() {
+      window.open("https://github.com/xrlab-resources/xrlab-resources.github.io/blob/main/events.json", "_blank");
   }
 
 function generateCheckboxes() {
