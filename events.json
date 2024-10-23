@@ -6,22 +6,23 @@
   "duration": "4",
   "location": "Valencia",
   "photo": "",
-  "description": "",
+  "description": "This was our first attendance to the Personal Indoor and Mobile Radio Communication conference, which took place in Valencia. We leveraged the opportunity to demonstrate the latest versions of our immersive communication (Owl) and the AR monitoring app, and do dissemination of several of the related projects.",
   "links": [
-   {
-    "name": "website",
-    "url": "https://pimrc2024.ieee-pimrc.org/"
-   }
+    {
+      "name": "website",
+      "url": "https://pimrc2024.ieee-pimrc.org/"
+    }
   ],
   "tags": [
-   "event",
-   "conference",
-   "demo",
-   "draft",
-   "alvarov"
+    "ext",
+    "event",
+    "tradeshow",
+    "conference",
+    "demo",
+    "alvarov"
   ],
   "id": "2024-09-02IEEE PIMRC conference"
- },
+},
  {
   "title": "XR Summer School 2024",
   "type": "event",
@@ -29,7 +30,7 @@
   "duration": "4",
   "location": "Madrid",
   "photo": "",
-  "description": "",
+  "description": "After the success of the first edition we repeated the XR Summer School event together with the University (UPM), this time in a nicer place in the center of Madrid. Again, great success and attendance",
   "links": [],
   "tags": [
    "talk",
@@ -96,8 +97,7 @@
   "links": [],
   "tags": [
    "event",
-   "demo",
-   "draft"
+   "demo"
   ],
   "id": "2024-06-24Finland ambassador visit"
  },
@@ -113,8 +113,7 @@
   "tags": [
    "event",
    "demo",
-   "internal",
-   "draft"
+   "internal"
   ],
   "id": "2024-12-06Nokia providers visit"
  },
@@ -125,18 +124,18 @@
   "duration": "3",
   "location": "Antwerp",
   "photo": "",
-  "description": "",
+  "description": "EuCNC is the yearly event where all EU SNS projects meet to share experiences and results, and the EU comission can have a first-hand view of the progress. Nokia was a prime sponsor this year, with a large booth organized by Bell Labs. XRLab was also present with demos in the booths of the two EU projects we are running (6GSANDBOX and IMAGINE-B5G): a mixed reality monitoring of a real 5G deployment and a teleporting demo with Snowl, which happened to be great success.",
   "links": [],
   "tags": [
-   "ext",
-   "tradeshow",
-   "conference",
-   "demo",
-   "draft",
-   "alvarov"
+    "ext",
+    "event",
+    "tradeshow",
+    "conference",
+    "demo",
+    "alvarov"
   ],
   "id": "2024-06-03EuCNC 2024"
- },
+},
  {
   "title": "Telefonica Innovation Day",
   "type": "event",
@@ -144,7 +143,7 @@
   "duration": "",
   "location": "Madrid",
   "photo": "",
-  "description": "XRLab participated once more in the yearly event that Telefonica organizes in their headquarters in Madrid to let Nokia show to their whole employee base our latest products and innovation. This time we brought demos from two projects: the fire extintion training with Distributed Reality (COMODIA project) and the Augmented Reality display of 5G network parameters (5GNaCAR project).",
+  "description": "One year more the XRLab team was present in the event that Nokia organizes at Telefonica headquarters to show our latest innovations, that anyone in TEF can see in person. This time we brought two official demonstrations (the fire extinguisher from COMODIA and the Augmented Reality 5G monitoring from 5GNaCAR) but we also added some surprise demos: the Owl (already with Snowl device), avatar positioning, spatial barbershop and karaoke. Success and great feedback, with queues of people waiting to try out!",
   "links": [],
   "tags": [
    "ext",
@@ -233,10 +232,14 @@
   "duration": "",
   "location": "Madrid",
   "photo": "",
-  "description": "",
+  "description": "One year more the UAM (Universidad Autonoma de Madrid) invited us to give a seminar about innovation to a selection of students of the Image Processing and Computer Vision master. Alvaro Villegas provided an overview of the different paths to do innovation in the industry, and a description of the success story of XRLab. We hope this will contribute to help them find their way in the professional life they are starting",
   "links": [],
   "tags": [
-   "draft"
+  "talk",
+   "ext",
+   "event",
+   "university",
+   "alvarov"	   
   ],
   "id": "2024-04-09Seminar at UAM"
  },
