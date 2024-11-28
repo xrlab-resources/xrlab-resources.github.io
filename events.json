@@ -1,4 +1,175 @@
 [
+    {
+  "title": "Keynote at VR Day",
+  "type": "event",
+  "date": "2024-11-23",
+  "duration": "",
+  "location": "Valencia",
+  "photo": "",
+  "description": "A VR Day was organized in Valencia and we were asked to participate. Ester took the lead and provided (remotely) a keynote with the general vision of our Distributed Reality and its real world applications.",
+	"links": [
+	    {"name":"slides",
+	     "url":"https://nokia.sharepoint.com/:b:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/202411_VRDay.pdf?csf=1&web=1&e=UGWJ8A"}
+	],
+  "tags": [
+    "talk",
+    "ext",
+    "conference"
+  ],
+  "id": "2024-11-23Keynote at VR Day"
+},
+    {
+  "title": "Tax inspectors visit",
+  "type": "event",
+  "date": "",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "We receive quite a lot of visits, but this one was quite special: our finance department has periodic meetings with auditors from the Government for different finance topics, and this time they asked us to provide a first-hand view of our research, demonstrating the good usage we do from public funds and tax discounts. The visit was very successful, and they had fun!",
+  "links": [],
+  "tags": [
+    "talk",
+    "event",
+    "demo",
+    "internal"
+  ],
+  "id": "Tax inspectors visit"
+},
+    {
+  "title": "ICAI students visit",
+  "type": "event",
+  "date": "2024-11-15",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "A group of Telecommunication Students from Comillas University (ICAI) visited Nokia, and we were asked once more to provide a visit to our premises. We showed our Plaza and provided some demos that were quite interesting for them. One of our interns (Juan) also gave an interesting first person view of his experience working with us.",
+  "links": [],
+  "tags": [
+    "talk",
+    "event",
+    "university",
+    "demo"
+  ],
+  "id": "2024-11-15ICAI students visit"
+},
+    {
+  "title": "Demo day at FJ23",
+  "type": "event",
+  "date": "2024-11-13",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "Fundacion Juan XXIII, with which we do may collaborations, celebrated the Science Week with several events. We provided a full day of demos in their premises to professionals and users, with a very good acceptance. And we got valuable feedback, too.",
+  "links": [],
+  "tags": [
+    "talk",
+    "event",
+    "demo"
+  ],
+  "id": "2024-11-13Demo day at FJ23"
+},
+    {
+  "title": "CNS Innovation Day",
+  "type": "event",
+  "date": "2024-11-13",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "CNS celebrated in Spain an event with the main customers from Enterprise segment. They were given several talks during the day, and we were asked to finish the session with a keynote about our work and a few demos for the ones who were interested. Hopkins (our newest robotic dog) provided the welcome, and we ended up doing quite a lot of demos.",
+  "links": [],
+  "tags": [
+    "talk",
+    "event",
+    "demo",
+    "internal"
+  ],
+  "id": "2024-11-13CNS Innovation Day"
+    },
+    {
+  "title": "UC3M Students Visit",
+  "type": "event",
+  "date": "2024-10-31",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "A new visit from a different group of students from Universidad Carlos III to our premises. We repeated the talk, the visit and the demos, with same good results.",
+  "links": [],
+  "tags": [
+    "talk",
+    "university",
+    "demo"
+  ],
+  "id": "2024-10-31UC3M Students Visit"
+},
+    {
+  "title": "Telecom Students Visit",
+  "type": "event",
+  "date": "2024-10-22",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "We received the visit of a group of Telecommunication Engineering students from Universidad Carlos III. Pablo and Joaquin gave them a very interesting session about 5G/6G, a real application with some of our projects, a visit to our real 5G premises and a few demos to make it more fun. We got a very positive feedback and the highest evaluation among all companies that they visited.",
+	"links": [
+	    { "name":"slides",
+	      "url":"https://nokia.sharepoint.com/:b:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/202410_Programa_Jornadas_5G_v1.pdf?csf=1&web=1&e=I9YPs1"
+	    }
+	],
+  "tags": [
+    "talk",
+    "ext",
+    "event",
+    "university",
+    "demo"
+  ],
+  "id": "2024-10-22Telecom Students Visit"
+},
+    {
+  "title": "ToD demo in La Mayora",
+  "type": "event",
+  "date": "2024-10-28",
+  "duration": "2",
+  "location": "Malaga",
+  "photo": "",
+  "description": "We traveled to the advanced agriculture field of La Mayora (Malaga) to do a demonstration of our teleoperated driving and digital twin technologies to some representatives of the Government. Despite the technical (and weather) problems the visit was a full success, demo was great and the governmet representatives were delighted, what is very good news for our projects.",
+  "links": [],
+  "tags": [
+    "ext",
+    "event"
+  ],
+  "id": "2024-10-28ToD demo in La Mayora"
+},
+{
+  "title": "Design Week",
+  "type": "talk",
+  "date": "2024-10-22",
+  "duration": "",
+  "location": "Virtual Ottwawa and Lisbon",
+  "photo": "",
+  "description": "Nokia organized a Design Week to put in contact engineeres people with design skills. We were invited to participate, in two ways: through a hackaton where we proposed as challenge the design of a teleport application for daily life, and a keynote where we presented our concept and technology. It is always refreshing to get in contact with non-technical people.",
+  "links": [],
+  "tags": [
+    "talk",
+    "event",
+    "draft"
+  ],
+  "id": "2024-10-22Design Week"
+},    
+{
+  "title": "Visit from Uzbekistan",
+  "type": "event",
+  "date": "2024-09-20",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "Asked by our colleagues of NI we hosted the visit from the CEO of the main telco in Uzbekistan. He could have a first-hand view of the kind of innovations we do in Nokia and how we apply XR to improve communications and stress networks (what in the case of a telco is obviously very interesting). He loved the demos, of course.",
+  "links": [],
+  "tags": [
+    "event",
+      "demo",
+      "draft"
+  ],
+  "id": "2024-09-20Visit from Uzbekistan"
+},    
  {
   "title": "IEEE PIMRC conference",
   "type": "conference",
@@ -104,7 +275,7 @@
  {
   "title": "Nokia providers visit",
   "type": "event",
-  "date": "2024-12-06",
+  "date": "2024-06-06",
   "duration": "",
   "location": "Madrid",
   "photo": "",
