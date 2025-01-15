@@ -4,6 +4,10 @@
     "rooms": ["local", "local_2", "test", "dev", "calabazon", "calabazon_2"]
   },
   {
+    "profile": "uma",
+    "rooms": ["local", "6gsandbox"]
+  },
+  {
     "profile": "kepler",
     "rooms": ["local", "juanXXIII"]
   }
