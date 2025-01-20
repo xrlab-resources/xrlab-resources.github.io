@@ -68,5 +68,14 @@
       "id": "nokia",
       "code": "nokia123"
     }
+  },
+  {
+    "name": "6gsandbox",
+    "isLocal": false,
+    "conference": {
+      "url": "10.11.23.39:5000",
+      "id": "nokia",
+      "code": "nokia123"
+    }
   }
 ]

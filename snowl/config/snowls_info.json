@@ -1,0 +1,103 @@
+[
+  {
+    "name": "fahrenheit",
+    "mac": "48:b0:2d:d9:63:f4",
+    "location": "juan home",
+    "responsible": "juan"
+  },
+  {
+    "name": "ikki",
+    "mac": "48:b0:2d:d9:5e:a6",
+    "location": "juan desk",
+    "responsible": "juan"
+  },
+  {
+    "name": "disarli",
+    "mac": "00:04:4b:e6:f1:34",
+    "location": "juan home",
+    "responsible": "juan"
+  },
+  {
+    "name": "celsius",
+    "mac": "48:b0:2d:c1:51:d1",
+    "location": "india",
+    "responsible": "ariya",
+    "password": "xrlabowl"
+  },
+  {
+    "name": "curie",
+    "mac": "48:b0:2d:d9:5d:05",
+    "location": "xrlab",
+    "responsible": "joy"
+  },
+  {
+    "name": "galileo",
+    "mac": "48:b0:2d:ec:41:6c",
+    "location": "xrlab",
+    "responsible": "alvaro"
+  },
+  {
+    "name": "kelvin",
+    "mac": "48:b0:2d:ec:41:76",
+    "location": "xrlab",
+    "comment": "CSI port doesn't work: only 1 cam available",
+    "responsible": "lucia"
+  },
+  {
+    "name": "davinci",
+    "mac": "48:b0:2d:d9:63:09",
+    "location": "xrlab meeting room",
+    "responsible": "sara"
+  },
+  {
+    "name": "kepler",
+    "mac": "48:b0:2d:ec:1d:10",
+    "location": "juanXXIII",
+    "responsible": "pablo",
+    "password": "incluvers0"
+  },
+  {
+    "name": "bernoulli",
+    "mac": "48:b0:2d:ec:40:68",
+    "location": "uma (Málaga)",
+    "responsible": "UMA"
+  },
+  {
+    "name": "newton",
+    "mac": "48:b0:2d:5c:4b:4a",
+    "location": "xrlab",
+    "responsible": "joaquin"
+  },
+  {
+    "name": "lamarr",
+    "mac": "48:b0:2d:c1:27:32",
+    "location": "xrlab",
+    "responsible": "alvaro"
+  },
+  {
+    "name": "shannon",
+    "mac": "48:b0:2d:ec:41:34",
+    "location": "xrlab",
+    "responsible": "alvaro"
+  },
+  {
+    "name": "pascal",
+    "mac": "",
+    "location": "xrlab",
+    "responsible": "amaya"
+  },
+  {
+    "name": "hamming",
+    "mac": "48:b0:2d:5c:45:41",
+    "location": "xrlab",
+    "responsible": "jaime"
+  },
+  {
+    "name": "vaughan",
+    "mac": "48:b0:2d:d9:5d:a0",
+    "location": "xrlab",
+    "responsible": "alvaro",
+    "comments": "First black Snowl"
+
+  }
+]
