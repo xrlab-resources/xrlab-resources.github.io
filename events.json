@@ -1,5 +1,99 @@
 [
     {
+  "title": "IEEEVR 2025",
+  "type": "event",
+  "date": "2025-03-08",
+  "duration": "5",
+  "location": "",
+  "photo": "",
+  "description": "",
+  "links": [],
+  "tags": [
+    "draft"
+  ],
+  "id": "2025-03-08IEEEVR 2025"
+},
+    {
+  "title": "STEM for kids",
+  "type": "event",
+  "date": "2025-03-14",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "",
+  "links": [],
+  "tags": [
+    "draft"
+  ],
+  "id": "2025-03-14STEM for kids"
+    },
+{
+  "title": "HR management visit",
+  "type": "event",
+  "date": "2025-01-22",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "",
+  "links": [],
+  "tags": [
+    "event",
+    "demo",
+    "internal",
+    "draft"
+  ],
+  "id": "2025-01-22HR management visit"
+},    
+    {
+  "title": "ITU-T SG12 Meeting",
+  "type": "conference",
+  "date": "2025-01-15",
+  "duration": "4",
+  "location": "",
+  "photo": "",
+  "description": "Pablo",
+  "links": [],
+  "tags": [
+    "draft"
+  ],
+  "id": "2025-01-15ITU-T SG12 Meeting"
+},
+    {
+  "title": "Visit to Nokia of FJ23 people",
+  "type": "event",
+  "date": "2024-12-18",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "img/eventicons/202412_fj23.jpg",
+  "description": "A group of people from Fundación Juan XXIII visited Nokia hosted by our HR department, and we were asked to show our work and our premises. Marta Orduna was in charge of hosting them, and it was really nice.",
+  "links": [],
+  "tags": [
+    "talk",
+    "ext",
+    "event",
+    "demo"
+  ],
+  "id": "2024-12-18Visit to Nokia of FJ23 people"
+},
+    {
+  "title": "UPM students visit",
+  "type": "event",
+  "date": "2024-12-04",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "Once more we received the visit of a group of students, this time from Universidad Politecnica de Madrid. Pablo and Joaquín gave their presentations and a tour through our 5G network and we finished as usual with a set of demos.",
+  "links": [],
+  "tags": [
+    "talk",
+    "ext",
+    "event",
+    "university",
+    "demo"
+  ],
+  "id": "2024-12-04UPM students visit"
+},
+    {
   "title": "Keynote at VR Day",
   "type": "event",
   "date": "2024-11-23",
@@ -21,7 +115,7 @@
     {
   "title": "Tax inspectors visit",
   "type": "event",
-  "date": "",
+  "date": "2024-11-15",
   "duration": "",
   "location": "Madrid",
   "photo": "",
