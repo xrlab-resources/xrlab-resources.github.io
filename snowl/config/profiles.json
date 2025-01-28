@@ -9,6 +9,6 @@
   },
   {
     "profile": "kepler",
-    "rooms": ["local", "juanXXIII"]
+    "rooms": ["local", "juanXXIII", "juanXXIII-dev"]
   }
 ]

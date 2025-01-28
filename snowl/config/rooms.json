@@ -30,6 +30,15 @@
     }
   },
   {
+    "name": "juanXXIII-dev",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.23.12:5005",
+      "id": "nokia",
+      "code": "nokia123"
+    }
+  },
+  {
     "name": "calabazon",
     "audioServerUrl": "192.168.250.109:64738",
     "isLocal": false,
