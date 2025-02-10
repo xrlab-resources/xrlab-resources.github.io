@@ -1,7 +1,7 @@
 [
   {
     "profile": "dev",
-    "rooms": ["local", "local_2", "test", "dev", "calabazon", "calabazon_2"]
+    "rooms": ["local", "local_2", "bubu_home", "bubu_xrlab", "test", "dev", "calabazon", "calabazon_2"]
   },
   {
     "profile": "uma",

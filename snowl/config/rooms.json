@@ -59,6 +59,24 @@
     }
   },
   {
+    "name": "bubu_home",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.1.150:5000",
+      "id": "nokia",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "bubu_xrlab",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.250.110:5000",
+      "id": "nokia",
+      "code": "nokia123"
+    }
+  },
+  {
     "name": "test",
     "audioServerUrl": "127.0.0.1:64738",
     "isLocal": false,
