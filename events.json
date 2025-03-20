@@ -4,46 +4,160 @@
   "type": "event",
   "date": "2025-03-08",
   "duration": "5",
-  "location": "",
-  "photo": "",
-  "description": "",
-  "links": [],
+  "location": "Saint Malo",
+  "photo": "img/eventicons/202503_ieeevr.jpg",
+  "description": "IEEEVR is our flagship conference, and although this year we were not very successful in the amount of papers and demos accepted we did participate, with the visit of Ester Gonzalez and Lucia Tallero, presenting a poster about our immersive Fire Training experience... and doing a lot of networking.",
+  "links": [
+    {
+      "name": "website",
+      "url": "https://ieeevr.org/2025/"
+    },
+    {
+      "name": "poster",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/blswiki/Presentations/IEEEVR-2025-FireTraining.pptx"
+    },
+    {
+      "name": "LuciaSummary",
+      "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/blswiki/Presentations/IEEE%20VR%2025.pptx"
+    }
+  ],
   "tags": [
-    "draft"
+    "talk",
+    "ext",
+    "event",
+    "conference"
   ],
   "id": "2025-03-08IEEEVR 2025"
-},
-    {
-  "title": "STEM for kids",
-  "type": "event",
-  "date": "2025-03-14",
-  "duration": "",
-  "location": "Madrid",
-  "photo": "",
-  "description": "",
-  "links": [],
-  "tags": [
-    "draft"
-  ],
-  "id": "2025-03-14STEM for kids"
     },
-{
-  "title": "HR management visit",
+    {
+  "title": "STEM day 2025",
   "type": "event",
-  "date": "2025-01-22",
+  "date": "2024-03-14",
   "duration": "",
   "location": "Madrid",
-  "photo": "",
-  "description": "",
+  "photo": "img/eventicons/202503_stem.jpg",
+  "description": "One year more Nokia Spain organized a session for promoting STEM careers among kids. Around 70 teenagers (employees' sons and daughters) were invited to participate. XRLab collaborated with a workshop called \"Architects of the Metaverse\", where kids had the opportunity to edit themselves a virtual environment and then experience a walk through the resulting scenario using VR goggles (with final surprise). It was very instructive and they had a lot of fun.",
   "links": [],
   "tags": [
+    "ext",
     "event",
     "demo",
-    "internal",
-    "draft"
+    "alvarov"
   ],
-  "id": "2025-01-22HR management visit"
-},    
+  "id": "2024-03-14STEM day 2025"
+},
+    {
+  "title": "Visit from Digitalization Counsel, Comunidad de Madrid",
+  "type": "event",
+  "date": "2025-03-09",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "img/eventicons/202503_cam.jpg",
+  "description": "Miguel Angel Lopez-Valverde, Counsel for Digitalization in Comunidad de Madrid (regional government) visited Nokia Spain to explore potential collaboration and opportunities. A meeting in DemoLab with Ignacio Gallego local CEO and other representatives from Nokia commercial departments was followed with a discussion about XRLab and a visit to our premises. He wanted to try all our demos, and we were very happy to show our potential. Very good feedback.",
+  "links": [
+    {
+      "name": "engage",
+      "url": "https://engage.cloud.microsoft/main/org/nokia.com/threads/eyJfdHlwZSI6IlRocmVhZCIsImlkIjoiMzI0MTk4OTYxMDY3NjIyNCJ9?trk_event=com_yams_view_conversation&trk_outlook_origin=am&trk_integration_origin=am&trk_scenario_type=com&trk_scenario_sub_type=atmention&trk_notif_id=87a0657e-801d-3def-ac5d-173267c6f66b&trk_thread_id=3241989610676224"
+    },
+    {
+      "name": "X",
+      "url": "https://bit.ly/4iA7fKG"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://bit.ly/3FlGxHo"
+    }
+  ],
+  "tags": [
+    "ext",
+      "event",
+      "demo"
+  ],
+  "id": "2025-03-09Visit from Digitalization Counsel, Comunidad de Madrid"
+},
+    {
+  "title": "Visit from Innovation Director, Comunidad de Madrid",
+  "type": "event",
+  "date": "2025-03-07",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "img/eventicons/202503_cami+d.jpg",
+  "description": "We hosted in XRLab Marina Villegas, director of I+D innovation projects from Comunidad de Madrid (regional government). We presented Nokia at all levels (global, national and XRLab) and then we had a very fruitful discussion about the new funded project oportunities that are being opened by this government. We concluded with a set of demos that delighted them.",
+  "links": [],
+  "tags": [
+    "ext",
+      "event",
+      "demo"
+  ],
+  "id": "2025-03-07Visit from Innovation Director, Comunidad de Madrid"
+},
+    {
+  "title": "6GSANDBOX face to face meeting",
+  "type": "event",
+  "date": "2025-02-25",
+  "duration": "2",
+  "location": "Madrid",
+  "photo": "img/eventicons/202502_sandbox.jpg",
+  "description": "The location of face to face meetings in EU projects is done sequentially, and this time we offered Madrid for 6GSANDBOX. Apart from the meetings in DemoLab and a nice social event we hosted the multi-national visitors in our XRLab Theme Park, where they could enjoy several of our most famous demos. And that opened the path for new project opportunities!",
+  "links": [],
+  "tags": [
+    "ext",
+      "event",
+      "demo",
+    "internal"
+  ],
+  "id": "2025-02-256GSANDBOX face to face meeting"
+},
+    {
+        "title": "AIxVR 2025",
+        "type": "conference",
+        "date": "2025-01-27",
+        "duration": "3",
+        "location": "Lisbon",
+        "photo": "",
+        "description": "We participated in the 7th edition of AIxVR conference, with the presentation of paper Group-based Deep Emotion Understanding, by Ester Gonzalez",
+        "links": [
+                {
+                    "name": "website",
+                    "url": "https://aixvr.tecnico.ulisboa.pt/"
+                },
+            {
+                "name": "slides",
+                "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/blswiki/Presentations/VIBE360_print_version.pptx"
+            },
+            {
+                "name": "video",
+                "url": "https://nokia-my.sharepoint.com/:v:/r/personal/ester_gonzalez_nokia_com/Documents/Recordings/Readout"
+            },
+            {
+                "name": "photos",
+                "url": "https://photos.google.com/share/AF1QipPtjPX-AdZIYglAnfUrlXEjsrTt1UVhA0YHplPqaHFoGEiN0k84gFJBp4fUUKpkLg?key=emJGT3dhLVM3VUJVZjBtMnFmaTlydmFpVzlBVHJn"
+            }
+                
+        ],
+        "Tags": [
+            "talk",
+            "ext",
+            "conference"
+        ],
+        "id": "2025-01-27AIxVR 2025"
+    },
+    {
+  "title": "UMA-Keysight event",
+  "type": "event",
+  "date": "2025-01-17",
+  "duration": "",
+  "location": "Malaga",
+  "photo": "img/eventicons/202501_uma.jpg",
+  "description": "We were invited to the opening of a research lab installed by Keysight in Universidad de Malaga premises. The event received a strong press support and visits from authorities and different companies from the sector. XRLab was there showing the use case of our Museum visit demo with the Owl and its haptics extension using OWO vest.",
+  "links": [],
+  "tags": [
+    "ext",
+    "event",
+    "demo"
+  ],
+  "id": "2025-01-17UMa-Keysight event"
+},
     {
   "title": "ITU-T SG12 Meeting",
   "type": "conference",
