@@ -30,6 +30,15 @@
     }
   },
   {
+    "name": "juanXXIII-dev",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.23.12:5005",
+      "id": "nokia",
+      "code": "nokia123"
+    }
+  },
+  {
     "name": "calabazon",
     "audioServerUrl": "192.168.250.109:64738",
     "isLocal": false,
@@ -47,6 +56,24 @@
       "url": "192.168.250.109:5001",
       "id": "xrlab",
       "code": "nokiaabc"
+    }
+  },
+  {
+    "name": "bubu_home",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.1.150:5000",
+      "id": "nokia",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "bubu_xrlab",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.250.110:5000",
+      "id": "nokia",
+      "code": "nokia123"
     }
   },
   {
