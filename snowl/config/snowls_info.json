@@ -15,7 +15,8 @@
     "name": "disarli",
     "mac": "00:04:4b:e6:f1:34",
     "location": "juan home",
-    "responsible": "juan"
+    "responsible": "juan",
+    "comments": "splitted"
   },
   {
     "name": "celsius",
@@ -72,19 +73,21 @@
     "name": "lamarr",
     "mac": "48:b0:2d:c1:27:32",
     "location": "xrlab",
-    "responsible": "alvaro"
+    "responsible": "amaya"
   },
   {
     "name": "shannon",
     "mac": "48:b0:2d:ec:41:34",
     "location": "xrlab",
-    "responsible": "alvaro"
+    "responsible": "alvaro",
+    "comments": "5G & Lab Pano"
   },
   {
     "name": "pascal",
-    "mac": "",
+    "mac": "48:b0:2d:c1:74:94",
     "location": "xrlab",
-    "responsible": "amaya"
+    "responsible": "victoria",
+    "comments": "despiezado"
   },
   {
     "name": "hamming",
@@ -97,7 +100,7 @@
     "mac": "48:b0:2d:d9:5d:a0",
     "location": "xrlab",
     "responsible": "alvaro",
-    "comments": "First black Snowl"
+    "comments": "First black Snowl. For demos"
 
   }
 ]

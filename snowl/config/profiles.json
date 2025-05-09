@@ -4,6 +4,10 @@
     "rooms": ["local", "local_2", "bubu_home", "bubu_xrlab", "test", "dev", "calabazon", "calabazon_2"]
   },
   {
+    "profile": "demo",
+    "rooms": ["local", "production"]
+  },
+  {
     "profile": "uma",
     "rooms": ["local", "6gsandbox"]
   },
