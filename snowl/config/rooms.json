@@ -104,5 +104,35 @@
       "id": "nokia",
       "code": "nokia123"
     }
+  },
+  {
+    "name": "centro",
+    "audioServerUrl": "192.168.1.35:64738",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.1.35:5000",
+      "id": "nokia",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "columna",
+    "audioServerUrl": "192.168.1.34:64738",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.1.34:5000",
+      "id": "nokia",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "Madrid",
+    "audioServerUrl": "192.168.223.1:64738",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.223.1:5000",
+      "id": "nokia",
+      "code": "nokia123"
+    }
   }
 ]
