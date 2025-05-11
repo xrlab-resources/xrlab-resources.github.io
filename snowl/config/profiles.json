@@ -14,5 +14,9 @@
   {
     "profile": "kepler",
     "rooms": ["local", "juanXXIII"]
+  },
+  {
+    "profile": "5GForum",
+    "rooms": ["centro", "columna", "Madrid"]
   }
 ]
