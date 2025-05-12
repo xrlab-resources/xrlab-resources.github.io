@@ -134,5 +134,14 @@
       "id": "nokia",
       "code": "nokia123"
     }
-  }
+  },
+    {
+    "name": "WiFi",
+    "audioServerUrl": "192.168.1.35:64738",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.1.48:5000",
+      "id": "nokia",
+      "code": "nokia123"
+    }
 ]
