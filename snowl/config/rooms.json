@@ -137,7 +137,7 @@
   },
     {
     "name": "WiFi",
-    "audioServerUrl": "192.168.1.35:64738",
+    "audioServerUrl": "192.168.1.48:64738",
     "isLocal": false,
     "conference": {
       "url": "192.168.1.48:5000",
