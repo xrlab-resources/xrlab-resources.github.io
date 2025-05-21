@@ -135,7 +135,7 @@
       "code": "nokia123"
     }
   },
-    {
+  {
     "name": "WiFi",
     "audioServerUrl": "192.168.1.48:64738",
     "isLocal": false,
@@ -144,5 +144,22 @@
       "id": "nokia",
       "code": "nokia123"
     }
-  }
+  },
+  {
+    "name": "theater_stage",
+    "isLocal": false,
+    "conference": {
+      "url": "10.11.32.243:5000",
+      "id": "nokia",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "theater_audience",
+    "isLocal": false,
+    "conference": {
+      "url": "10.11.32.243:5000",
+      "id": "xrlab",
+      "code": "nokiaabc"
+    }
 ]

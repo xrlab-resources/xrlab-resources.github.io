@@ -1,7 +1,7 @@
 [
   {
     "profile": "dev",
-    "rooms": ["local", "local_2", "bubu_home", "bubu_xrlab", "test", "dev", "calabazon", "calabazon_2"]
+    "rooms": ["local", "local_2", "bubu_home", "bubu_xrlab", "test", "dev", "calabazon", "calabazon_2", "theater_stage", "theater_audience"]
   },
   {
     "profile": "demo",
@@ -9,7 +9,7 @@
   },
   {
     "profile": "uma",
-    "rooms": ["local", "6gsandbox"]
+    "rooms": ["local", "6gsandbox", "theater_stage", "theater_audience"]
   },
   {
     "profile": "kepler",
