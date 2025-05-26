@@ -1,4 +1,99 @@
 [
+{
+  "title": "5GForum 2025",
+  "type": "event",
+  "date": "2025-05-12",
+  "duration": "3",
+  "location": "Sevilla",
+  "photo": "",
+  "description": "Once year more XRLab was the representation of Nokia Spain in the most relevant event around 5G in Spain, where the whole national ecosystem gets together. A talk by Jaime Ruiz and a booth with several demos (AR in ports/unviersity and multi-site teleporation wit the Owl) provided a good view of our power in 5G/6G. Fair attendance was larger than ever, and a lot of networking was done.",
+  "links": [],
+  "tags": [
+    "talk",
+    "ext",
+    "event",
+    "tradeshow",
+    "demo",
+    "alvarov"
+  ],
+  "id": "2025-05-125GForum 2025"
+},
+{
+  "title": "Town Hall Nokia Spain",
+  "type": "event",
+  "date": "2025-04-03",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "XRLab was invited to this edition of the Nokia Spain townhall to provide an update of our latest work. Alvaro Villegas presented the last innovations of the team in the space of XR, AI and 5G, with their linkage to the multiple funded projects in which we are engaged. Reactions were very positive.",
+  "links": [],
+  "tags": [
+    "talk",
+    "event"
+  ],
+  "id": "2025-04-03Town Hall Nokia Spain"
+},
+{
+  "title": "Questioning Reality",
+  "type": "event",
+  "date": "2025-03-20",
+  "duration": "",
+  "location": "Toronto, Canada",
+  "photo": "",
+  "description": "Pablo Perez was invited to provide a keynote (and more) in this fascinating event, organized by the University of Toronto to explore the social interactions derived from XR technologies. Pablo presented our concept of Distributed Reality and the Realverse, advocating the use we do of immersive media for human communications",
+  "links": [
+    {
+      "name": "website",
+      "url": "https://datasciences.utoronto.ca/questioning_reality2025"
+    }
+  ],
+  "tags": [
+    "talk",
+    "ext",
+    "event",
+    "conference",
+    "university"
+  ],
+  "id": "2025-03-20Questioning Reality"
+},
+{
+  "title": "IPCV seminar at UAM",
+  "type": "talk",
+  "date": "2025-04-22",
+  "duration": "",
+  "location": "Universidad Autonoma de Madrid",
+  "photo": "",
+  "description": "Our yearly participation in the UAM seminar within the Image Processing and Computer Vision Master. As usual, it consisted on a presentation by Alvaro Villegas about Research in the Industry, success stories and some highlights about XRLab work. A demo attempt followed, with the usual result.",
+  "links": [],
+  "tags": [
+    "talk",
+    "ext",
+    "event",
+    "university",
+    "demo"
+  ],
+  "id": "2025-04-22IPCV seminar at UAM"
+},
+{
+  "title": "ACM MMSys and MMVE",
+  "type": "conference",
+  "date": "2025-03-31",
+  "duration": "4",
+  "location": "Stellenbosch, South Africa",
+  "photo": "",
+  "description": "We had a great participation in the ACM MMSys conference and the co-located international workshop on IMmersive Mixed and Virtual Environment Systems (MMVE). Marta Orduna was present in the venue with multiple roles: chairing MMVE, presenting 2 papers, chairing a track in MMSys and panelist in MMSys. ",
+  "links": [
+	{"name":"MMVE", "url":"https://mmve-workshop.org/2025"},
+	{"name":"MMSys", "url":"https://2025.acmmmsys.org"} 
+	],
+  "tags": [
+    "talk",
+    "ext",
+    "event",
+    "conference"
+  ],
+  "id": "2025-03-31ACM MMSys and MMVE"
+},
     {
   "title": "IEEEVR 2025",
   "type": "event",
