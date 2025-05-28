@@ -16,7 +16,7 @@
     "conference": {
       "url": "localhost:5000",
       "id": "xrlab",
-      "code": "nokiaabc"
+      "code": "nokia123"
     }
   },
   {
@@ -55,7 +55,7 @@
     "conference": {
       "url": "192.168.250.109:5001",
       "id": "xrlab",
-      "code": "nokiaabc"
+      "code": "nokia123"
     }
   },
   {
@@ -136,6 +136,96 @@
     }
   },
   {
+    "name": "eucnc_1",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.223.1:5000",
+      "id": "nokia",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "6gsandbox_1",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.223.1:5000",
+      "id": "xrlab",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "madrid_1",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.223.1:5000",
+      "id": "demo1",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "malaga_1",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.223.1:5000",
+      "id": "demo2",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "eucnc_2",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.223.2:5000",
+      "id": "nokia",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "6gsandbox_2",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.223.2:5000",
+      "id": "xrlab",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "madrid_2",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.223.2:5000",
+      "id": "demo1",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "malaga_2",
+    "isLocal": false,
+    "conference": {
+      "url": "192.168.223.2:5000",
+      "id": "demo2",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "eucnc_1",
+    "isLocal": false,
+    "conference": {
+      "url": "127.0.0.1:5000",
+      "id": "nokia",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "6gsandbox_2",
+    "isLocal": false,
+    "conference": {
+      "url": "127.0.0.1:5000",
+      "id": "xrlab",
+      "code": "nokia123"
+    }
+  },
+  {
     "name": "WiFi",
     "audioServerUrl": "192.168.1.48:64738",
     "isLocal": false,
@@ -143,24 +233,6 @@
       "url": "192.168.1.48:5000",
       "id": "nokia",
       "code": "nokia123"
-    }
-  },
-  {
-    "name": "theater_stage",
-    "isLocal": false,
-    "conference": {
-      "url": "10.45.0.1:5000",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "theater_audience",
-    "isLocal": false,
-    "conference": {
-      "url": "10.45.0.1:5000",
-      "id": "xrlab",
-      "code": "nokiaabc"
     }
   }
 ]

@@ -1,7 +1,7 @@
 [
   {
     "profile": "dev",
-    "rooms": ["local", "local_2", "bubu_home", "bubu_xrlab", "test", "dev", "calabazon", "calabazon_2", "theater_stage", "theater_audience"]
+    "rooms": ["local", "local_2", "bubu_home", "bubu_xrlab", "test", "dev", "calabazon", "calabazon_2"]
   },
   {
     "profile": "demo",
@@ -9,11 +9,23 @@
   },
   {
     "profile": "uma",
-    "rooms": ["local", "6gsandbox", "theater_stage", "theater_audience"]
+    "rooms": ["local", "6gsandbox"]
   },
   {
     "profile": "kepler",
     "rooms": ["local", "juanXXIII", "centro", "columna", "Madrid", "WiFi"]
+  },
+  {
+    "profile": "eucnc1",
+    "rooms": ["local", "eucnc_1", "6gsandbox_1", "madrid_1", "malaga_1"]
+  },
+  {
+    "profile": "eucnc2",
+    "rooms": ["local", "eucnc_2", "6gsandbox_2", "madrid_2", "malaga_1"]
+  },
+  {
+    "profile": "poznan",
+    "rooms": ["local", "eucnc_3", "6gsandbox_3"]
   },
   {
     "profile": "5GForum",
