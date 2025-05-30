@@ -208,15 +208,6 @@
     }
   },
   {
-    "name": "6gsandbox_2",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.223.2:5000",
-      "id": "xrlab",
-      "code": "nokia123"
-    }
-  },
-  {
     "name": "WiFi",
     "audioServerUrl": "192.168.1.48:64738",
     "isLocal": false,
