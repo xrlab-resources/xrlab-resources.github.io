@@ -208,19 +208,10 @@
     }
   },
   {
-    "name": "eucnc_1",
-    "isLocal": false,
-    "conference": {
-      "url": "127.0.0.1:5000",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
     "name": "6gsandbox_2",
     "isLocal": false,
     "conference": {
-      "url": "127.0.0.1:5000",
+      "url": "192.168.223.2:5000",
       "id": "xrlab",
       "code": "nokia123"
     }
