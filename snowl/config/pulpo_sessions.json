@@ -55,6 +55,24 @@
       }
     },
     {
+      "id": "matahari",
+      "domain": "owl",
+      "information": {
+        "contentServer": "localhost:9000",
+        "title": "Test Snowl 2",
+        "organizer": "Nokia XR Lab Spain",
+        "where": "Virtual",
+        "when": "start_at",
+        "duration": "1h",
+        "adminGroup": ["alvaro", "juan"]
+      },
+      "accessControl": {
+        "maxClients": 10,
+        "password": "nokia123",
+        "authorizedUsers": []
+      }
+    },
+    {
       "id": "xrlab",
       "domain": "owl",
       "information": {
