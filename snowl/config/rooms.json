@@ -172,7 +172,7 @@
     }
   },
   {
-    "name": "eucnc_2",
+    "name": "terrace",
     "isLocal": false,
     "conference": {
       "url": "192.168.223.2:5000",
@@ -181,7 +181,7 @@
     }
   },
   {
-    "name": "6gsandbox_2",
+    "name": "xrlab",
     "isLocal": false,
     "conference": {
       "url": "192.168.223.2:5000",
