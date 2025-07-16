@@ -19,6 +19,12 @@
     "comments": "splitted"
   },
   {
+    "name": "gauss",
+    "mac": "3c:6d:66:22:b6:6d",
+    "location": "xrlab meeting room",
+    "responsible": "alvaro"
+  },
+  {
     "name": "celsius",
     "mac": "48:b0:2d:c1:51:d1",
     "location": "india",
@@ -47,7 +53,7 @@
   {
     "name": "davinci",
     "mac": "48:b0:2d:d9:63:09",
-    "location": "xrlab meeting room",
+    "location": "xrlab",
     "responsible": "sara"
   },
   {
