@@ -8,6 +8,10 @@
     "rooms": ["local", "production"]
   },
   {
+    "profile": "test",
+    "rooms": ["local", "production"]
+  },
+  {
     "profile": "uma",
     "rooms": ["local", "6gsandbox"]
   },
