@@ -5,7 +5,7 @@
   },
   {
     "profile": "demo",
-    "rooms": ["local", "production"]
+    "rooms": ["local", "xrlab_demo", "production"]
   },
   {
     "profile": "test",

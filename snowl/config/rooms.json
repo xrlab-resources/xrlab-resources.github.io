@@ -97,6 +97,14 @@
     }
   },
   {
+    "name": "xrlab_demo",
+    "conference": {
+      "url": "192.168.223.2:5000",
+      "id": "vaughan",
+      "code": "nokia123"
+    }
+  },
+  {
     "name": "6gsandbox",
     "isLocal": false,
     "conference": {
