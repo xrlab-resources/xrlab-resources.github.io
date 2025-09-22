@@ -1,0 +1,38 @@
+[
+  {
+    "id": "0",
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": "1",
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
+  },
+  {
+    "id": "2",
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": "3",
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
+  },
+  {
+    "id": "4",
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": "5",
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
+  }
+]

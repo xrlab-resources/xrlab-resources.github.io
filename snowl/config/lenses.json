@@ -1,0 +1,16 @@
+[
+  {
+    "name": "ed230155",
+    "resolution": "12M",
+    "focal_length": 1.55,
+    "aperture": 2,
+    "format": "1/2.3\""
+  },
+  {
+    "name": "ws1842714",
+    "resolution": "14M",
+    "focal_length": 2.72,
+    "aperture": 2.5,
+    "format": "1/2.3\""
+  }
+]
