@@ -84,6 +84,10 @@
   {
     "name": "shannon",
     "mac": "48:b0:2d:ec:41:34",
+    "cameras": {
+      "frontId": 0,
+      "rearId": 1
+    },
     "location": "xrlab",
     "responsible": "alvaro",
     "comments": "5G & Lab Pano"
@@ -108,5 +112,51 @@
     "responsible": "alvaro",
     "comments": "First black Snowl. For demos"
 
+  },
+  {
+    "name": "copernico",
+    "cameras": {
+      "frontId": 4,
+      "rearId": 5
+    },
+    "mac": "3c:6d:66:18:ec:70",
+    "location": "",
+    "responsible": ""
+  },
+  {
+    "name": "mendel",
+    "cameras": {
+      "frontId": 2,
+      "rearId": 3
+    },
+    "mac": "3c:6d:66:18:e1:8f",
+    "location": "",
+    "responsible": ""
+  },
+  {
+    "name": "bacon",
+    "cameras": {
+      "frontId": 0,
+      "rearId": 0
+    },
+    "mac": "",
+    "location": "",
+    "responsible": ""
+  },
+  {
+    "name": "aquino",
+    "cameras": {
+      "frontId": 0,
+      "rearId": 0
+    },
+    "mac": "",
+    "location": "",
+    "responsible": ""
+  },
+  {
+    "name": "agustin",
+    "mac": "",
+    "location": "",
+    "responsible": ""
   }
 ]
