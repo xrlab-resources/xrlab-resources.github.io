@@ -1,7 +1,6 @@
 [
   {
     "name": "local",
-    "audioServerUrl": "localhost:64738",
     "isLocal": true,
     "conference": {
       "url": "localhost:5000",
@@ -10,8 +9,7 @@
     }
   },
   {
-    "name": "local_2",
-    "audioServerUrl": "localhost:64738",
+    "name": "local-2",
     "isLocal": true,
     "conference": {
       "url": "localhost:5000",
@@ -21,7 +19,6 @@
   },
   {
     "name": "juanXXIII",
-    "audioServerUrl": "192.168.23.12:64738",
     "isLocal": false,
     "conference": {
       "url": "192.168.23.12:5000",
@@ -39,27 +36,7 @@
     }
   },
   {
-    "name": "calabazon",
-    "audioServerUrl": "192.168.250.109:64738",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.250.109:5001",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "calabazon_2",
-    "audioServerUrl": "192.168.250.109:64738",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.250.109:5001",
-      "id": "xrlab",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "bubu_home",
+    "name": "bubu-home",
     "isLocal": false,
     "conference": {
       "url": "192.168.1.150:5000",
@@ -68,7 +45,7 @@
     }
   },
   {
-    "name": "bubu_xrlab",
+    "name": "bubu-xrlab",
     "isLocal": false,
     "conference": {
       "url": "192.168.250.110:5000",
@@ -77,30 +54,42 @@
     }
   },
   {
-    "name": "test",
-    "audioServerUrl": "127.0.0.1:64738",
-    "isLocal": false,
-    "conference": {
-      "url": "127.0.0.1:5000",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
     "name": "production",
-    "audioServerUrl": "192.168.223.1:64738",
-    "isLocal": false,
     "conference": {
-      "url": "192.168.223.1:5000",
+      "url": "10.0.50.103:5000",
       "id": "nokia",
       "code": "nokia123"
     }
   },
   {
-    "name": "xrlab_demo",
+    "name": "xrlab-demo",
     "conference": {
-      "url": "192.168.223.2:5000",
+      "url": "10.0.50.103:5000",
       "id": "vaughan",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "external",
+    "conference": {
+      "url": "10.0.50.104:5000",
+      "id": "nokia",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "test",
+    "conference": {
+      "url": "10.0.50.105:5000",
+      "id": "xrlab",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "dev",
+    "conference": {
+      "url": "10.0.50.105:5000",
+      "id": "nokia",
       "code": "nokia123"
     }
   },
@@ -114,114 +103,11 @@
     }
   },
   {
-    "name": "centro",
-    "audioServerUrl": "192.168.1.35:64738",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.1.35:5000",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "columna",
-    "audioServerUrl": "192.168.1.34:64738",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.1.34:5000",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "Madrid",
-    "audioServerUrl": "192.168.223.1:64738",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.223.1:5000",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "eucnc_1",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.223.1:5000",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "6gsandbox_1",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.223.1:5000",
-      "id": "xrlab",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "madrid_1",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.223.1:5000",
-      "id": "demo1",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "malaga_1",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.223.1:5000",
-      "id": "demo2",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "terrace",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.223.2:5000",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "xrlab",
+    "name": "xrlab-old",
     "isLocal": false,
     "conference": {
       "url": "192.168.223.2:5000",
       "id": "xrlab",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "madrid_2",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.223.2:5000",
-      "id": "demo1",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "malaga_2",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.223.2:5000",
-      "id": "demo2",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "WiFi",
-    "audioServerUrl": "192.168.1.48:64738",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.1.48:5000",
-      "id": "nokia",
       "code": "nokia123"
     }
   }

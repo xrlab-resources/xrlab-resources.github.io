@@ -1,15 +1,23 @@
 [
   {
     "profile": "dev",
-    "rooms": ["local", "local_2", "bubu_home", "bubu_xrlab", "test", "dev", "calabazon", "calabazon_2"]
+    "rooms": ["local", "local-2", "bubu-home", "bubu-xrlab", "test", "dev", "xrlab-old"]
   },
   {
     "profile": "demo",
-    "rooms": ["local", "xrlab_demo", "production"]
+    "rooms": ["local", "xrlab-demo", "production"]
   },
   {
     "profile": "test",
-    "rooms": ["local", "production"]
+    "rooms": ["local", "test"]
+  },
+  {
+    "profile": "qa",
+    "rooms": ["local", "dev", "production", "external"]
+  },
+  {
+    "profile": "guest",
+    "rooms": ["local", "external"]
   },
   {
     "profile": "uma",
@@ -17,22 +25,6 @@
   },
   {
     "profile": "kepler",
-    "rooms": ["local", "juanXXIII"]
-  },
-  {
-    "profile": "eucnc1",
-    "rooms": ["local", "eucnc_1", "6gsandbox_1", "madrid_1", "malaga_1"]
-  },
-  {
-    "profile": "eucnc2",
-    "rooms": ["local", "xrlab", "terrace"]
-  },
-  {
-    "profile": "poznan",
-    "rooms": ["local", "eucnc_3", "6gsandbox_3"]
-  },
-  {
-    "profile": "5GForum",
-    "rooms": ["centro", "columna", "Madrid"]
+    "rooms": ["local", "juanXXIII", "juanXXIII-dev"]
   }
 ]
