@@ -94,6 +94,14 @@
     }
   },
   {
+    "name": "xrlab-meeting",
+    "conference": {
+      "url": "10.0.50.103:5000",
+      "id": "gauss",
+      "code": "nokia123"
+    }
+  },
+  {
     "name": "6gsandbox",
     "isLocal": false,
     "conference": {

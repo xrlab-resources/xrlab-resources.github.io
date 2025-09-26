@@ -8,6 +8,10 @@
     "rooms": ["local", "xrlab-demo", "production"]
   },
   {
+    "profile": "xrlab-meeting",
+    "rooms": ["local", "xrlab-meeting"]
+  },
+  {
     "profile": "test",
     "rooms": ["local", "test"]
   },
