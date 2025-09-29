@@ -5,7 +5,7 @@
   },
   {
     "profile": "demo",
-    "rooms": ["local", "xrlab-demo", "production"]
+    "rooms": ["local", "xrlab-demo"]
   },
   {
     "profile": "xrlab-meeting",
@@ -21,7 +21,7 @@
   },
   {
     "profile": "guest",
-    "rooms": ["local", "external"]
+    "rooms": ["local", "xrlab"]
   },
   {
     "profile": "uma",

@@ -70,7 +70,7 @@
     }
   },
   {
-    "name": "external",
+    "name": "xrlab",
     "conference": {
       "url": "10.0.50.104:5000",
       "id": "nokia",
