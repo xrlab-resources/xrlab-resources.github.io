@@ -66,6 +66,10 @@
   {
     "name": "bernoulli",
     "mac": "48:b0:2d:ec:40:68",
+    "cameras": {
+      "frontId": 6,
+      "rearId": 7
+    },
     "location": "uma (Málaga)",
     "responsible": "UMA"
   },
