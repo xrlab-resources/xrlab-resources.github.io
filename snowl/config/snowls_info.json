@@ -20,6 +20,10 @@
   },
   {
     "name": "gauss",
+    "cameras": {
+      "frontId": 14,
+      "rearId": 15
+    },
     "mac": "3c:6d:66:22:b6:6d",
     "location": "xrlab meeting room",
     "responsible": "alvaro"
@@ -40,6 +44,10 @@
   {
     "name": "galileo",
     "mac": "48:b0:2d:ec:41:6c",
+    "cameras": {
+      "frontId": 12,
+      "rearId": 13
+    },
     "location": "xrlab",
     "responsible": "alvaro"
   },
@@ -140,18 +148,18 @@
   {
     "name": "bacon",
     "cameras": {
-      "frontId": 0,
-      "rearId": 0
+      "frontId": 6,
+      "rearId": 7
     },
-    "mac": "",
+    "mac": "3c:6d:66:18:c7:c9",
     "location": "",
     "responsible": ""
   },
   {
     "name": "aquino",
     "cameras": {
-      "frontId": 0,
-      "rearId": 0
+      "frontId": 8,
+      "rearId": 9
     },
     "mac": "",
     "location": "",
@@ -159,6 +167,10 @@
   },
   {
     "name": "agustin",
+    "cameras": {
+      "frontId": 10,
+      "rearId": 11
+    },
     "mac": "",
     "location": "",
     "responsible": ""
