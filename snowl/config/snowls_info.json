@@ -39,7 +39,7 @@
     "name": "curie",
     "mac": "48:b0:2d:d9:5d:05",
     "location": "xrlab",
-    "responsible": "joy"
+    "responsible": "unknown"
   },
   {
     "name": "galileo",
@@ -91,7 +91,7 @@
     "name": "lamarr",
     "mac": "48:b0:2d:c1:27:32",
     "location": "xrlab",
-    "responsible": "amaya"
+    "responsible": "joy"
   },
   {
     "name": "shannon",
