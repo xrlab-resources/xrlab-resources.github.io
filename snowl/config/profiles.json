@@ -17,11 +17,11 @@
   },
   {
     "profile": "qa",
-    "rooms": ["local", "dev", "production", "external"]
+    "rooms": ["local", "dev", "xrlab-demo", "xrlab-guest"]
   },
   {
     "profile": "guest",
-    "rooms": ["local", "xrlab"]
+    "rooms": ["local", "xrlab-guest"]
   },
   {
     "profile": "uma",

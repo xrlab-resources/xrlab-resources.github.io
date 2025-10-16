@@ -54,7 +54,7 @@
     }
   },
   {
-    "name": "production",
+    "name": "xrlab-demo",
     "conference": {
       "url": "10.0.50.103:5000",
       "id": "nokia",
@@ -62,15 +62,7 @@
     }
   },
   {
-    "name": "xrlab-demo",
-    "conference": {
-      "url": "10.0.50.103:5000",
-      "id": "vaughan",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "xrlab",
+    "name": "xrlab-guest",
     "conference": {
       "url": "10.0.50.104:5000",
       "id": "nokia",
@@ -97,7 +89,7 @@
     "name": "xrlab-meeting",
     "conference": {
       "url": "10.0.50.103:5000",
-      "id": "gauss",
+      "id": "xrlab",
       "code": "nokia123"
     }
   },
