@@ -8,6 +8,10 @@
   {
     "name": "ikki",
     "mac": "48:b0:2d:d9:5e:a6",
+    "cameras": {
+      "frontId": 14,
+      "rearId": 15
+    },
     "location": "juan desk",
     "responsible": "juan"
   },
