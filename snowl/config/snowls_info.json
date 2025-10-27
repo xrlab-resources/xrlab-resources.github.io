@@ -124,6 +124,10 @@
   {
     "name": "vaughan",
     "mac": "48:b0:2d:d9:5d:a0",
+    "cameras": {
+      "frontId": 16,
+      "rearId": 17
+    },
     "location": "xrlab",
     "responsible": "alvaro",
     "comments": "First black Snowl. For demos"

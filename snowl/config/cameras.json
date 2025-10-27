@@ -94,5 +94,17 @@
     "sensor": "imx477",
     "lens": "ed230155",
     "orientation": "rear"
+  },
+  {
+    "id": "16",
+    "sensor": "imx219",
+    "lens": "rpi",
+    "orientation": "front"
+  },
+  {
+    "id": "17",
+    "sensor": "imx219",
+    "lens": "rpi",
+    "orientation": "rear"
   }
 ]
