@@ -1,5 +1,86 @@
 [
 {
+  "title": "AI days at IMSERSO",
+  "type": "talk",
+  "date": "2025-09-17",
+  "duration": "",
+  "location": "IMSERSO, Madrid",
+  "photo": "",
+  "description": "Marta Orduna was invited to give a talk at IMSERSO (Institute for Elderly and Social Services) about our work in project INCLUVERSO, where we apply IA and XR to the care of intelectual handicapped people.",
+  "links": [
+    {
+      "name": "IMSERSO",
+      "url": "https://imserso.es"
+    },
+    {
+      "name": "Program",
+      "url": "https://nokia.sharepoint.com/:w:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/20250917_IMSERSO.docx?d=w0766195707b54cbabbc355e5f526dafe&csf=1&web=1&e=kXJbkj"
+    },
+    {
+      "name": "Slides",
+      "url": "https://nokia.sharepoint.com/:w:/r/sites/blspain/BLSpain%20Store/Intranet%20Depot/20250917_IMSERSO.docx?d=w0766195707b54cbabbc355e5f526dafe&csf=1&web=1&e=32jKBZ"
+    }
+  ],
+  "tags": [
+    "talk",
+    "ext",
+    "event"
+  ],
+  "id": "2025-09-17AI days at IMSERSO"
+},{
+  "title": "QoMEX 2025",
+  "type": "conference",
+  "date": "2025-09-29",
+  "duration": "5",
+  "location": "Universidad Carlos III, Madrid",
+  "photo": "",
+  "description": "The Nokia XRLab team organized with Universidad Politecnica de Madrid the 17th edition of QoMEX (International Conference on Quality of Multimedia Experience). A very complete organization with keynotes, papers, demos and social events for an international team of participants.",
+  "links": [
+    {
+      "name": "Website",
+      "url": "https://qomex2025.itec.aau.at"
+    }
+  ],
+  "tags": [
+    "talk",
+    "ext",
+    "event",
+    "conference",
+    "university"
+  ],
+  "id": "2025-09-29QoMEX 2025"
+},
+{
+  "title": "Antofagasta visit",
+  "type": "event",
+  "date": "2025-08-27",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "Antofagasta Minerals is a large mining company from Chile, and very good customer of Nokia. Their CEO and CIO visited Nokia Spain and XRLab team was asked to provide some insight about our work. Demos were very much appreciated, even more than usual (a CEO doing a selfie with our Owl is a nice experience!).",
+  "links": [],
+  "tags": [
+    "event",
+    "demo"
+  ],
+  "id": "2025-08-27Antofagasta visit"
+},
+{
+  "title": "BNET visit",
+  "type": "event",
+  "date": "2025-07-02",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "The company BNET (Dubai) visited Nokia Spain with Roque Lozano, and we invited them to enjoy our demos. They were delighted with whay they saw, as explicitly stated in their feedback.",
+  "links": [],
+  "tags": [
+    "event",
+    "demo"
+  ],
+  "id": "2025-07-02BNET visit"
+},
+{
   "title": "5GForum 2025",
   "type": "event",
   "date": "2025-05-12",
