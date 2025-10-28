@@ -19,6 +19,60 @@
       }
     },
     {
+      "id": "demo1",
+      "domain": "owl",
+      "information": {
+        "contentServer": "localhost:9000",
+        "title": "For demos 1",
+        "organizer": "Nokia XR Lab Spain",
+        "where": "Virtual",
+        "when": "start_at",
+        "duration": "1h",
+        "adminGroup": ["alvaro", "juan"]
+      },
+      "accessControl": {
+        "maxClients": 10,
+        "password": "nokia123",
+        "authorizedUsers": []
+      }
+    },
+    {
+      "id": "demo2",
+      "domain": "owl",
+      "information": {
+        "contentServer": "localhost:9000",
+        "title": "For demos 2",
+        "organizer": "Nokia XR Lab Spain",
+        "where": "Virtual",
+        "when": "start_at",
+        "duration": "1h",
+        "adminGroup": ["alvaro", "juan"]
+      },
+      "accessControl": {
+        "maxClients": 10,
+        "password": "nokia123",
+        "authorizedUsers": []
+      }
+    },
+    {
+      "id": "matahari",
+      "domain": "owl",
+      "information": {
+        "contentServer": "localhost:9000",
+        "title": "Test Snowl 2",
+        "organizer": "Nokia XR Lab Spain",
+        "where": "Virtual",
+        "when": "start_at",
+        "duration": "1h",
+        "adminGroup": ["alvaro", "juan"]
+      },
+      "accessControl": {
+        "maxClients": 10,
+        "password": "nokia123",
+        "authorizedUsers": []
+      }
+    },
+    {
       "id": "xrlab",
       "domain": "owl",
       "information": {
@@ -32,7 +86,7 @@
       },
       "accessControl": {
         "maxClients": 10,
-        "password": "nokiaabc",
+        "password": "nokia123",
         "authorizedUsers": []
       }
     }

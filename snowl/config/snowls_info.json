@@ -2,12 +2,20 @@
   {
     "name": "fahrenheit",
     "mac": "48:b0:2d:d9:63:f4",
+    "cameras": {
+      "frontId": 18,
+      "rearId": 19
+    },
     "location": "juan home",
     "responsible": "juan"
   },
   {
     "name": "ikki",
     "mac": "48:b0:2d:d9:5e:a6",
+    "cameras": {
+      "frontId": 14,
+      "rearId": 15
+    },
     "location": "juan desk",
     "responsible": "juan"
   },
@@ -17,6 +25,16 @@
     "location": "juan home",
     "responsible": "juan",
     "comments": "splitted"
+  },
+  {
+    "name": "gauss",
+    "cameras": {
+      "frontId": 14,
+      "rearId": 15
+    },
+    "mac": "3c:6d:66:22:b6:6d",
+    "location": "xrlab meeting room",
+    "responsible": "alvaro"
   },
   {
     "name": "celsius",
@@ -29,11 +47,15 @@
     "name": "curie",
     "mac": "48:b0:2d:d9:5d:05",
     "location": "xrlab",
-    "responsible": "joy"
+    "responsible": "unknown"
   },
   {
     "name": "galileo",
     "mac": "48:b0:2d:ec:41:6c",
+    "cameras": {
+      "frontId": 12,
+      "rearId": 13
+    },
     "location": "xrlab",
     "responsible": "alvaro"
   },
@@ -47,7 +69,7 @@
   {
     "name": "davinci",
     "mac": "48:b0:2d:d9:63:09",
-    "location": "xrlab meeting room",
+    "location": "xrlab",
     "responsible": "sara"
   },
   {
@@ -60,6 +82,10 @@
   {
     "name": "bernoulli",
     "mac": "48:b0:2d:ec:40:68",
+    "cameras": {
+      "frontId": 6,
+      "rearId": 7
+    },
     "location": "uma (Málaga)",
     "responsible": "UMA"
   },
@@ -73,11 +99,15 @@
     "name": "lamarr",
     "mac": "48:b0:2d:c1:27:32",
     "location": "xrlab",
-    "responsible": "amaya"
+    "responsible": "joy"
   },
   {
     "name": "shannon",
     "mac": "48:b0:2d:ec:41:34",
+    "cameras": {
+      "frontId": 0,
+      "rearId": 1
+    },
     "location": "xrlab",
     "responsible": "alvaro",
     "comments": "5G & Lab Pano"
@@ -98,9 +128,63 @@
   {
     "name": "vaughan",
     "mac": "48:b0:2d:d9:5d:a0",
+    "cameras": {
+      "frontId": 16,
+      "rearId": 17
+    },
     "location": "xrlab",
     "responsible": "alvaro",
     "comments": "First black Snowl. For demos"
 
+  },
+  {
+    "name": "copernico",
+    "cameras": {
+      "frontId": 4,
+      "rearId": 5
+    },
+    "mac": "3c:6d:66:18:ec:70",
+    "location": "",
+    "responsible": ""
+  },
+  {
+    "name": "mendel",
+    "cameras": {
+      "frontId": 2,
+      "rearId": 3
+    },
+    "mac": "3c:6d:66:18:e1:8f",
+    "location": "",
+    "responsible": ""
+  },
+  {
+    "name": "bacon",
+    "cameras": {
+      "frontId": 6,
+      "rearId": 7
+    },
+    "mac": "3c:6d:66:18:c7:c9",
+    "location": "",
+    "responsible": ""
+  },
+  {
+    "name": "aquino",
+    "cameras": {
+      "frontId": 8,
+      "rearId": 9
+    },
+    "mac": "3c:6d:66:18:e8:b3",
+    "location": "",
+    "responsible": ""
+  },
+  {
+    "name": "agustin",
+    "cameras": {
+      "frontId": 10,
+      "rearId": 11
+    },
+    "mac": "3c:6d:66:18:e3:f9",
+    "location": "",
+    "responsible": ""
   }
 ]

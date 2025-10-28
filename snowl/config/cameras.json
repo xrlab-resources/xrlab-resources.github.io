@@ -1,0 +1,122 @@
+[
+  {
+    "id": 0,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": 1,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
+  },
+  {
+    "id": 2,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": 3,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
+  },
+  {
+    "id": 4,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": 5,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
+  },
+  {
+    "id": 6,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": 7,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
+  },
+  {
+    "id": 8,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": 9,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
+  },
+  {
+    "id": 10,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": 11,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
+  },
+  {
+    "id": 12,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": 13,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
+  },
+  {
+    "id": 14,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": 15,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
+  },
+  {
+    "id": 16,
+    "sensor": "imx219",
+    "lens": "rpi",
+    "orientation": "front"
+  },
+  {
+    "id": 17,
+    "sensor": "imx219",
+    "lens": "rpi",
+    "orientation": "rear"
+  },
+  {
+    "id": 18,
+    "sensor": "imx219",
+    "lens": "rpi",
+    "orientation": "front"
+  },
+  {
+    "id": 19,
+    "sensor": "imx219",
+    "lens": "rpi",
+    "orientation": "rear"
+  }
+]
