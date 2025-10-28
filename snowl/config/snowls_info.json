@@ -2,6 +2,10 @@
   {
     "name": "fahrenheit",
     "mac": "48:b0:2d:d9:63:f4",
+    "cameras": {
+      "frontId": 18,
+      "rearId": 19
+    },
     "location": "juan home",
     "responsible": "juan"
   },

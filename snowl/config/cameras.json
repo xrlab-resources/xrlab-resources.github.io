@@ -106,5 +106,17 @@
     "sensor": "imx219",
     "lens": "rpi",
     "orientation": "rear"
+  },
+  {
+    "id": 18,
+    "sensor": "imx219",
+    "lens": "rpi",
+    "orientation": "front"
+  },
+  {
+    "id": 19,
+    "sensor": "imx219",
+    "lens": "rpi",
+    "orientation": "rear"
   }
 ]
