@@ -4,16 +4,63 @@
     "isLocal": true,
     "conference": {
       "url": "localhost:5000",
-      "id": "nokia",
+      "id": "session-1",
       "code": "nokia123"
     }
   },
   {
-    "name": "local-2",
-    "isLocal": true,
+    "name": "xrlab-plaza",
     "conference": {
-      "url": "localhost:5000",
-      "id": "xrlab",
+      "url": "10.0.50.103:5000",
+      "id": "session-1",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "xrlab-room",
+    "conference": {
+      "url": "10.0.50.103:5000",
+      "id": "session-2",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "xrlab-demo",
+    "conference": {
+      "url": "10.0.50.103:5000",
+      "id": "session-3",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "xrlab-guest",
+    "conference": {
+      "url": "10.0.50.104:5000",
+      "id": "session-1",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "xrlab-guest-test",
+    "conference": {
+      "url": "10.0.50.104:5000",
+      "id": "session-2",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "dev",
+    "conference": {
+      "url": "10.0.50.105:5000",
+      "id": "session-1",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "test",
+    "conference": {
+      "url": "10.0.50.105:5000",
+      "id": "session-2",
       "code": "nokia123"
     }
   },
@@ -22,7 +69,7 @@
     "isLocal": false,
     "conference": {
       "url": "192.168.23.12:5000",
-      "id": "nokia",
+      "id": "session-1",
       "code": "nokia123"
     }
   },
@@ -31,65 +78,7 @@
     "isLocal": false,
     "conference": {
       "url": "192.168.23.12:5005",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "bubu-home",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.1.150:5000",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "bubu-xrlab",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.250.110:5000",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "xrlab-demo",
-    "conference": {
-      "url": "10.0.50.103:5000",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "xrlab-guest",
-    "conference": {
-      "url": "10.0.50.104:5000",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "test",
-    "conference": {
-      "url": "10.0.50.105:5000",
-      "id": "xrlab",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "dev",
-    "conference": {
-      "url": "10.0.50.105:5000",
-      "id": "nokia",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "xrlab-meeting",
-    "conference": {
-      "url": "10.0.50.103:5000",
-      "id": "xrlab",
+      "id": "session-1",
       "code": "nokia123"
     }
   },
@@ -98,7 +87,7 @@
     "isLocal": false,
     "conference": {
       "url": "10.11.23.39:5000",
-      "id": "nokia",
+      "id": "session-1",
       "code": "nokia123"
     }
   },

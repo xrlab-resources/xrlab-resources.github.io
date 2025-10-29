@@ -164,8 +164,9 @@
       "rearId": 7
     },
     "mac": "3c:6d:66:18:c7:c9",
-    "location": "",
-    "responsible": ""
+    "location": "Juan XXIII",
+    "responsible": "Pablo",
+    "password": "incluvers0"
   },
   {
     "name": "aquino",

@@ -1,23 +1,15 @@
 [
   {
     "profile": "dev",
-    "rooms": ["local", "local-2", "bubu-home", "bubu-xrlab", "test", "dev", "xrlab-old"]
+    "rooms": ["local", "test", "dev", "xrlab-old"]
   },
   {
-    "profile": "demo",
-    "rooms": ["local", "xrlab-demo"]
-  },
-  {
-    "profile": "xrlab-meeting",
-    "rooms": ["local", "xrlab-meeting"]
-  },
-  {
-    "profile": "test",
-    "rooms": ["local", "test"]
+    "profile": "production",
+    "rooms": ["local", "xrlab-room", "xrlab-plaza", "xrlab-demo"]
   },
   {
     "profile": "qa",
-    "rooms": ["local", "dev", "xrlab-demo", "xrlab-guest"]
+    "rooms": ["local", "test", "xrlab-demo", "xrlab-guest-test"]
   },
   {
     "profile": "guest",
@@ -28,7 +20,7 @@
     "rooms": ["local", "6gsandbox"]
   },
   {
-    "profile": "kepler",
+    "profile": "juan23",
     "rooms": ["local", "juanXXIII", "juanXXIII-dev"]
   }
 ]
