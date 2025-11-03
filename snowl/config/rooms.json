@@ -65,6 +65,14 @@
     }
   },
   {
+    "name": "xrlab-5g",
+    "conference": {
+      "url": "10.0.50.110:5000",
+      "id": "session-1",
+      "code": "nokia123"
+    }
+  },
+  {
     "name": "juanXXIII",
     "isLocal": false,
     "conference": {
