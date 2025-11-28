@@ -1,7 +1,7 @@
 [
   {
     "profile": "dev",
-    "rooms": ["local", "test", "dev", "xrlab-5g", "xrlab-old"]
+    "rooms": ["local", "test", "dev", "xrlab-5g", "xrlab-room", "xrlab-plaza"]
   },
   {
     "profile": "production",
