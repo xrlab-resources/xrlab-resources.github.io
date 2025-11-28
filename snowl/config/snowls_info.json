@@ -64,7 +64,7 @@
     "mac": "48:b0:2d:ec:41:76",
     "location": "xrlab",
     "comment": "CSI port doesn't work: only 1 cam available",
-    "responsible": "lucia"
+    "responsible": "alvaro izquierdo"
   },
   {
     "name": "davinci",
@@ -175,8 +175,8 @@
       "rearId": 9
     },
     "mac": "3c:6d:66:18:e8:b3",
-    "location": "",
-    "responsible": ""
+    "location": "juanXXIII",
+    "responsible": "pablo"
   },
   {
     "name": "agustin",
