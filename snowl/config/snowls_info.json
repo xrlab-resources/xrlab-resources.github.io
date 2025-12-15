@@ -70,7 +70,8 @@
     "name": "davinci",
     "mac": "48:b0:2d:d9:63:09",
     "location": "xrlab",
-    "responsible": "sara"
+    "comment": "Some issues of video streaming. Not totaly identified yet.",
+    "responsible": ""
   },
   {
     "name": "kepler",
@@ -92,8 +93,12 @@
   {
     "name": "newton",
     "mac": "48:b0:2d:5c:4b:4a",
+    "cameras": {
+      "frontId": 20,
+      "rearId": 21
+    },
     "location": "xrlab",
-    "responsible": "joaquin"
+    "responsible": "sara"
   },
   {
     "name": "lamarr",
