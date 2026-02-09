@@ -159,8 +159,9 @@
       "rearId": 3
     },
     "mac": "3c:6d:66:18:e1:8f",
-    "location": "",
-    "responsible": ""
+    "location": "FJXIII",
+    "responsible": "Pablo",
+    "password": "incluvers0"
   },
   {
     "name": "bacon",
