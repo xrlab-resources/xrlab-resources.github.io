@@ -1,4 +1,116 @@
 [
+    {
+  "title": "INCLUVERSO final event",
+  "type": "event",
+  "date": "2026-02-03",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "The final event of INCLUVERSO-5G project brought together a rich set of representation from public institutions and universities at Nokia premises in Madrid. The talks presenting the most relevant activities in the project included demos and the participation of the real users from Fundacion Juan XXIII. A full session of demos for the attendees followed. ",
+  "links": [
+    {
+      "name": "website",
+      "url": "http://www.incluverso-5g.es/"
+    }
+  ],
+  "tags": [
+    "talk",
+    "ext",
+    "event",
+    "university",
+    "demo"
+  ],
+  "id": "2026-02-03INCLUVERSO final event"
+},
+    {
+  "title": "Nokia Spain 100th anniversary",
+  "type": "event",
+  "date": "2026-01-29",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "XRLab and the innovation that we do was represented by Alvaro Villegas in the 100 year anniversary dinner of Nokia Spain, celebrated in Madrid. Among the speeched from institutional representatives (from National and Regional governments) there was an explicit recognition to the innovation work that we have been doing in the last two decades, really gratifying.",
+  "links": [],
+  "tags": [
+    "event"
+  ],
+  "id": "2025-01-29Nokia Spain 100th anniversary"
+},
+    {
+  "title": "Globecom 2025",
+  "type": "conference",
+  "date": "2025-12-08",
+  "duration": "5",
+  "location": "Taipei",
+  "photo": "",
+  "description": "Nokia and XRLab were represented at this IEEE flagship conference by Alvaro Villegas, who participated in the f2f IEEE Industry Communities meeting, and also acted as jury in the second edition of the pitch session, with follow-ups towards Bell Labs.",
+  "links": [
+    {
+      "name": "website",
+      "url": "https://globecom2025.ieee-globecom.org/"
+    }
+  ],
+  "tags": [
+    "ext",
+    "conference"
+  ],
+  "id": "2025-12-08Globecom 2025"
+},
+    {
+  "title": "United XR",
+  "type": "conference",
+  "date": "2025-12-08",
+  "duration": "3",
+  "location": "Brussels",
+  "photo": "",
+  "description": "UnitedXR is the combination of two former conferences (Stereopsia and AWE). Pablo Perez was invited to give a keynote, where he presented the future of the realverse. The attendance to the conference also confirmed that is is a very interesting venue for our work, so we will plan to attend as XRLab in future editions.",
+  "links": [
+    {
+      "name": "website",
+      "url": "https://unitedxr.eu/"
+    }
+  ],
+  "tags": [
+    "talk",
+    "ext",
+    "tradeshow",
+    "conference"
+  ],
+  "id": "20251208United XR"
+},
+    {
+  "title": "Visit of UPM students",
+  "type": "event",
+  "date": "2025-10-30",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "We received the visit of a group of top students from Telecommunication Engineering (UPM). As in previous editions Pablo Perez and Joaquín Pérez gave presentations of our work and a mobile network primer. A demo session followed, which was very well received by the students",
+  "links": [],
+  "tags": [
+    "talk",
+    "ext",
+    "event",
+    "university",
+    "demo"
+  ],
+  "id": "20251030Visit of UPM students"
+},
+{
+  "title": " EspacioRACK",
+  "type": "event",
+  "date": "2025-05-20",
+  "duration": "",
+  "location": "Madrid",
+  "photo": "",
+  "description": "We hosted the visit of EspacioRACK, a company working in the Data Center business which showed interest in our work and possible collaborations. We had an interesting conversation and demos, follow-up planned.",
+  "links": [],
+  "tags": [
+    "event",
+    "demo"
+  ],
+  "id": "20250520 EspacioRACK"
+},    
 {
   "title": "AI days at IMSERSO",
   "type": "talk",
