@@ -100,6 +100,14 @@
     }
   },
   {
+    "name": "chi26",
+    "conference": {
+      "url": "192.168.20.218:5000",
+      "id": "session-1",
+      "code": "nokia123"
+    }
+  },
+  {
     "name": "xrlab-old",
     "isLocal": false,
     "conference": {
