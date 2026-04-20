@@ -82,27 +82,10 @@
     }
   },
   {
-    "name": "juanXXIII-dev",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.23.12:5005",
-      "id": "session-1",
-      "code": "nokia123"
-    }
-  },
-  {
     "name": "6gsandbox",
     "isLocal": false,
     "conference": {
       "url": "10.11.23.39:5000",
-      "id": "session-1",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "chi26",
-    "conference": {
-      "url": "172.28.34.16:5000",
       "id": "session-1",
       "code": "nokia123"
     }

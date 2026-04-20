@@ -5,7 +5,7 @@
   },
   {
     "profile": "production",
-    "rooms": ["local", "chi26", "xrlab-room", "xrlab-plaza", "xrlab-demo"]
+    "rooms": ["local", "xrlab-room", "xrlab-plaza", "xrlab-demo"]
   },
   {
     "profile": "qa",
@@ -21,6 +21,6 @@
   },
   {
     "profile": "juan23",
-    "rooms": ["local", "juanXXIII", "juanXXIII-dev"]
+    "rooms": ["local", "juanXXIII"]
   }
 ]
