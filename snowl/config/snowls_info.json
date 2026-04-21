@@ -76,7 +76,7 @@
   {
     "name": "kepler",
     "mac": "48:b0:2d:ec:1d:10",
-    "location": "juanXXIII",
+    "location": "FJXIII",
     "responsible": "pablo",
     "password": "incluvers0"
   },
@@ -140,7 +140,6 @@
     "location": "xrlab",
     "responsible": "alvaro",
     "comments": "First black Snowl. For demos"
-
   },
   {
     "name": "copernico",
@@ -149,8 +148,8 @@
       "rearId": 5
     },
     "mac": "3c:6d:66:18:ec:70",
-    "location": "",
-    "responsible": ""
+    "location": "FJXIII",
+    "responsible": "Pablo"
   },
   {
     "name": "mendel",
@@ -159,9 +158,10 @@
       "rearId": 3
     },
     "mac": "3c:6d:66:18:e1:8f",
-    "location": "FJXIII",
-    "responsible": "Pablo",
-    "password": "incluvers0"
+    "location": "xrlab",
+    "responsible": "",
+    "password": "incluvers0",
+    "comments": "The performance is low. To be tested"
   },
   {
     "name": "bacon",
@@ -170,8 +170,8 @@
       "rearId": 7
     },
     "mac": "3c:6d:66:18:c7:c9",
-    "location": "Juan XXIII",
-    "responsible": "Pablo",
+    "location": "FJXIII",
+    "responsible": "pablo",
     "password": "incluvers0"
   },
   {
@@ -181,7 +181,7 @@
       "rearId": 9
     },
     "mac": "3c:6d:66:18:e8:b3",
-    "location": "juanXXIII",
+    "location": "FJXIII",
     "responsible": "pablo"
   },
   {
