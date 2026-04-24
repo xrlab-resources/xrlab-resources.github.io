@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XRLab Manager</title>
+<style>
+  body {
+      font-family: "Segoe UI", "Segoe UI Semilight", "Segoe", Tahoma, Helvetica, Arial, sans-serif;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      margin: 0;
+      padding: 0;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  .container {
+      text-align: center;
+      background: rgba(255, 255, 255, 0.9);
+      padding: 60px 40px;
+      border-radius: 20px;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 90%;
+  }
+  
+  h1 {
+      color: #2ea0e6;
+      font-weight: 300;
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .subtitle {
+      color: #666;
+      font-size: 1.2em;
+      margin-bottom: 40px;
+      font-weight: 300;
+  }
+  
+  .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+  }
+  
+  .main-button {
+      display: inline-block;
+      padding: 20px 40px;
+      background: linear-gradient(45deg, #2ea0e6, #1c4269);
+      color: white;
+      text-decoration: none;
+      border-radius: 50px;
+      font-size: 1.1em;
+      font-weight: 400;
+      transition: all 0.3s ease;
+      box-shadow: 0 10px 25px rgba(46, 160, 230, 0.3);
+      border: none;
+      cursor: pointer;
+  }
+  
+  .main-button:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 35px rgba(46, 160, 230, 0.4);
+      background: linear-gradient(45deg, #1c4269, #2ea0e6);
+  }
+  
+  .secondary-button {
+      display: inline-block;
+      padding: 15px 30px;
+      background: rgba(255, 255, 255, 0.8);
+      color: #2ea0e6;
+      text-decoration: none;
+      border-radius: 30px;
+      font-size: 1em;
+      font-weight: 400;
+      transition: all 0.3s ease;
+      border: 2px solid #2ea0e6;
+      cursor: pointer;
+  }
+  
+  .secondary-button:hover {
+      background: #2ea0e6;
+      color: white;
+      transform: translateY(-2px);
+  }
+  
+  .logo {
+      width: 120px;
+      height: 120px;
+      margin-bottom: 30px;
+      border-radius: 50%;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  }
+  
+  .footer {
+      margin-top: 40px;
+      color: #666;
+      font-size: 0.9em;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+    <img src="/img/logo_xrlab.png" alt="XRLab Logo" class="logo">
+    <h1>XRLab Manager</h1>
+    <p class="subtitle">Gestión de recursos del laboratorio</p>
+    
+    <div class="button-grid">
+      <a href="/events" class="main-button">
+        📅 Eventos
+      </a>
+      <a href="/videos" class="main-button">
+        🎥 Videos
+      </a>
+      <!-- Espacio para futuros botones -->
+    </div>
+    
+    <div class="footer">
+      <p>Sistema de gestión XRLab</p>
+    </div>
+  </div>
+</body>
+</html>

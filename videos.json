@@ -1,0 +1,2603 @@
+[
+  {
+    "title": "DRoom paper",
+    "type": "tech",
+    "date": "Nov 2019",
+    "duration": "2:39",
+    "photo": "img/videoicons/droom1.jpg",
+    "description": "Supplementary video for DRoom paper",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/Droom_experiment.mp4"
+      },
+      {
+        "name": "-Vimeo",
+        "url": "https://vimeo.com/374927299"
+      },
+      {
+        "name": "-YouTube1",
+        "url": "https://youtu.be/E2k_5Hk-ONw"
+      },
+      {
+        "name": "-YouTube2",
+        "url": "https://youtu.be/MN_CMEdjNRM"
+      },
+      {
+        "name": "-Anonymized(Intranet)",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/video_droom_anonimo.mp4"
+      },
+      {
+        "name": "-Anonymized(Vimeo)",
+        "url": "https://vimeo.com/374175004"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Nov 2019DRoom paper"
+  },
+  {
+    "title": "VR driving",
+    "type": "tech",
+    "date": "Sep 2017",
+    "duration": "1:53",
+    "photo": "img/videoicons/car.jpg",
+    "description": "Drive a car remotely using VR goggles",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/coche_14_09_2017_v3.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Sep 2017VR driving"
+  },
+  {
+    "title": "AMATISTA content",
+    "type": "tech",
+    "date": "June 2022",
+    "duration": "1:13/4:25",
+    "photo": "img/videoicons/amatistacontent.jpg",
+    "description": "Summary of contents recorded for AMATISTA",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "(4min) https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202206_AMATISTA_content_4min.mp4"
+      },
+      {
+        "name": "Intranet",
+        "url": "(1min) https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202206_AMATISTA_content_1min.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "June 2022 AMATISTA content"
+  },
+  {
+    "title": " XaRaoke",
+    "type": "tech",
+    "date": "November 2022",
+    "duration": "1:27",
+    "photo": "img/videoicons/xaraoke.jpg",
+    "description": "Our Distributed Reality applied to a fun use case: a karaoke in which you see yourself (your own body) in a stadium with excited audience... if you sing well.",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202211_XaRaoke.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/FmisgRVJphY"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "November2022XaRaoke",
+    "category": "XR Offloading"
+  },
+  {
+    "title": "VolcanoXR",
+    "type": "",
+    "date": "January 2025",
+    "duration": "",
+    "photo": "img/videoicons/volcanxrlucia.jpg",
+    "description": "Volcano demo full video",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202412_VolcanoXR.mp4"
+      },
+      {
+        "name": "Intranet,",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202501_VolcanoXR_IEEEVR.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/PtO0uwlZPp8"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "January2025VolcanoXR",
+    "category": "XR Offloading"
+  },
+  {
+    "title": " Volcano catwalk",
+    "type": "promo",
+    "date": "January 2022",
+    "duration": "1:25",
+    "photo": "img/videoicons/volcano_shot.jpg",
+    "description": "Gamified (Volcano) proof of concept of body segmentation with AI/ML in the Edge",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/AIR4_VOLCAN.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/9sQSi5lu-WY"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/XiMmD1UzDiI"
+      },
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202201_OFFLOADING_VOLCAN_IEEEVR.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "January2022Volcanocatwalk",
+    "category": "XR Offloading"
+  },
+  {
+    "title": " Forest collect",
+    "type": "promo",
+    "date": "January 2022",
+    "duration": "00:55",
+    "photo": "img/videoicons/bosque_shot.jpg",
+    "description": "Gamified (Bosque) XR offloading",
+    "links": [
+      {
+        "name": "Intrane",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202201_OFFLOADING_BOSQUE.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "January2022Forestcollect",
+    "category": "XR Offloading"
+  },
+  {
+    "title": "Owl concept (through icons, May 2021)",
+    "type": "unedited",
+    "date": "through icons, May 2021",
+    "duration": "",
+    "photo": "img/videoicons/owlconf.png",
+    "description": "",
+    "links": [
+      {
+        "name": "owlconcept.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/owlconcept.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_throughiconsMay2021_Owlconceptthroughico",
+    "category": "Unedited"
+  },
+  {
+    "title": "Owl for remote audit of fiber installation (raw video, May 2021)",
+    "type": "unedited",
+    "date": "raw video, May 2021",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "Owl Remote Audit.mp",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/Owl%20Remote%20Audit.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_rawvideoMay2021_Owlforremoteauditoff",
+    "category": "Unedited"
+  },
+  {
+    "title": "AMATISTA tests (preliminary, no rights yet, do not distribute)",
+    "type": "unedited",
+    "date": "preliminary, no rights yet, do not distribute",
+    "duration": "",
+    "photo": "img/videoicons/amatista_foto2.jpg",
+    "description": "",
+    "links": [
+      {
+        "name": "RESIDENCIA_PRUEBAS_GAFAS_VR.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/RESIDENCIA_PRUEBAS_GAFAS_VR.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_preliminarynorightsyetdonotdistribute_AMATISTAtestsprelimi",
+    "category": "Unedited"
+  },
+  {
+    "title": "Owl use case with horses (preliminary tests, May 2021)",
+    "type": "unedited",
+    "date": "preliminary tests, May 2021",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "horses_3.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/horses_3.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_preliminarytestsMay2021_Owlusecasewithhorses",
+    "category": "Unedited"
+  },
+  {
+    "title": "Perkins walking outdoors (october 2022)",
+    "type": "unedited",
+    "date": "october 2022",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "perkins_parque.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/perkins_parque.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_october2022_Perkinswalkingoutdoo",
+    "category": "Unedited"
+  },
+  {
+    "title": "Paco talking japanese with Kirobo (november 2022)",
+    "type": "unedited",
+    "date": "november 2022",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "kirobo_unboxed.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/kirobo_unboxed.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_november2022_Pacotalkingjapanesew",
+    "category": "Unedited"
+  },
+  {
+    "title": "Owl Lens preliminary test (may 2022)",
+    "type": "unedited",
+    "date": "may 2022",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "Lens test.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/Lens%20test.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_may2022_OwlLenspreliminaryte",
+    "category": "Unedited"
+  },
+  {
+    "title": "Boston Dynamics meets Paco's creature (may 2022)",
+    "type": "unedited",
+    "date": "may 2022",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "boston-bio.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/boston-bio.mp4"
+      },
+      {
+        "name": "short version",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/Spot_and_Friend.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_may2022_BostonDynamicsmeetsP",
+    "category": "Unedited"
+  },
+  {
+    "title": "First tests of reverse presence including hands in avatars (july 2022)",
+    "type": "unedited",
+    "date": "july 2022",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "Avatar with hands.3gpp",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/Avatar%20with%20hands.3gpp"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_july2022_Firsttestsofreversep",
+    "category": "Unedited"
+  },
+  {
+    "title": "First video of Perkins, our robotic dog (august 2022)",
+    "type": "unedited",
+    "date": "august 2022",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "rex_debut.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/rex_debut.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_august2022_FirstvideoofPerkinso",
+    "category": "Unedited"
+  },
+  {
+    "title": "A 360 tour in Murray Hill, recorded for DIDs (around 2018)",
+    "type": "unedited",
+    "date": "around 2018",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "DID_showcase_anomaly.MP4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/DID_showcase_anomaly.MP4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_around2018_A360tourinMurrayHill",
+    "category": "Unedited"
+  },
+  {
+    "title": "First tests of Kevin (Photorealistic avatar in Unity), march 2023",
+    "type": "unedited",
+    "date": "Photorealistic avatar in Unity",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "Kevin.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/Kevin.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_PhotorealisticavatarinUnity_FirsttestsofKevinPho",
+    "category": "Unedited"
+  },
+  {
+    "title": "Owl VR app experience from HMD (June 2021)",
+    "type": "unedited",
+    "date": "June 2021",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "owl_app_experience_june21.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/owl_app_experience_june21.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_June2021_OwlVRappexperiencefr",
+    "category": "Unedited"
+  },
+  {
+    "title": "Robot in Segovia driven with immersive cockpit from Madrid (June 2021)",
+    "type": "unedited",
+    "date": "June 2021",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "Minibus.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/Minibus.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_June2021_RobotinSegoviadriven",
+    "category": "Unedited"
+  },
+  {
+    "title": "Preliminary demo of avatars in Owl client (April 2021)",
+    "type": "unedited",
+    "date": "April 2021",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "Owl_Avatares.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/Owl_Avatares.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_April2021_Preliminarydemoofava",
+    "category": "Unedited"
+  },
+  {
+    "title": "DISADIS video material (2022): https",
+    "type": "unedited",
+    "date": "2022",
+    "duration": "",
+    "photo": "img/videoicons/disadis.jpg",
+    "description": "",
+    "links": [
+      {
+        "name": "playlist",
+        "url": "https://www.youtube.com/playlist?list=PLNUCE8FS9fea-vm3go-3L4bV0wzRz7_E8"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited_2022_DISADISvideomaterial",
+    "category": "Unedited"
+  },
+  {
+    "title": "Our test of Facebook Horizon Workrooms",
+    "type": "unedited",
+    "date": "",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "HorizonWorkrooms.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/HorizonWorkrooms.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited__OurtestofFacebookHor",
+    "category": "Unedited"
+  },
+  {
+    "title": "AMATISTA+Horses, for Town Hall Spain october 2021",
+    "type": "unedited",
+    "date": "",
+    "duration": "",
+    "photo": "img/videoicons/horses_prelim.jpg",
+    "description": "",
+    "links": [
+      {
+        "name": "BL TownHall.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/BL%20TownHall.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited__AMATISTAHorsesforTow",
+    "category": "Unedited"
+  },
+  {
+    "title": "Offloading of egocentric semantic segmentation with ML, October 2021",
+    "type": "unedited",
+    "date": "",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "offloading_catwalk.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/offloading_catwalk.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited__Offloadingofegocentr",
+    "category": "Unedited"
+  },
+  {
+    "title": "Owl content sharing with flat client, October 2021",
+    "type": "unedited",
+    "date": "",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "flat_sees_pointer.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/flat_sees_pointer.mp4"
+      },
+      {
+        "name": "flat_sees_share.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/flat_sees_share.mp4"
+      },
+      {
+        "name": "flat_shares.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/flat_shares.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited__Owlcontentsharingwit",
+    "category": "Unedited"
+  },
+  {
+    "title": "PESCANOVA ideas contest",
+    "type": "unedited",
+    "date": "",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "202111_Pescanova.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202111_Pescanova.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited__PESCANOVAideascontes",
+    "category": "Unedited"
+  },
+  {
+    "title": "Paco metahuman",
+    "type": "unedited",
+    "date": "",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "paco_metahuman.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/paco_metahuman.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited__Pacometahumanpaco_me",
+    "category": "Unedited"
+  },
+  {
+    "title": "First tests of MatriODShka for 6DoF telepresence, march 2023",
+    "type": "unedited",
+    "date": "",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "mattryODSka.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/mattryODSka.mp4"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited__FirsttestsofMatriODS",
+    "category": "Unedited"
+  },
+  {
+    "title": "Unity Transfer by Baldo, december 2023",
+    "type": "unedited",
+    "date": "",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "",
+    "links": [
+      {
+        "name": "Transferencia Unity-20231201_150803-Grabación de la reunión.mp4",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/Transferencia%20Unity-20231201_150803-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4"
+      },
+      {
+        "name": "this link",
+        "url": "https://nokia-my.sharepoint.com/personal/baldomero_rodriguez_ext_nokia_com/_layouts/15/stream.aspx?id=/personal/baldomero_rodriguez_ext_nokia_com/Documents/Recordings/Transferencia%20Unity-20231201_150803-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view&ga=1"
+      },
+      {
+        "name": "Transferencia%20Unity-20231201_150803-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view&ga=1",
+        "url": "https://nokia-my.sharepoint.com/personal/baldomero_rodriguez_ext_nokia_com/_layouts/15/stream.aspx?id=/personal/baldomero_rodriguez_ext_nokia_com/Documents/Recordings/Transferencia%20Unity-20231201_150803-Grabaci%C3%B3n%20de%20la%20reuni%C3%B3n.mp4&referrer=StreamWebApp.Web&referrerScenario=AddressBarCopied.view&ga=1"
+      }
+    ],
+    "tags": [
+      "unedited"
+    ],
+    "id": "Unedited__UnityTransferbyBaldo",
+    "category": "Unedited"
+  },
+  {
+    "title": " The Owl for Horse Therapy",
+    "type": "promo",
+    "date": "September 2021",
+    "duration": "1:350:30",
+    "photo": "img/videoicons/horses_prelim.jpg",
+    "description": "Use case of the Owl for therapy with Horses",
+    "links": [
+      {
+        "name": "Preliminary (YouTube)",
+        "url": "https://youtu.be/KNhPlwHPigg"
+      },
+      {
+        "name": "Short Intranet ES",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/TERAPIA_CON_CABALLOS_ESP_30segs.mp4"
+      },
+      {
+        "name": "Short Intreanet EN",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202109_OwlHorses30seg_EN.mp4"
+      },
+      {
+        "name": "Short YouTube ES",
+        "url": "https://www.youtube.com/watch?v=J3rDSreo5ZY"
+      },
+      {
+        "name": "Mid Intranet ES",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/TERAPIA_CON_CABALLOS_ESP_2_MINS.mp4"
+      },
+      {
+        "name": "Mid Intranet EN",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202109_OwlHorses2min_EN.mp4"
+      },
+      {
+        "name": "Long YouTube ES",
+        "url": "https://youtu.be/P_jQZrEuNJU"
+      },
+      {
+        "name": "Long YouTube EN",
+        "url": "https://youtu.be/DKZYHRnbPmg"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "September2021TheOwlforHorseTherapy",
+    "category": "The Owl"
+  },
+  {
+    "title": "Owl Remote Expert Kids",
+    "type": "promo",
+    "date": "May 2025",
+    "duration": "",
+    "photo": "img/videoicons/owldron.jpg",
+    "description": "An experience with Colegio Base trying the Remote Expert use case with our Immersive Communication technology (the Owl)",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202505_ColegioBase_ExpertoRemoto_ES.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/I69R63SxaZw"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "May2025OwlRemoteExpertKids",
+    "category": "The Owl"
+  },
+  {
+    "title": "Immersive Theater with Owl",
+    "type": "promo",
+    "date": "May 2025",
+    "duration": "3:00",
+    "photo": "img/videoicons/teatro.jpg",
+    "description": "The Owl used for an immersive theatrical experience (6GSANDBOX project)",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202505_OWL_Theater.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/5h8uCxW-Yq0"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "May2025ImmersiveTheaterwithOwl",
+    "category": "The Owl"
+  },
+  {
+    "title": " Owl Treasure Hunt",
+    "type": "promo",
+    "date": "May 2024",
+    "duration": "3:14",
+    "photo": "img/videoicons/owlcolegiobase.jpg",
+    "description": "The Owl used at Colegio Base as a tool for solving a problem collaboratively (Treasure Hunt)",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202405_ColegioBase_Treasure.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/OZ6-JxtNyPI"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "May2024OwlTreasureHunt",
+    "category": "The Owl"
+  },
+  {
+    "title": " The Owl for debates",
+    "type": "promo",
+    "date": "May 2023",
+    "duration": "2:51",
+    "photo": "img/videoicons/owldebatecover.jpg",
+    "description": "A real debate in Colegio Base using the Owl to enable the participation of remote people in both teams",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202305_OwlColegioBase_Debate.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/Qvm-a0x6f2w"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "May2023TheOwlfordebates",
+    "category": "The Owl"
+  },
+  {
+    "title": " The Owl for hybrid education (remote teacher)",
+    "type": "promo",
+    "date": "May 2022",
+    "duration": "3:20",
+    "photo": "img/videoicons/owlcolegiobase.jpg",
+    "description": "Use case of the Owl for a hybrid education, tested in Colegio Base (Madrid) with remote teacher",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202205_OwlColegioBase_RemoteTeacher.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/watch?v=LM9qUndr2Vs"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "May2022TheOwlforhybrideducationremoteteacher",
+    "category": "The Owl"
+  },
+  {
+    "title": " Owl in museum",
+    "type": "promo",
+    "date": "March 2024",
+    "duration": "2:05",
+    "photo": "img/videoicons/museo.jpg",
+    "description": "The Owl and Owo haptic device for immersive visit to museums",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/myR4GeVmyno"
+      },
+      {
+        "name": "YouTube (SANDBOX)",
+        "url": "https://youtu.be/Zatsrv9sfgw"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "March2024Owlinmuseum",
+    "category": "The Owl"
+  },
+  {
+    "title": " The Owl for hybrid education (remote students)",
+    "type": "promo",
+    "date": "March 2022",
+    "duration": "1:54",
+    "photo": "img/videoicons/owlcolegiobase.jpg",
+    "description": "Use case of the Owl for a hybrid education, tested in Colegio Base (Madrid) with remote students",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202203_OwlColegioBase.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/jev3c9HIQ3I"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "March2022TheOwlforhybrideducationremotestudents",
+    "category": "The Owl"
+  },
+  {
+    "title": "Presenting Snowl",
+    "type": "promo",
+    "date": "June 2025",
+    "duration": "1:15",
+    "photo": "img/logo_xrlab.png",
+    "description": "Presenting our immersive communications using Snowl",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/Snowl_Concept.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/XDUrjkaF19A"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "June2025PresentingSnowl",
+    "category": "The Owl"
+  },
+  {
+    "title": " The Owl for Hybrid Conferences",
+    "type": "promo",
+    "date": "July 2021",
+    "duration": "3:53",
+    "photo": "img/videoicons/hybridconference.jpg",
+    "description": "Use case of the Owl for hybrid conferences. Submitted to ISMAR21",
+    "links": [
+      {
+        "name": "Full (Intranet)",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/TheOwl_HybridConference.mp4"
+      },
+      {
+        "name": "Full (YouTube)",
+        "url": "https://youtu.be/wMt8Od9WVX4"
+      },
+      {
+        "name": "Short (YouTube)",
+        "url": "https://youtu.be/pdh25gnEaa0"
+      },
+      {
+        "name": "Short Nologo (YouTube)",
+        "url": "https://youtu.be/BfBkpiykq28"
+      },
+      {
+        "name": "Full Nologo (YouTube)",
+        "url": "https://youtu.be/uTtqa7zNK6o"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "July2021TheOwlforHybridConferences",
+    "category": "The Owl"
+  },
+  {
+    "title": " Owl for IEEEVR 2024",
+    "type": "promo",
+    "date": "January 2024",
+    "duration": "3:30",
+    "photo": "img/videoicons/owlieeevr24.png",
+    "description": "A summary of Owl for the demo that was accepted for IEEEVR 2024 in Florida",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202403_OWL_IEEEVR2024_Demo.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://www.youtube.com/watch?v=YUa8QjFHGlA"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "January2024OwlforIEEEVR2024",
+    "category": "The Owl"
+  },
+  {
+    "title": " Owl concept",
+    "type": "promo",
+    "date": "Jan 2022",
+    "duration": "00:40",
+    "photo": "img/videoicons/owlconf.png",
+    "description": "Schematic Owl concept with teleconference use case",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/owlconference.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Jan2022Owlconcept",
+    "category": "The Owl"
+  },
+  {
+    "title": "The  Owl for Remote Expert",
+    "type": "promo",
+    "date": "Jan 2021",
+    "duration": "5:00",
+    "photo": "img/videoicons/owldron.jpg",
+    "description": "Description of the Owl application with the assembly of a Drone as use case",
+    "links": [
+      {
+        "name": "Full(Intranet)",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202101_OwlDron.mp4"
+      },
+      {
+        "name": "Full(YouTube)",
+        "url": "https://www.youtube.com/watch?v=AQJhOQ_xlGY"
+      },
+      {
+        "name": "Anonymized(Intranet)",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202101_OwlDron_anon.mp4"
+      },
+      {
+        "name": "Short(Intranet)",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202101_OwlDrone_short.mp4"
+      },
+      {
+        "name": "Short(Youtube)",
+        "url": "https://youtu.be/ZbjYL81eNnQ"
+      },
+      {
+        "name": "Animated(YouTube)",
+        "url": "https://youtu.be/kocwYwsqOJo"
+      },
+      {
+        "name": "IEEEVR(YouTube)",
+        "url": "https://youtu.be/BG3h2whcgnY"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Jan2021TheOwlforRemoteExpert",
+    "category": "The Owl"
+  },
+  {
+    "title": " DRictionary",
+    "type": "promo",
+    "date": "April 2023",
+    "duration": "3:30",
+    "photo": "img/videoicons/drictionarybase.jpg",
+    "description": "Testing in Colegio Base our DRictionary game: a version of Pictionary with Distributed Reality",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202304_ColegioBase_DRictionary.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/q0A9Zw0IECw"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "April2023DRictionary",
+    "category": "The Owl"
+  },
+  {
+    "title": " 5G Digital Twin",
+    "type": "tech",
+    "date": "September 2024",
+    "duration": "6:42",
+    "photo": "img/videoicons/5gdt.jpg",
+    "description": "AR Digital Twin of 5G networks including monitoring panels and actuators.",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/KaY7QdLKxtQ?si=0rfmov4unwRSJbvY"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "September20245GDigitalTwin",
+    "category": "Technology"
+  },
+  {
+    "title": " Immersive Comms",
+    "type": "",
+    "date": "Sept 2024",
+    "duration": "3:35",
+    "photo": "img/logo_xrlab.png",
+    "description": "Immersive communications challenge as part of the Design Week",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/y0ar9qQEuss"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Sept2024ImmersiveComms",
+    "category": "Technology"
+  },
+  {
+    "title": "VR driving",
+    "type": "tech",
+    "date": "Sep 2017",
+    "duration": "1:53",
+    "photo": "img/videoicons/car.jpg",
+    "description": "Drive a car remotely using VR goggles",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/coche_14_09_2017_v3.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Sep2017VRdriving",
+    "category": "Technology"
+  },
+  {
+    "title": "VR Conference",
+    "type": "tech promo",
+    "date": "Oct 2018",
+    "duration": "1:20",
+    "photo": "img/videoicons/vrconf.jpg",
+    "description": "Conferencing application based on immersive telepresence",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/201810_VR-Conference.mp4"
+      },
+      {
+        "name": "Vimeo",
+        "url": "https://vimeo.com/402230100"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/BetA_9ILK7s"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Oct2018VRConference",
+    "category": "Technology"
+  },
+  {
+    "title": " Teleoperated AGV (IFEMA video)",
+    "type": "tech",
+    "date": "November 2021",
+    "duration": "2:13",
+    "photo": "img/videoicons/hathitef.jpg",
+    "description": "Our Hathi robot driven through the immersive cockpit application. This is the video shown in FEINDEF event at IFEMA Fair.",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202111_INGENIOUS_Hathi_IFEMA.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/rC0RKhLoI74"
+      },
+      {
+        "name": "Short mix (Intranet)",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/AIR2_ToD.mp4"
+      },
+      {
+        "name": "Short mix (YouTube)",
+        "url": "https://youtu.be/OSoSTgAFo7A"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "November2021TeleoperatedAGVIFEMAvideo",
+    "category": "Technology"
+  },
+  {
+    "title": "BoD Hololens",
+    "type": "tech",
+    "date": "Nov 2019",
+    "duration": "0:44",
+    "photo": "img/videoicons/bod.jpg",
+    "description": "AR demo for BoD (RasPi disassembly)",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/Video_WorkerAssistant.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Nov2019BoDHololens",
+    "category": "Technology"
+  },
+  {
+    "title": " Self Perception VR",
+    "type": "tech promo",
+    "date": "May 2018",
+    "duration": "0:30",
+    "photo": "img/videoicons/selfperception.jpg",
+    "description": "Supporting video for poster\"Towards Self-Perception in Augmented Virtuality:Hand Segmentation with Fully Convolutional Networks\" (Eurographics 2018)",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/201805_SelfPerceptionVR.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "May2018SelfPerceptionVR",
+    "category": "Technology"
+  },
+  {
+    "title": " Drone Photogrammetry",
+    "type": "tech",
+    "date": "March 2021",
+    "duration": "2:45",
+    "photo": "img/videoicons/photogrammetry.png",
+    "description": "Photogrammetry based on captures from a drone",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/DRONE_FOTOGRAMETRIA_CIRCUITO_CTAG.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/a-9wh85MSE0"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "March2021DronePhotogrammetry",
+    "category": "Technology"
+  },
+  {
+    "title": "Field Force of the Future",
+    "type": "tech promo",
+    "date": "March 2018",
+    "duration": "1:20",
+    "photo": "img/videoicons/ffof.jpg",
+    "description": "Our FFoF work for AR based remote expert assistance (no voice)",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/Nokia_FFOF_Sin_voz.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "March2018FieldForceoftheFuture",
+    "category": "Technology"
+  },
+  {
+    "title": " Teleoperated Driving Segovia",
+    "type": "tech",
+    "date": "June 2021",
+    "duration": "2:00",
+    "photo": "img/videoicons/todsegovia.jpg",
+    "description": "Robot in Segovia controlled remotely from Madrid using 5G and an immersive cockpit",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/TeleoperationTest_30JUN_Segovia.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "June2021TeleoperatedDrivingSegovia",
+    "category": "Technology"
+  },
+  {
+    "title": " 5G Field Test Segovia",
+    "type": "tech",
+    "date": "July 2020",
+    "duration": "4:00",
+    "photo": "img/videoicons/5gfieldtest.jpg",
+    "description": "5G measures from a drone in Segovia",
+    "links": [
+      {
+        "name": "Intranert",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/PRO_SEGOVIA_DRONE_5G_VERSION_COMPLETA_1.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "July20205GFieldTestSegovia",
+    "category": "Technology"
+  },
+  {
+    "title": "UbiKey",
+    "type": "tech promo",
+    "date": "July 2018",
+    "duration": "0:57",
+    "photo": "img/videoicons/ubikey.jpg",
+    "description": "Camera based Virtual keyboard",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/201807_UBIKEY.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "July2018UbiKey",
+    "category": "Technology"
+  },
+  {
+    "title": " NaturalUI",
+    "type": "tech",
+    "date": "Feb 2020",
+    "duration": "",
+    "photo": "img/videoicons/thumb.jpg",
+    "description": "Natural UI interactions for DR using Magic Leap and Zed Mini (Sergio work)",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202002_NaturalUI.mp4"
+      },
+      {
+        "name": "Teaser(Intranet)",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202002_NaturalUI_teaser.mp4"
+      },
+      {
+        "name": "Teaser(YouTube)",
+        "url": "https://youtu.be/o7trempRUao"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Feb2020NaturalUI",
+    "category": "Technology"
+  },
+  {
+    "title": "Tapas",
+    "type": "tech promo",
+    "date": "Aug 2018",
+    "duration": "1:09",
+    "photo": "img/videoicons/tapas.jpg",
+    "description": "Demonstration of Distributed Reality (Tapas in Mars)",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/TapasInMars.mp4"
+      },
+      {
+        "name": "Vimeo",
+        "url": "https://vimeo.com/378598544"
+      },
+      {
+        "name": "Link",
+        "url": "https://vimeo.com/378598544"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/L_yIhf_Q61A"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Aug2018Tapas",
+    "category": "Technology"
+  },
+  {
+    "title": " XRLab Plaza",
+    "type": "promo",
+    "date": "June 2025",
+    "duration": "",
+    "photo": "img/videoicons/xrlabteam.jpg",
+    "description": "A quick video showing our nice place in Nokia Spain",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/kyS1PqwPqdk"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "June2025XRLabPlaza",
+    "category": "Team"
+  },
+  {
+    "title": " XRLab Presentation",
+    "type": "promo",
+    "date": "February 2026",
+    "duration": "2:06",
+    "photo": "img/videoicons/xrlabteam.jpg",
+    "description": "Team presentation for internal marketing",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/20260211_XRLabPresentation.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/wqE6yUzfArs"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "February2026XRLabPresentation",
+    "category": "Team"
+  },
+  {
+    "title": " XRLab Team",
+    "type": "promo",
+    "date": "February 2022",
+    "duration": "1:30",
+    "photo": "img/videoicons/xrlabteam.jpg",
+    "description": "Presentation of XRLab team, who we are and what we do",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202202_XRLab_Team.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/WuQ_yOCGpFg"
+      },
+      {
+        "name": "Teleporting People",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/Teleporting%20People%20Tone.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "February2022XRLabTeam",
+    "category": "Team"
+  },
+  {
+    "title": " IMAGINE-B5G",
+    "type": "project promo",
+    "date": "September 204",
+    "duration": "",
+    "photo": "img/videoicons/5gdt.jpg",
+    "description": "Summary of HEU project IMAGINE-B5G",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202409_IMAGINEB5G.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/ZLcvAY81Fdk"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "September204IMAGINEB5G",
+    "category": "Projects"
+  },
+  {
+    "title": "INGENIOUS",
+    "type": "project promo",
+    "date": "September 2022",
+    "duration": "3:02",
+    "photo": "img/videoicons/valenciatod.jpg",
+    "description": "Successful ToD tests with mmW in Port of Valencia",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202209_INGENIOUS_Puerto_Valencia_ToD.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "September2022INGENIOUS",
+    "category": "Projects"
+  },
+  {
+    "title": " MOBIX TELEOPERATED DRIVE",
+    "type": "project promo",
+    "date": "Sep 2020",
+    "duration": "2:00",
+    "photo": "img/videoicons/teleopdrive.jpg",
+    "description": "Recording of cameras attached to car",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202009_TELEOPERATED_DRIVING_TEST.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Sep2020MOBIXTELEOPERATEDDRIVE",
+    "category": "Projects"
+  },
+  {
+    "title": " 5G+TACTILE",
+    "type": "project promo",
+    "date": "October 2023-December 2024",
+    "duration": "",
+    "photo": "img/videoicons/tactile.jpg",
+    "description": "Research project with Universidad de Malaga and CSIC, on advanced use cases in agriculture environments",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/afy4iyFNGds"
+      },
+      {
+        "name": "YouTube)",
+        "url": "https://www.youtube.com/watch?v=IVoPPXzpnRU"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "October2023December20245GTACTILE",
+    "category": "Projects"
+  },
+  {
+    "title": " AMATISTA Segovia",
+    "type": "project promo",
+    "date": "October 2021",
+    "duration": "3:30",
+    "photo": "img/videoicons/amatista_foto2.jpg",
+    "description": "Immersive music therapy for mitigating neurodegenerative diseases in the Elderly.",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202110_AmatistaSegovia.mp4"
+      },
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202110_AmatistaSegovia_blur.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/ETCdqoHUe38"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "October2021AMATISTASegovia",
+    "category": "Projects"
+  },
+  {
+    "title": " 5GRECORDS",
+    "type": "project promo",
+    "date": "October 2021",
+    "duration": "3:16",
+    "photo": "img/videoicons/5grec.jpg",
+    "description": "Summary of objectives of 5GRECORDS project (Free Viewport video over 5G)",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202110_5GRECORDS.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "October20215GRECORDS",
+    "category": "Projects"
+  },
+  {
+    "title": "MOBIX DRIVE TEST AT DEKRA",
+    "type": "project promo",
+    "date": "Oct 2020",
+    "duration": "2:20",
+    "photo": "img/videoicons/dekra.jpg",
+    "description": "Drive test at Dekra premises with cameras on car",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/:v:/r/sites/blspain/SiteAssets/SitePages/Videos/202010_TELEOPERATED_DRIVING_CAR_NBL_DEKRA.mp4?csf=1&web=1&e=G6jeuk"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Oct2020MOBIXDRIVETESTATDEKRA",
+    "category": "Projects"
+  },
+  {
+    "title": " MOBIX ToD (Nov 2021)",
+    "type": "project promo",
+    "date": "Novemeber 2021",
+    "duration": "3:00",
+    "photo": "img/videoicons/autonomousbridge.jpg",
+    "description": "Status of teleoperated driving application from MOBIX project",
+    "links": [
+      {
+        "name": "IFEMA rolling video",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202111_MOBIX_Shuttle_IFEMA.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Novemeber2021MOBIXToDNov2021",
+    "category": "Projects"
+  },
+  {
+    "title": " AGROGREEN sensors",
+    "type": "project promo",
+    "date": "November 2022",
+    "duration": "3:23",
+    "photo": "img/videoicons/perkinsuva.png",
+    "description": "Status summary of agriculture sensors, 5G island and vehicles in AGROGREEN project",
+    "links": [
+      {
+        "name": "Intranet (ES)",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202211_AGROGREEN_5G_SENSORS_ES.mp4"
+      },
+      {
+        "name": "Intranet (EN)",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202211_AGROGREEN_5G_SENSORS_ENG.mp4"
+      },
+      {
+        "name": "YouTube (EN)",
+        "url": "https://youtu.be/gnBWkF7jGpw"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "November2022AGROGREENsensors",
+    "category": "Projects"
+  },
+  {
+    "title": " CEREIXAL tunnel",
+    "type": "project promo",
+    "date": "May 2021",
+    "duration": "3:40",
+    "photo": "img/videoicons/tunnercereixal.jpg",
+    "description": "5G Connected tunnel in Galicia, part of red.es project (Nokia Spain)",
+    "links": [
+      {
+        "name": "Intranet (ES)",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202106_CEREIXAL_TUNNEL_ES.mp4"
+      },
+      {
+        "name": "Intranet (EN)",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202106_CEREIXAL_TUNNEL_EN.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "May2021CEREIXALtunnel",
+    "category": "Projects"
+  },
+  {
+    "title": "MOBIX project (2019)",
+    "type": "project promo",
+    "date": "March 2019",
+    "duration": "3:53",
+    "photo": "img/videoicons/mobix.jpg",
+    "description": "Description of MOBIX project",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/MASTER_PRO_NOKIA_CTAG_v1.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "March2019MOBIXproject2019",
+    "category": "Projects"
+  },
+  {
+    "title": " AMATISTA content",
+    "type": "project promo",
+    "date": "June 2022",
+    "duration": "1:134:25",
+    "photo": "img/videoicons/amatistacontent.jpg",
+    "description": "Summary of contents recorded for AMATISTA",
+    "links": [
+      {
+        "name": "Intranet (4min)",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202206_AMATISTA_content_4min.mp4"
+      },
+      {
+        "name": "Intranet (1min)",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202206_AMATISTA_content_1min.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "June2022AMATISTAcontent",
+    "category": "Projects"
+  },
+  {
+    "title": " IMAGINE-B5G Maritime 5G",
+    "type": "project promo",
+    "date": "July 2025",
+    "duration": "3:58",
+    "photo": "img/videoicons/5gdt.jpg",
+    "description": "5G Measures at Sea (Valencia) and associated use case for IMAGINE-B5G project",
+    "links": [
+      {
+        "name": "YouTube (ES)",
+        "url": "https://youtu.be/B6Xt17ieo8k"
+      },
+      {
+        "name": "YouTube (EN)",
+        "url": "https://youtu.be/Tcx_B00Ld30"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "July2025IMAGINEB5GMaritime5G",
+    "category": "Projects"
+  },
+  {
+    "title": " 5G-RECORDS music e",
+    "type": "project promo",
+    "date": "July 2022",
+    "duration": "3:33",
+    "photo": "img/videoicons/cucoluisa.jpg",
+    "description": "Final event for 5GRECORDS: Free Viewpoint video music event",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202207_5GRECORDS_CucoLuisa.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/NORZTy--djk"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "July20225GRECORDSmusice",
+    "category": "Projects"
+  },
+  {
+    "title": "COMODIA Fire Training",
+    "type": "project promo",
+    "date": "January 2025",
+    "duration": "1:13",
+    "photo": "img/logo_xrlab.png",
+    "description": "Fire training mixed reality application, belongs to COMODIA project",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/fGendILemc4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "January2025COMODIAFireTraining",
+    "category": "Projects"
+  },
+  {
+    "title": " UNICO-UPV-Haptics",
+    "type": "project promo",
+    "date": "January 2025",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "Project UNICO with UPV about Digital Twins for ports and industry",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202501_UPV_Haptics.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/vo2NrmDgR4Y"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "January2025UNICOUPVHaptics",
+    "category": "Projects"
+  },
+  {
+    "title": " UNICO-UPV-Digitial Twin",
+    "type": "project promo",
+    "date": "January 2025",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "Project UNICO with UPV about Digital Twins for ports and industry",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202501_UPV_Twins.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/PRIY-Wd4TsE"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "January2025UNICOUPVDigitialTwin",
+    "category": "Projects"
+  },
+  {
+    "title": " AMATISTA official tests",
+    "type": "project promo",
+    "date": "January 2022",
+    "duration": "5:15",
+    "photo": "img/videoicons/amatista_offical.jpg",
+    "description": "Results of first tests in AMATISTA, including interviews",
+    "links": [
+      {
+        "name": "Intran",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202201_AMATISTA_PRUEBAS_OFICIALES.mp4"
+      },
+      {
+        "name": "YouTube (with subtitles)",
+        "url": "https://youtu.be/QKJAzx6BO3A"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "January2022AMATISTAofficialtests",
+    "category": "Projects"
+  },
+  {
+    "title": " 5GPERFECTA",
+    "type": "project promo",
+    "date": "Jan 2020",
+    "duration": "1:38",
+    "photo": "img/videoicons/5gperfecta.jpg",
+    "description": "Jack rover cruising in a wine cellar, within the scope of 5GPERFECTA project",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/20200124_5G_PERFECTA.mp4"
+      },
+      {
+        "name": "CELTIC logo",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/5GPERFECTA_CELTIC.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Jan20205GPERFECTA",
+    "category": "Projects"
+  },
+  {
+    "title": " MONALIS",
+    "type": "project promo",
+    "date": "Jan 2019",
+    "duration": "3:52",
+    "photo": "img/videoicons/monalis.jpg",
+    "description": "Description of MONALIS project",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/201901_PROYECTO_MONALIS_2019_LQ.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Jan2019MONALIS",
+    "category": "Projects"
+  },
+  {
+    "title": "COREMAT6G",
+    "type": "project promo",
+    "date": "February 2026",
+    "duration": "4:30",
+    "photo": "img/videoicons/coremat.jpg",
+    "description": "Experimenting with RIS using our trailer network at Valencia",
+    "links": [
+      {
+        "name": "Intranet EN,",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202602_COREMAT_6G_EN.mp4"
+      },
+      {
+        "name": "Intranet ES",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202602_COREMAT_6G_ES.mp4"
+      },
+      {
+        "name": "YouTube EN",
+        "url": "https://youtu.be/nvIFCsjrFi4"
+      },
+      {
+        "name": "YouTube ES",
+        "url": "https://youtu.be/F6Pvjc57zCU"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "February2026COREMAT6G",
+    "category": "Projects"
+  },
+  {
+    "title": " MONALIS MADRID",
+    "type": "project promo",
+    "date": "Feb 2019",
+    "duration": "1:00",
+    "photo": "img/videoicons/monalis.jpg",
+    "description": "Final meeting of MONALIS project in Madrid",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/201902_PRO_MONALIS_REUNION_FINAL_MADRID_10.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Feb2019MONALISMADRID",
+    "category": "Projects"
+  },
+  {
+    "title": " INCLUVERSO Teaser",
+    "type": "project teaser",
+    "date": "December 2025",
+    "duration": "0:20",
+    "photo": "img/videoicons/GetGroupImage.jpg",
+    "description": "A 20 seconds teaser of all activities in INCLUVERSO",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/oyCcEsOxA-E"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "December2025INCLUVERSOTeaser",
+    "category": "Projects"
+  },
+  {
+    "title": " IMAGINE-B5G InterSlicing",
+    "type": "project promo",
+    "date": "December 2025",
+    "duration": "1:48",
+    "photo": "img/videoicons/5gdt.jpg",
+    "description": "Teleoperated driving wit interconnection of two private 5G networks with slicing",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/DH0D7_B7lyo"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "December2025IMAGINEB5GInterSlicing",
+    "category": "Projects"
+  },
+  {
+    "title": " DISADIS",
+    "type": "project promo",
+    "date": "December 2022",
+    "duration": "1:50",
+    "photo": "img/videoicons/disadis.jpg",
+    "description": "Summary of DISADIS project (face recognition through Deep Learning over distributed 5G)",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202212_DISADIS_demo.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/6iHR9TVgAlU"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "December2022DISADIS",
+    "category": "Projects"
+  },
+  {
+    "title": "MOBIX review (EoY 2020)",
+    "type": "project promo",
+    "date": "Dec 2020",
+    "duration": "7:30",
+    "photo": "img/videoicons/mobixvr.jpg",
+    "description": "Summary of activities in Mobix, including VR driving",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/201912_MOBIX_Review.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Dec2020MOBIXreviewEoY2020",
+    "category": "Projects"
+  },
+  {
+    "title": " LEAN project",
+    "type": "project promo",
+    "date": "April 2021",
+    "duration": "2:05",
+    "photo": "img/videoicons/lean.jpg",
+    "description": "Project LEAN, which provides sustainable 5G connectivity in rural areas (Nokia Spain)",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/PRO_GREEN_POWERED_5G_NOKIA_RURAL_SITE_1.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/y01G_o5pudQ"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "April2021LEANproject",
+    "category": "Projects"
+  },
+  {
+    "title": " MOBIX project (2020)",
+    "type": "project promo",
+    "date": "April 2020",
+    "duration": "3:58",
+    "photo": "img/videoicons/mobix.jpg",
+    "description": "Update on MOBIX project",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/PRO_5G_MOBIX_SIN_LOGO_5G_FORUM_INTRO3D_THETA.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "April2020MOBIXproject2020",
+    "category": "Projects"
+  },
+  {
+    "title": " FJ23 Elderly",
+    "type": "project promo",
+    "date": "Sept 2024",
+    "duration": "",
+    "photo": "img/videoicons/fj23.jpg",
+    "description": "Summary of activities with Elderly at FJ23 during project COMODIA",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/sf6u8Gd5_qY"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Sept2024FJ23Elderly",
+    "category": "FJ23"
+  },
+  {
+    "title": "FJ23  Visit my Village",
+    "type": "project promo",
+    "date": "February-September 2024",
+    "duration": "",
+    "photo": "img/logo_xrlab.png",
+    "description": "FJ23 users present their home towns",
+    "links": [
+      {
+        "name": "Fausto",
+        "url": "https://youtu.be/xf1e2ERfphw"
+      },
+      {
+        "name": "Félix",
+        "url": "https://youtu.be/zyTYKYnlSk"
+      },
+      {
+        "name": "Felipe",
+        "url": "https://youtu.be/Rg5-RmP3G4w"
+      },
+      {
+        "name": "Jose",
+        "url": "https://youtu.be/fxcc5MLBiG0"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "FebruarySeptember2024FJ23VisitmyVillage",
+    "category": "FJ23"
+  },
+  {
+    "title": "FJ23  Old Professor",
+    "type": "project promo",
+    "date": "February-September 2024",
+    "duration": "",
+    "photo": "img/videoicons/fj23.jpg",
+    "description": "Immersive visit of old professor at FJ23, Project COMODIA",
+    "links": [
+      {
+        "name": "Old Professor",
+        "url": "https://youtu.be/E-qXrNiq7Ec"
+      },
+      {
+        "name": "Mayores",
+        "url": "https://youtu.be/sf6u8Gd5_qY"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "FebruarySeptember2024FJ23OldProfessor",
+    "category": "FJ23"
+  },
+  {
+    "title": " FJ23 Stairs Therapy",
+    "type": "project promo",
+    "date": "February-September 2024",
+    "duration": "",
+    "photo": "img/videoicons/fj23.jpg",
+    "description": "Immersive therapy for mitigating fear to stairs, project COMODIA",
+    "links": [
+      {
+        "name": "YouTube ES",
+        "url": "https://youtu.be/yEuTwUuRuqQ"
+      },
+      {
+        "name": "YouTube EN",
+        "url": "https://youtu.be/W1Tqdy2slTI"
+      },
+      {
+        "name": "Short YouTube EN",
+        "url": "https://youtu.be/qs-FrPpsmH8"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "FebruarySeptember2024FJ23StairsTherapy",
+    "category": "FJ23"
+  },
+  {
+    "title": " FJ23 Job Integration",
+    "type": "project promo",
+    "date": "5:25",
+    "duration": "",
+    "photo": "img/videoicons/fj23.jpg",
+    "description": "VR application for helping in job integration, project INCLUVERSO",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/lLDmfoMmTqY"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "525FJ23JobIntegration",
+    "category": "FJ23"
+  },
+  {
+    "title": "FJ23 Kitchen Lessons",
+    "type": "project promo",
+    "date": "2025",
+    "duration": "",
+    "photo": "img/videoicons/cocinafj23.jpg",
+    "description": "Remote kitchen course, project INCLUVERSO",
+    "links": [
+      {
+        "name": "Intranet EN",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202601_FJ23_TeleformacionCocina_subt_en.mp4"
+      },
+      {
+        "name": "YouTube EN",
+        "url": "https://youtu.be/QOriaScyCwg"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "2025FJ23KitchenLessons",
+    "category": "FJ23"
+  },
+  {
+    "title": " FJ23 Supervised Appartment",
+    "type": "project promo",
+    "date": "2025",
+    "duration": "",
+    "photo": "img/videoicons/fj23.jpg",
+    "description": "Immersive presence of tutors in supervised appartments, project INCLUVERSO",
+    "links": [
+      {
+        "name": "YouTube EN",
+        "url": "https://youtu.be/7Bp-npMrFp4"
+      },
+      {
+        "name": "YouTube ES",
+        "url": "https://youtu.be/0kUJnC53GUE"
+      },
+      {
+        "name": "Intranet EN",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202502_FJ23_TutorCocina_EN.mp4"
+      },
+      {
+        "name": "Intranet ES",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202502_FJ23_TutorCocina_ES.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "2025FJ23SupervisedAppartment",
+    "category": "FJ23"
+  },
+  {
+    "title": " FJ23 Concerts",
+    "type": "project promo",
+    "date": "2024-2025",
+    "duration": "",
+    "photo": "img/videoicons/fj23.jpg",
+    "description": "Immersive music concerts, project COMODIA",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/VUwlpiFbLhY"
+      },
+      {
+        "name": "YouTube RightsOK",
+        "url": "https://youtu.be/6NMFzGirLI4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "20242025FJ23Concerts",
+    "category": "FJ23"
+  },
+  {
+    "title": " XR Summer School 2025",
+    "type": "event promo",
+    "date": "Sept 2025",
+    "duration": "1:44",
+    "photo": "img/videoicons/xrlabteam.jpg",
+    "description": "2025 edition of the XR Summer School, celebrated at Nokia premises in Madrid",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/-ccyD6z4wCs"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Sept2025XRSummerSchool2025",
+    "category": "Events"
+  },
+  {
+    "title": " Mission to the Moon",
+    "type": "event promo",
+    "date": "Sep 2019",
+    "duration": "3:12",
+    "photo": "img/videoicons/mttm.jpg",
+    "description": "Participation of Bell Labs Spain in the MttM project dring the trial in Fuerteventura",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/201909_MISSION_TO_THE_MOON_FULL_HD_15mgb.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/cqusCczTL98"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Sep2019MissiontotheMoon",
+    "category": "Events"
+  },
+  {
+    "title": "PRESURA",
+    "type": "event promo",
+    "date": "October 2023",
+    "duration": "2:30",
+    "photo": "img/videoicons/presura.jpg",
+    "description": "Participation of XRLab in PRESURA event in Pamplna, with a lot of demos",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/f3U32_0aWes"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "October2023PRESURA",
+    "category": "Events"
+  },
+  {
+    "title": " Antenna5G",
+    "type": "event promo",
+    "date": "Nov 2018",
+    "duration": "2:47",
+    "photo": "img/videoicons/antenna5g.jpg",
+    "description": "First Demonstration of 5G antenna in Segovia",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/201811_PRESENTACION_ANTENA_5G.mpeg"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Nov2018Antenna5G",
+    "category": "Events"
+  },
+  {
+    "title": " 5GFORUM 2025",
+    "type": "event promo",
+    "date": "May 2025",
+    "duration": "2:03",
+    "photo": "img/videoicons/5gf2.jpg",
+    "description": "",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202505_5GForum.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/o3bhJvM93VQ"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "May20255GFORUM2025",
+    "category": "Events"
+  },
+  {
+    "title": " 5GFORUM 2024",
+    "type": "event promo",
+    "date": "May 2024",
+    "duration": "",
+    "photo": "img/videoicons/5gf2.jpg",
+    "description": "",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/IjNVGZ60U5M"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "May20245GFORUM2024",
+    "category": "Events"
+  },
+  {
+    "title": " 5GForum 2022",
+    "type": "event promo",
+    "date": "May 2022",
+    "duration": "1:30",
+    "photo": "img/videoicons/5gf2.jpg",
+    "description": "Participation of XRLab in 5GForum event in Seville, Spain",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202205_5G_FORUM_SEVILLA_2022.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "May20225GForum2022",
+    "category": "Events"
+  },
+  {
+    "title": " IMX 2022 Aveiro",
+    "type": "event promo",
+    "date": "June 2022",
+    "duration": "2:20",
+    "photo": "img/videoicons/aveiroimxvideo.jpg",
+    "description": "Participation of XRLab in IMX Conference 2022 in Aveiro, Portugal",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202206_IMX_Conference.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/xc4NBn3KTyA"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "June2022IMX2022Aveiro",
+    "category": "Events"
+  },
+  {
+    "title": " Emergency5G Valencia",
+    "type": "event promo",
+    "date": "June 2019",
+    "duration": "3:50",
+    "photo": "img/videoicons/valencia5g.jpg",
+    "description": "5G Emergency demo in Valencia EuCNC Conference",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/201906_EMERGENCY_VALENCIA.mp4"
+      },
+      {
+        "name": "Vimeo",
+        "url": "https://vimeo.com/375967960"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/oyWSd82kIFg"
+      },
+      {
+        "name": "CELTIC logo",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/VALENCIA_CELTIC.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "June2019Emergency5GValencia",
+    "category": "Events"
+  },
+  {
+    "title": "Tapas in Segovia",
+    "type": "event promo",
+    "date": "July 2018",
+    "duration": "2:54",
+    "photo": "img/videoicons/tapas.jpg",
+    "description": "Tapas event and demo celebrated in Segovia in Summer 2018",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/201807_EVENTO_TURISMO_INMERSIVO_SEGOVIA_INGLES_3mgb.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "July2018TapasinSegovia",
+    "category": "Events"
+  },
+  {
+    "title": "VideoBus",
+    "type": "event promo",
+    "date": "Jan 2019",
+    "duration": "1:23",
+    "photo": "img/videoicons/segoviabus.jpg",
+    "description": "A line bus in Segovia equipped with 4K screens",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/201901_AUTOBUS%20SEGOVIA%204K%20Y%205G_MASTER%20LQ.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Jan2019VideoBus",
+    "category": "Events"
+  },
+  {
+    "title": "IEEE  ComSoc competition",
+    "type": "promo",
+    "date": "Aug-Nov 2022",
+    "duration": "4:50",
+    "photo": "img/videoicons/comsoc2022.jpg",
+    "description": "Video for participating (and WINNING!) in the IEEE ComSoc student competition 2022",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202210_ComSoc.mp4"
+      },
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/Fe4nFS6ntnI"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "AugNov2022IEEEComSoccompetition",
+    "category": "Events"
+  },
+  {
+    "title": "Emergency5G Malaga",
+    "type": "event promo",
+    "date": "April 2019",
+    "duration": "3:11",
+    "photo": "img/videoicons/malaga5g.jpg",
+    "description": "Emergency assistance demo in 5GForum 2019 in Malaga",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/201905_EMERGENCY_5GFORUM.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "April2019Emergency5GMalaga",
+    "category": "Events"
+  },
+  {
+    "title": "DRoom paper",
+    "type": "tech promo",
+    "date": "Nov 2019",
+    "duration": "2:39",
+    "photo": "img/videoicons/droom1.jpg",
+    "description": "Supplementary video for DRoom paper",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/Droom_experiment.mp4"
+      },
+      {
+        "name": "-Vimeo",
+        "url": "https://vimeo.com/374927299"
+      },
+      {
+        "name": "-YouTube1",
+        "url": "https://youtu.be/E2k_5Hk-ONw"
+      },
+      {
+        "name": "-YouTube2",
+        "url": "https://youtu.be/MN_CMEdjNRM"
+      },
+      {
+        "name": "Anonymized Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/video_droom_anonimo.mp4"
+      },
+      {
+        "name": "Anonymized Vimeo",
+        "url": "https://vimeo.com/374175004"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Nov2019DRoompaper",
+    "category": "DRoom"
+  },
+  {
+    "title": "Real Haptics",
+    "type": "tech promo",
+    "date": "Jan 2019",
+    "duration": "1:43",
+    "photo": "img/videoicons/realhaptics.jpg",
+    "description": "Real Haptics technology (starring Redo)",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/MASTER_DRHaptics_LQ.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "Jan2019RealHaptics",
+    "category": "DRoom"
+  },
+  {
+    "title": "DRoom teaser",
+    "type": "promo",
+    "date": "April 2019",
+    "duration": "0:36",
+    "photo": "img/videoicons/droom_teaser.jpg",
+    "description": "DRoom teaser clip",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/201905_FutureEsc_Teaser.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "April2019DRoomteaser",
+    "category": "DRoom"
+  },
+  {
+    "title": "DRoom intro",
+    "type": "promo",
+    "date": "April 2019",
+    "duration": "1:23",
+    "photo": "img/videoicons/droom_intro.jpg",
+    "description": "DRoom intro video including Paco initial clip",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/201904_FutureEsc.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "April2019DRoomintro",
+    "category": "DRoom"
+  },
+  {
+    "title": "Droom Beta",
+    "type": "tech promo",
+    "date": "",
+    "duration": "1:46",
+    "photo": "img/videoicons/droom_beta.jpg",
+    "description": "First promo video of DRoom Beta (starring Paco)",
+    "links": [
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/MASTER_OBJECT_MANIPULATION_IN_DR_LQ.mp4"
+      }
+    ],
+    "tags": [
+      "ext"
+    ],
+    "id": "DroomBeta",
+    "category": "DRoom"
+  }
+]

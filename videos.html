@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>XRLab Videos</title>
+<style>
+  body {
+      font-family: "Segoe UI", "Segoe UI Semilight", "Segoe", Tahoma, Helvetica, Arial, sans-serif;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 20px;
+      color: #1c4269;
+  }
+  
+  h1 {
+      font-family: "Segoe UI Light", "Segoe UI", "Segoe", Tahoma, Helvetica, Arial, sans-serif;
+      font-size: 2.3em;
+      color: #7695a3;
+      font-weight: 200;
+      margin-bottom: 10px;
+  }
+  
+  h2 {
+      font-family: "Segoe UI Semilight", "Segoe UI", "Segoe", Tahoma, Helvetica, Arial, sans-serif;
+      color: #10263c;
+      font-weight: 300;
+      font-size: 1.46em;
+      margin-top: 30px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #e6e6e6;
+      padding-bottom: 5px;
+  }
+  
+  .intro {
+      margin-bottom: 30px;
+      font-size: 14px;
+      line-height: 1.5;
+  }
+  
+  .button-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #f8f8f8;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+  }
+
+  .button-bar-left {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+  }
+  
+  .button-bar-right {
+      display: flex;
+      gap: 10px;
+  }
+  
+  .button-bar-text {
+      font-size: 14px;
+      font-weight: bold;
+  }
+  
+  select {
+      padding: 5px 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      background-color: white;
+      font-family: "Segoe UI", sans-serif;
+  }
+  
+  button {
+      padding: 8px 15px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+      font-family: "Segoe UI", sans-serif;
+      font-size: 13px;
+  }
+  
+  button:hover {
+      background-color: #0056b3;
+  }
+  
+  .edit-mode button {
+      background-color: #28a745;
+  }
+  
+  .edit-mode button:hover {
+      background-color: #1e7e34;
+  }
+  
+  .videos-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 30px;
+      font-size: 13px;
+  }
+  
+  .videos-table th,
+  .videos-table td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+      vertical-align: top;
+  }
+  
+  .videos-table th {
+      background-color: #167bb9;
+      color: white;
+      font-weight: normal;
+      text-align: center;
+      font-size: 13px;
+  }
+  
+  .videos-table td:first-child {
+      width: 100px;
+      text-align: center;
+  }
+  
+  .videos-table td:nth-child(2) {
+      width: 114px;
+      font-weight: bold;
+  }
+  
+  .videos-table td:nth-child(3) {
+      width: 25px;
+      text-align: center;
+  }
+  
+  .videos-table td:nth-child(4) {
+      width: 66px;
+      font-size: 12px;
+  }
+  
+  .videos-table td:nth-child(5) {
+      width: 29px;
+      font-size: 12px;
+  }
+  
+  .videos-table td:nth-child(6) {
+      width: 296px;
+  }
+  
+  .videos-table td:nth-child(7) {
+      width: 67px;
+      font-size: 12px;
+  }
+  
+  .video-thumbnail {
+      width: 100px;
+      height: auto;
+      max-height: 60px;
+      object-fit: cover;
+      padding: 2px;
+      border-top: 1px solid #c4d0d7;
+      border-left: 1px solid #c4d0d7;
+      border-right: 1px solid #99b0c1;
+      border-bottom: 1px solid #99b0c1;
+      margin: 5px;
+  }
+  
+  .video-title {
+      font-weight: bold;
+      color: #1c4269;
+  }
+  
+  .video-duration {
+      text-align: center;
+      font-family: monospace;
+  }
+  
+  .video-date {
+      font-size: 12px;
+      color: #666;
+  }
+  
+  .video-type {
+      font-size: 11px;
+      background-color: #e9ecef;
+      padding: 2px 4px;
+      border-radius: 3px;
+      text-align: center;
+  }
+  
+  .video-description {
+      line-height: 1.4;
+      color: #1c4269;
+  }
+  
+  .video-links {
+      font-size: 12px;
+  }
+  
+  .video-links a {
+    margin-right: 8px;
+    white-space: nowrap;
+  }
+  
+  .video-links a:hover {
+      text-decoration: underline;
+  }
+  
+  .edit-icon {
+      margin-left: 8px;
+      width: 12px;
+      height: 12px;
+      cursor: pointer;
+      opacity: 0.7;
+  }
+  
+  .edit-icon:hover {
+      opacity: 1;
+  }
+  
+  .category-section {
+      margin-bottom: 40px;
+  }
+  
+  .category-header {
+    color: #1c4269;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #167bb9;
+  }
+  
+  .videos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .no-videos {
+      text-align: center;
+      color: #666;
+      font-style: italic;
+      padding: 20px;
+  }
+</style>
+</head>
+<body>
+  <h1>XRLab Videos</h1>
+  
+  <div class="intro">
+    We try to document what we do with illustrative videos. The table below lists all the videos that we have generated so far.
+  </div>
+
+  <div class="button-bar">    
+    <div class="button-bar-left">
+      <div class="button-bar-text">Year: </div><select id="select-year"></select>
+      <div class="button-bar-text">Type: </div><select id="select-type"></select>
+      <div class="button-bar-text">Category: </div><select id="select-category"></select>
+    </div>
+    
+    <div class="button-bar-right">
+      <button id="editButton" onclick="toggleEdit()">Edit</button>
+      <button onclick="window.location.href='/videos/new'">Add</button>
+    </div>
+  </div>
+
+  <div id="videosContainer"></div>
+  
+  <div class="description" style="margin-top: 20px; font-size: 12px;">
+    <a href="?edit=1">Edit</a>  <a href="/videos/new">Add</a>
+  </div>
+
+<script>
+  var jsondata;
+  var editmode = 0;
+
+  function toggleEdit() {
+      var button = document.getElementById('editButton');
+      var body = document.body;
+      
+      if (editmode == 0) {
+          editmode = 1;
+          button.textContent = "Done";
+          body.classList.add('edit-mode');
+      } else {
+          editmode = 0;
+          button.textContent = "Edit";
+          body.classList.remove('edit-mode');
+      }
+      fillVideosList();
+  }
+  
+  function getOrdinal(num) {
+    if (typeof num !== 'number' || isNaN(num)) {
+        return ''; 
+    }
+    const lastDigit = num % 10;
+    const lastTwoDigits = num % 100;
+    if (lastTwoDigits >= 11 && lastTwoDigits <= 13) {
+        return num + 'th';
+    } else if (lastDigit === 1) {
+        return num+'st';
+    } else if (lastDigit === 2) {
+        return num+'nd';
+    } else if (lastDigit === 3) {
+        return num+'rd';
+    } else {
+        return num+'th';
+    }
+  }
+
+  function formatDate(inputDate) {
+    const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+    const year = inputDate.getFullYear();
+    const monthIndex = inputDate.getMonth();
+    const day = inputDate.getDate();
+    const monthName = months[monthIndex];
+    return `${monthName} ${getOrdinal(day)}, ${year}`;
+  }
+
+  function formatVideoDate(dateString) {
+    // Handle YYYY-MM format
+    if (dateString.length === 7) {
+      const [year, month] = dateString.split('-');
+      const monthNames = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
+      return monthNames[parseInt(month) - 1] + ' ' + year;
+    }
+    return dateString;
+  }
+
+  function generateLinks(links) {
+    if (links.length == 0)
+        return "";
+    
+    let linksTxt = "";
+    links.forEach(link => {
+        linksTxt += `<a href="${link.url}" target="_blank">${link.name}</a><br>`;
+    });
+    return linksTxt;
+  }
+
+  function generateVideoRow(video) {
+    const videoId = encodeURIComponent(video.id);
+    const thumbnail = video.photo ? video.photo : 'img/logo_xrlab.png';
+    const dateFormatted = formatVideoDate(video.date);
+    const links = generateLinks(video.links);
+    let editIcon = '';
+    if (editmode) {
+      editIcon = `<a href="/videos/new?id=${videoId}"><img src="img/pencil.png" class="edit-icon" alt="Edit"></a>`;
+    }
+    return `
+      <tr>
+        <td><img src="${thumbnail}" alt="${video.title}" class="video-thumbnail"></td>
+        <td class="video-title">${video.title}${editIcon}</td>
+        <td class="video-duration">${video.duration}</td>
+        <td class="video-date">${dateFormatted}</td>
+        <td class="video-type">${video.type}</td>
+        <td class="video-description">${video.description}</td>
+        <td class="video-links">${links}</td>
+      </tr>
+    `;
+  }
+
+  function addOption(select, val) {
+    const option = document.createElement('option');
+    option.value = val;
+    option.textContent = val;
+    select.appendChild(option);
+  }
+      
+  function fillSelect() {
+    const yearlist = document.getElementById("select-year");
+    const years = new Set();
+    
+    jsondata.forEach(video => {
+      const date = video.date + "-01"; // Add day to make valid date
+      const eventYear = new Date(date).getFullYear();
+      if (!isNaN(eventYear)) {
+          years.add(eventYear);
+      }
+    });
+    
+    // Add "All" first, then all years
+    addOption(yearlist, "All");
+    Array.from(years).sort((a, b) => b - a).forEach(year => {
+      addOption(yearlist, year);
+    });
+
+    const typelist = document.getElementById("select-type");
+    const types = new Set();
+    
+    jsondata.forEach(video => {
+      const type = video.type;
+      if (type && type.trim()) {
+          types.add(type.trim());
+      }
+    });
+    
+    // Add "All" first, then all types
+    addOption(typelist, "All");
+    Array.from(types).sort().forEach(type => {
+      addOption(typelist, type);
+    });
+    
+    const categorylist = document.getElementById("select-category");
+    const categories = new Set();
+    
+    jsondata.forEach(video => {
+      const category = video.category;
+      if (category && category.trim()) {
+          categories.add(category.trim());
+      }
+    });
+    
+    // Add "All" first, then all categories
+    addOption(categorylist, "All");
+    Array.from(categories).sort().forEach(category => {
+      addOption(categorylist, category);
+    });
+  }
+  
+  function groupVideosByCategory(videos) {
+    const categories = {};
+    
+    videos.forEach(video => {
+      const category = video.category || 'Other';
+      
+      if (!categories[category]) {
+        categories[category] = [];
+      }
+      
+      categories[category].push(video);
+    });
+    
+    // Sort categories in a specific order
+    const categoryOrder = ['Technology', 'Projects', 'Events', 'DRoom', 'The Owl', 'FJ23', 'Team', 'XR Offloading'];
+    const sortedCategories = {};
+    
+    // Add categories in the preferred order
+    categoryOrder.forEach(cat => {
+      if (categories[cat]) {
+        sortedCategories[cat] = categories[cat];
+      }
+    });
+    
+    // Add any remaining categories
+    Object.keys(categories).forEach(cat => {
+      if (!categoryOrder.includes(cat)) {
+        sortedCategories[cat] = categories[cat];
+      }
+    });
+    
+    return sortedCategories;
+  }
+  
+  function fillVideosList() {
+    const container = document.getElementById('videosContainer');
+    
+    // Get filtered data
+    const yearFilter = document.getElementById('select-year').value;
+    const typeFilter = document.getElementById('select-type').value;
+    const categoryFilter = document.getElementById('select-category').value;
+    
+    let filteredData = jsondata.filter(video => {
+      // Filter by year
+      if (yearFilter !== "All") {
+        const videoYear = new Date(video.date + "-01").getFullYear();
+        if (isNaN(videoYear) || videoYear != yearFilter) {
+          return false;
+        }
+      }
+      
+      // Filter by type
+      if (typeFilter !== "All" && video.type !== typeFilter) {
+        return false;
+      }
+      
+      // Filter by category
+      if (categoryFilter !== "All" && video.category !== categoryFilter) {
+        return false;
+      }
+      
+      // Hide drafts in non-edit mode
+      if (!editmode && video.tags && video.tags.includes("draft")) {
+        return false;
+      }
+      
+      return true;
+    });
+
+    if (filteredData.length === 0) {
+      container.innerHTML = '<div class="no-videos">No videos found matching the current filters.</div>';
+      return;
+    }
+
+    // Group filtered videos by category
+    const groupedVideos = groupVideosByCategory(filteredData);
+    
+    let html = '';
+    
+    // Generate HTML for each category with header
+    Object.keys(groupedVideos).forEach(category => {
+      if (groupedVideos[category].length > 0) {
+        // Add category header
+        html += `<div class="category-section">`;
+        html += `<h2 class="category-header">${category}</h2>`;
+        html += `<table class="videos-table">`;
+        html += `<thead><tr><th>Thumbnail</th><th>Name</th><th>Dur</th><th>Date</th><th>Type</th><th>Description</th><th>Links</th></tr></thead>`;
+        html += `<tbody>`;
+        
+        // Sort videos within category by date (ascending - oldest first) then title
+        const sortedCategoryVideos = groupedVideos[category].sort((a, b) => {
+          // Handle different date formats
+          const dateA = a.date.toLowerCase();
+          const dateB = b.date.toLowerCase();
+          
+          // Try to parse as date, fallback to string comparison
+          try {
+            const dateObjA = new Date(dateA.includes('-') ? dateA + '-01' : '01 ' + dateA);
+            const dateObjB = new Date(dateB.includes('-') ? dateB + '-01' : '01 ' + dateB);
+            if (!isNaN(dateObjA.getTime()) && !isNaN(dateObjB.getTime())) {
+              return dateObjA.getTime() - dateObjB.getTime(); // Ascending (oldest first)
+            }
+          } catch (e) {
+            // Fallback to string comparison
+          }
+          
+          return dateA.localeCompare(dateB);
+        });
+        
+        // Add videos for this category
+        sortedCategoryVideos.forEach(video => {
+          html += generateVideoRow(video);
+        });
+        
+        html += `</tbody></table>`;
+        html += `</div>`;
+      }
+    });
+    
+    container.innerHTML = html;
+  }
+
+  // Read page URL queries
+  const queryString = window.location.search;
+  const params = new URLSearchParams(queryString);
+  const year = params.get('year');
+  editmode = params.get('edit') || 0;
+  
+  // Set up event listeners
+  document.getElementById('select-year').addEventListener('change', fillVideosList);
+  document.getElementById('select-type').addEventListener('change', fillVideosList);
+  document.getElementById('select-category').addEventListener('change', fillVideosList);
+  
+  if (year) {
+    const obj = document.getElementById("pagetitle");
+    if (obj) obj.innerHTML = obj.innerHTML + " " + year;
+  }
+  
+  // Load videos JSON
+  fetch('videos.json', {cache: 'no-cache'})
+    .then(response => response.json())
+    .then(rawdata => {
+      jsondata = rawdata;
+      fillSelect();
+      fillVideosList();
+    })
+    .catch(error => console.error('Error loading videos:', error));
+</script>
+</body>
+</html>
