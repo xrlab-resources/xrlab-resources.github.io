@@ -253,6 +253,15 @@ def static_files(filename):
     """Serve static files."""
     return send_from_directory('.', filename)
 
+@app.route('/<path:filename>')
+def serve_static_files(filename):
+    """Serve static files directly from root directory."""
+    # Check if file exists and is a static file (HTML, CSS, JS, images)
+    if os.path.exists(filename) and filename.endswith(('.html', '.css', '.js', '.jpg', '.jpeg', '.png', '.gif', '.ico', '.svg')):
+        return send_from_directory('.', filename)
+    # If not found, return 404
+    return "File not found", 404
+
 if __name__ == '__main__':
     print(f"Starting XRLab Manager Server on port {PORT}")
     print(f"Open http://localhost:{PORT} - Homepage")
