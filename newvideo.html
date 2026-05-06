@@ -124,13 +124,17 @@
       <div class="form-group">   <label for="title">Title:</label>    <input type="text" id="title" name="title" required></div>
       <div class="form-group">   <label for="type">Type:</label>
 
+
+                  
 	<div>
-	<select id="type" name="type">
-	  <option value="tech">tech</option>
-	  <option value="demo">demo</option>
-	  <option value="talk">talk</option>
-	  <option value="other">other</option>
-	</select>
+          <select id="type" name="type">
+            <option value="tech">Tech</option>
+            <option value="tech promo">Tech Promo</option>
+            <option value="project promo">Project Promo</option>
+            <option value="event promo">Event Promo</option>
+            <option value="promo">Promo</option>
+            <option value="other">Other</option>
+          </select>
 	</div>
       </div>
       
@@ -148,6 +152,7 @@
 	<button type="button" onclick="instructions()">i</button>
 	<button type="button" id="submitBtn" onclick="submitVideo()">Add to videos list</button>
 	<button type="button" onclick="generateJSON(1)">Copy video to clipboard</button>
+	<button type="button" onclick="openDepot()">Open Depot</button>
 	<button type="button" onclick="cleanForm()">Clean Form</button>
       </div>
       
@@ -162,6 +167,11 @@
   // Default tags  array
   const defaultTags = ['talk', 'ext', 'tech', 'demo', 'internal', 'draft', 'alvarov'];
 
+
+  function openDepot() {
+      window.open("https://nokia.sharepoint.com/sites/blspain/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2Fblspain%2FSiteAssets%2FSitePages%2FVideos&viewid=a3b268af%2Dad20%2D4c9d%2Db729%2D1eb3f439aa1d", "_blank");
+  }
+  
 
   function fillForm(obj) {
       for (var key in obj) {
