@@ -147,7 +147,6 @@
       <textarea id="othertags" name="othertags" rows="1" placeholder="comma-separated tags" required></textarea></div>
       
       <div class="form-group">
-	<button type="button" onclick="instructions()">i</button>
 	<button type="button" id="submitBtn" onclick="submitEvent()">Add to events list</button>
 	<button type="button" onclick="generateJSON(1)">Copy event to clipboard</button>
 	<!--<button type="button" onclick="generateJSON(0)">Preview event</button>-->
@@ -237,19 +236,6 @@
       navigator.clipboard.writeText(urls);
       alert("Lista de URLSs copiada al portapeles" + urls);
 
-  }
-  
-
-  function instructions() {
-      t = 'INSTRUCTIONS FOR ADDING EVENTS\n';
-      t +='  1. Create a new event filling this form\n';
-      t +='  2. If needed, upload content to Depot (Intranet)\n';
-      t +='  3. If needed, add photoicons to img/eventicons (git)\n';
-      t +='  4. Click on "Add to events list"\n';
-      t +='  5. If desired, click on "Clean Form" and repeat 1-4 to add more\n';
-      t +='  6. Update events.josn in git with clipboard content. Can be done online with button below\n';
-      
-      alert(t);
   }
   
 

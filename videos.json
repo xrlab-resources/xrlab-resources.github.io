@@ -2,14 +2,19 @@
   {
     "title": "6GVERSUS Trial 1",
     "type": "project promo",
+    "category": "Projects",
     "date": "2026-03",
     "duration": "01:45",
     "photo": "",
-    "description": "Trial 1 of 6GVERSUS project (audio in English)",
+    "description": "Trial 1 of 6GVERSUS EU project (audio in English)",
     "links": [
       {
-        "name": "YouTube",
+        "name": "YouTube(XRLab)",
         "url": "https://youtu.be/pmnOjVE735o"
+      },
+      {
+        "name": "YouTube(Proyecto)",
+        "url": "https://www.youtube.com/watch?v=BlNYJJE2iXA"
       },
       {
         "name": "Intranet",
@@ -21,11 +26,12 @@
       "tech",
       "demo"
     ],
-    "id": "2026-036GVERSUS Trial 1"
+    "id": "2026036GVERSUSTrial1"
   },
   {
     "title": "6GVERSUS Presentation",
     "type": "project promo",
+    "category": "Projects",
     "date": "2026-03",
     "duration": "02:30",
     "photo": "",
@@ -44,85 +50,7 @@
       "ext",
       "tech"
     ],
-    "id": "2026-036GVERSUS Presentation"
-  },
-  {
-    "title": "DRoom paper",
-    "type": "tech",
-    "date": "Nov 2019",
-    "duration": "2:39",
-    "photo": "img/videoicons/droom1.jpg",
-    "description": "Supplementary video for DRoom paper",
-    "links": [
-      {
-        "name": "Intranet",
-        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/Droom_experiment.mp4"
-      },
-      {
-        "name": "-Vimeo",
-        "url": "https://vimeo.com/374927299"
-      },
-      {
-        "name": "-YouTube1",
-        "url": "https://youtu.be/E2k_5Hk-ONw"
-      },
-      {
-        "name": "-YouTube2",
-        "url": "https://youtu.be/MN_CMEdjNRM"
-      },
-      {
-        "name": "-Anonymized(Intranet)",
-        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/video_droom_anonimo.mp4"
-      },
-      {
-        "name": "-Anonymized(Vimeo)",
-        "url": "https://vimeo.com/374175004"
-      }
-    ],
-    "tags": [
-      "ext"
-    ],
-    "id": "Nov 2019DRoom paper"
-  },
-  {
-    "title": "VR driving",
-    "type": "tech",
-    "date": "Sep 2017",
-    "duration": "1:53",
-    "photo": "img/videoicons/car.jpg",
-    "description": "Drive a car remotely using VR goggles",
-    "links": [
-      {
-        "name": "Intranet",
-        "url": "https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Distributed%20Reality%20Solutions/coche_14_09_2017_v3.mp4"
-      }
-    ],
-    "tags": [
-      "ext"
-    ],
-    "id": "Sep 2017VR driving"
-  },
-  {
-    "title": "AMATISTA content",
-    "type": "tech",
-    "date": "June 2022",
-    "duration": "1:13/4:25",
-    "photo": "img/videoicons/amatistacontent.jpg",
-    "description": "Summary of contents recorded for AMATISTA",
-    "links": [
-      {
-        "name": "Intranet",
-        "url": "(4min) https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202206_AMATISTA_content_4min.mp4"
-      },
-      {
-        "name": "Intranet",
-        "url": "(1min) https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos/202206_AMATISTA_content_1min.mp4"
-      }
-    ],
-    "tags": [
-      "ext"
-    ],
-    "id": "June 2022 AMATISTA content"
+    "id": "2026036GVERSUSPresentation"
   },
   {
     "title": " XaRaoke",
@@ -1209,12 +1137,13 @@
     "category": "Technology"
   },
   {
-    "title": " Self Perception VR",
+    "title": "Self Perception VR",
     "type": "tech promo",
+    "category": "Technology",
     "date": "May 2018",
     "duration": "0:30",
     "photo": "img/videoicons/selfperception.jpg",
-    "description": "Supporting video for poster\"Towards Self-Perception in Augmented Virtuality:Hand Segmentation with Fully Convolutional Networks\" (Eurographics 2018)",
+    "description": "Supporting video for poster \"Towards Self-Perception in Augmented Virtuality:Hand Segmentation with Fully Convolutional Networks\" (Eurographics 2018)",
     "links": [
       {
         "name": "Intranet",
@@ -1224,8 +1153,7 @@
     "tags": [
       "ext"
     ],
-    "id": "May2018SelfPerceptionVR",
-    "category": "Technology"
+    "id": "May2018SelfPerceptionVR"
   },
   {
     "title": " Drone Photogrammetry",

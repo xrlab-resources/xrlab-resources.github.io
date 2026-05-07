@@ -1,408 +1,203 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>XRLab Video Generator</title>
-<style>
-  h2 {
-      color: #2ea0e6;
-      font-weight: 100;
-      font-size: 2.3em;
-      font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
-      text-align: center;
-  }
-    label {
-        display: block;
-        margin-bottom: 5px;
-    }
-    input[type="text"],
-    textarea {
-        width: 100%;
-        padding: 5px;
-        margin-bottom: 10px;
-    }
-    .checkbox-group {
-	margin-bottom: 10px;
-    }
-    .checkbox-group label {
-        display: inline;
-        margin-right: 10px;
-       font-weight: normal !important;
-    }
-    .checkbox-group div {
-        display: inline-block;
-        vertical-align: middle;
-    }
-    button {
-        padding: 8px 15px;
-        background-color: #007bff;
-        color: #fff;
-        border: none;
-        cursor: pointer;
-    }
-    buttonaux {
-        padding: 8px 15px;
-        background-color: #aaaaaa;
-        color: #fff;
-        border: none;
-        cursor: pointer;
-    }
-    .blink {
-	-border: 2px solid blue;
-	background-color: #f0f8ff; 
-	transition: background-color 0.2s ease;
-    }
-
-
-    .form-container {
-	max-width: 90%; /* Ancho máximo del formulario */
-	margin: 20px auto; /* Margen superior e inferior automático, centrará el formulario */
-	background-color: #eeeeee;
-	padding: 20px; /* Espacio interno del contenedor */
-	border: 1px solid #ddd; /* Borde sólido */
-	border-radius: 10px; /* Esquinas redondeadas del contenedor */
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-    }
-
-    
-    .form-group button {
-	padding: 8px 15px;
-	background-color: #007bff;
-	color: #fff;
-	border: none;
-	cursor: pointer;
-	border-radius: 20px; /* Esquinas redondeadas */
-	margin: 0 auto; /* Centrar los botones */
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra */
-    }
-    
-    .form-group {
-	display: flex;
-	margin-bottom: 10px;
-    }
-    .form-group label {
-	flex: 1;
-	margin-right: 10px;
-	text-align: right;
-	font-family: Arial, sans-serif; 
-	font-size: 14px;
-	font-weight: bold;
-    }
-    .form-group input, .form-group textarea, .form-group div {
-	flex: 10;
-    }
-    .form-group select {
-	flex: 10;
-	width: auto;
-	align-self: flex-start;
-    }
-
-    .form-group button {
-	padding: 8px 15px;
-	background-color: #007bff;
-	color: #ff;
-	border: none;
-	cursor: pointer;
-	border-radius: 10px; /* Esquinas redondeadas */
-	margin: 0 auto; /* Centrar los botones */
-	box-shadow:  2px 2px 0  rgba(0, 0, 0, 0.1); /* Sombra */
-    }
-
-    .form-group {
-	display: flex;
-	justify-content: space-between;
-	margin-top: 20px; 
-    }
-    
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XRLab Video Generator</title>
+    <style>
+        h2 { color: #2ea0e6; font-weight: 100; font-size: 2.3em; font-family: "Segoe UI Semilight", sans-serif; text-align: center; }
+        .form-container { max-width: 90%; margin: 20px auto; background-color: #eeeeee; padding: 20px; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 1px solid #ddd; }
+        .form-group { display: flex; margin-bottom: 10px; align-items: flex-start; }
+        .form-group label { flex: 1; margin-right: 10px; text-align: right; font-weight: bold; margin-top: 5px; font-family: Arial, sans-serif; font-size: 14px; }
+        .form-group input, .form-group textarea, .form-group div { flex: 10; }
+        .form-group select { width: 100%; padding: 5px; }
+        .button-group { display: flex; justify-content: center; gap: 10px; margin-top: 20px; }
+        button { padding: 8px 15px; background-color: #007bff; color: #fff; border: none; cursor: pointer; border-radius: 10px; box-shadow: 2px 2px 0 rgba(0, 0, 0, 0.1); }
+        .blink { background-color: #f0f8ff; transition: background-color 0.2s ease; }
+        .checkbox-group div { display: inline-block; margin-right: 15px; vertical-align: middle; }
+        .checkbox-group label { font-weight: normal !important; margin-left: 4px; }
+    </style>
 </head>
 <body>
-  <h2>XRLab Video Generator</h2>
-  <div class="form-container" id="formcontainer">
-    <form id="videoform">
-      <div class="form-group">   <label for="title">Title:</label>    <input type="text" id="title" name="title" required></div>
-      <div class="form-group">   <label for="type">Type:</label>
+    <h2>XRLab Video Generator</h2>
+    <div class="form-container">
+        <form id="videoform">
+            <div class="form-group"><label for="title">Title:</label><input type="text" id="title" name="title" required></div>
+            
+            <div class="form-group">
+                <label for="type">Type:</label>
+                <div>
+                    <select id="type" name="type">
+                        <option value="tech">Tech</option>
+                        <option value="tech promo">Tech Promo</option>
+                        <option value="project promo">Project Promo</option>
+                        <option value="event promo">Event Promo</option>
+                        <option value="promo">Promo</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+            </div>
 
+            <div class="form-group">
+                <label for="category">Category:</label>
+                <div>
+                    <select id="category" name="category">
+                        <option value="">(Select a category)</option>
+                        <option value="Technology">Technology</option>
+                        <option value="Projects">Projects</option>
+                        <option value="Events">Events</option>
+                        <option value="DRoom">DRoom</option>
+                        <option value="The Owl">The Owl</option>
+                        <option value="FJ23">FJ23</option>
+                        <option value="Team">Team</option>
+                        <option value="XR Offloading">XR Offloading</option>
+                        <option value="Other">Other</option>
+                        <option value="unedited">unedited</option>
+                    </select>
+                </div>
+            </div>
 
-                  
-	<div>
-          <select id="type" name="type">
-            <option value="tech">Tech</option>
-            <option value="tech promo">Tech Promo</option>
-            <option value="project promo">Project Promo</option>
-            <option value="event promo">Event Promo</option>
-            <option value="promo">Promo</option>
-            <option value="other">Other</option>
-          </select>
-	</div>
-      </div>
-      
-      <div class="form-group"><label for="date">Date:</label>    <input type="text" id="date" name="date" placeholder="YYYY-MM" required></div>
-      <div class="form-group"><label for="duration">Duration:</label>    <input type="text" id="duration" name="duration" placeholder="MM:SS" ></div>
-      <div class="form-group"><label for="photo">Photo:</label>    <input type="text" id="photo" name="photo" placeholder="URL or path"></div>
-      <div class="form-group"><label for="description">Description:</label>   <textarea id="description" name="description" rows="4" required></textarea></div>
-      <div class="form-group"><label>Links:</label>
-	<textarea id="links" name="links" rows="2" placeholder="name1 URL1&#10;name2 URL2&#10;..."></textarea></div>
-      <div class="form-group"><label for="tags">Tags:</label> <div id="checkbox-group" class="checkbox-group"></div></div>
-      <div class="form-group"><label for="othertags">Custom Tags:</label>
-      <textarea id="othertags" name="othertags" rows="1" placeholder="comma-separated tags" required></textarea></div>
-      
-      <div class="form-group">
-	<button type="button" onclick="instructions()">i</button>
-	<button type="button" id="submitBtn" onclick="submitVideo()">Add to videos list</button>
-	<button type="button" onclick="generateJSON(1)">Copy video to clipboard</button>
-	<button type="button" onclick="openDepot()">Open Depot</button>
-	<button type="button" onclick="cleanForm()">Clean Form</button>
-      </div>
-      
-    </form>
-  </div>
+            <div class="form-group"><label for="date">Date:</label><input type="text" id="date" name="date" placeholder="May2024" required></div>
+            <div class="form-group"><label for="duration">Duration:</label><input type="text" id="duration" name="duration" placeholder="MM:SS"></div>
+            <div class="form-group"><label for="photo">Photo:</label><input type="text" id="photo" name="photo" placeholder="URL or path"></div>
+            <div class="form-group"><label for="description">Description:</label><textarea id="description" name="description" rows="4" required></textarea></div>
+            <div class="form-group"><label for="links">Links:</label><textarea id="links" name="links" rows="2" placeholder="Name URL"></textarea></div>
+            
+            <div class="form-group">
+                <label>Tags:</label>
+                <div id="checkbox-group" class="checkbox-group"></div>
+            </div>
+            <div class="form-group"><label for="othertags">Custom Tags:</label><textarea id="othertags" name="othertags" rows="1"></textarea></div>
+
+            <div class="button-group">
+                <button type="button" id="submitBtn" onclick="submitVideo()">Add to videos list</button>
+                <button type="button" onclick="generateJSON(1)">Copy video to clipboard</button>
+                <button type="button" onclick="openDepot()">Open Depot</button>
+                <button type="button" onclick="cleanForm()">Clean Form</button>
+            </div>
+        </form>
+    </div>
 
 <script>
+    var jsonArray = [];
+    var videoid = null;
+    const defaultTags = ['talk', 'ext', 'tech', 'demo', 'internal', 'draft', 'alvarov'];
 
-  var jsonArray;
-  var videoid = null;
-  const jsonPath = "/videos.json";
-  // Default tags  array
-  const defaultTags = ['talk', 'ext', 'tech', 'demo', 'internal', 'draft', 'alvarov'];
+    window.onload = () => {
+        const group = document.getElementById('checkbox-group');
+        defaultTags.forEach((tag, i) => {
+            group.innerHTML += `<div><input type="checkbox" name="tags" value="${tag}" id="t${i}"><label for="t${i}">${tag}</label></div>`;
+        });
 
-
-  function openDepot() {
-      window.open("https://nokia.sharepoint.com/sites/blspain/SiteAssets/Forms/AllItems.aspx?id=%2Fsites%2Fblspain%2FSiteAssets%2FSitePages%2FVideos&viewid=a3b268af%2Dad20%2D4c9d%2Db729%2D1eb3f439aa1d", "_blank");
-  }
-  
-
-  function fillForm(obj) {
-      for (var key in obj) {
-	  value = obj[key];
-	  if (key == "tags") {
-	      // Array of text tags
-	      othertags = [];
-	      value.forEach(function(tag) {
-		  var checkbox = document.querySelector(`input[type="checkbox"][name="tags"][value="${tag}"]`);
-		  if (checkbox) {
-		      checkbox.checked = true;
-		  } else {
-		      othertags.push(tag);
-		  }
-	      });
-	      if (othertags.length > 0) {
-		  document.getElementById("othertags").value = othertags;
-	      }
-	  } else if (key == "links") {
-	      linkstext = value.map(obj => `${obj.name} ${obj.url}`).join('\n');
-	      if (linkstext)
-		  document.getElementById("links").value = linkstext;
-	  } else {
-	      var formField = document.getElementById(key);
-	      if (formField) {
-		  formField.value = value;
-	      }
-	  }
-      }
-  }
-
-  function loadJsonArray() {
-      fetch(jsonPath, { cache: 'no-cache'})
-	  .then(response => {
-	      if (!response.ok) {
-		  throw new Error('Error cargando JSON');
-	      }
-	      return response.json();
-	  })
-	  .then(data => {
-	      jsonArray = data;
-	      if (videoid != null) {
-		  video = jsonArray.find(function(obj) {
-		      return obj.id === videoid;
-		  });
-		  if (video != null) {
-		      // Existing video, fill form with current data
-		      fillForm(video);
-		      // Update button text for edit mode
-		      document.getElementById('submitBtn').textContent = 'Update video';
-		      //alert(video);
-		  }
-	      }
-	  })
-	  .catch(function(error) {
-              console.error('Error cargando fichero JSON: ', error);
-	  });
-  }
-      
-
-  function instructions() {
-      t = 'INSTRUCTIONS FOR ADDING VIDEOS\n';
-      t +='  1. Create a new video filling this form\n';
-      t +='  2. Upload video to Intranet or other platform\n';
-      t +='  3. Add thumbnail to img/videoicons (git)\n';
-      t +='  4. Click on "Add to videos list"\n';
-      t +='  5. If desired, click on "Clean Form" and repeat 1-4 to add more\n';
-      
-      alert(t);
-  }
-
-function generateCheckboxes() {
-    const checkboxGroup = document.getElementById('checkbox-group');
-    checkboxGroup.innerHTML = ''; // Cleanup
-
-    defaultTags.forEach((tag, index) => {
-        const checkbox = document.createElement('input');
-        checkbox.type = 'checkbox';
-        checkbox.name = 'tags';
-        checkbox.value = tag;
-        checkbox.id = 'tag' + (index + 1);
-
-        const label = document.createElement('label');
-        label.htmlFor = 'tag' + (index + 1);
-        label.textContent = tag;
-
-        const div = document.createElement('div');
-        div.appendChild(checkbox);
-        div.appendChild(label);
-
-        checkboxGroup.appendChild(div);
-    });
-}
-
-function cleanForm() {
-    const form = document.getElementById('videoform');
-    form.reset();
-}
-
-  
-
-function submitVideo() {
-    const videoform = document.getElementById('videoform');
-    const formData = new FormData(videoform);
-    
-    // Validate required fields
-    const title = formData.get('title')?.trim();
-    const date = formData.get('date')?.trim();
-    
-    if (!title || !date) {
-        alert('Please fill in all required fields: Title and Date');
-        return;
-    }
-    
-    // Submit to server
-    fetch('/add_video', {
-        method: 'POST',
-        body: formData
-    })
-    .then(response => response.json())
-    .then(data => {
-        if (data.success) {
-            alert(data.message + '\nTotal videos: ' + data.total_videos);
-            
-            // If we're in edit mode, redirect to videos page
+        videoid = new URLSearchParams(window.location.search).get("id");
+        fetch("/videos.json", { cache: 'no-cache' }).then(r => r.json()).then(data => {
+            jsonArray = data;
             if (videoid) {
-                window.location.href = '/videos';
-            } else {
-                cleanForm();
-                // Reload videos data
-                loadJsonArray();
+                let v = jsonArray.find(x => x.id === videoid);
+                if (v) {
+                    fillForm(v);
+                    document.getElementById('submitBtn').textContent = 'Update video';
+                }
             }
-        } else {
-            alert('Error: ' + (data.error || 'Unknown error'));
-        }
-    })
-    .catch(error => {
-        console.error('Error submitting video:', error);
-        alert('Error submitting video: ' + error.message);
-    });
-}
+        });
+    };
 
-// generateJSON with form data. action controls what to do with it: 0:preview, 1:clipboard, 2:add to list
-function generateJSON(action) {
-    const videoform = document.getElementById('videoform');
-    const formData = new FormData(videoform);
-    const jsonData = {};
-
-    
-    var tags = [];
-    formData.forEach((value, key) => {
-        if (key === 'tags') {
-	    tags.push(value);
-	} else if (key === 'othertags') {
-	    if (value) {
-		const othertagsArray = value.split(',').map(tag => tag.trim());
-		tags = tags.concat(othertagsArray);
-	    }
-	} else {
-            jsonData[key] = value;
-        }
-    });
-    
-    jsonData['tags'] = tags;
-    jsonData['id'] = jsonData['date'] + jsonData['title'];
-    
-    const linksField = formData.get('links');
-    const linksArray = linksField.split('\n').map(line => {
-	if (line.includes(" ")) {
-                  const [name, url] = line.split(' ').map(item => item.trim());
-                  return  {name, url} ;
-	}
-    }).filter(item => item != null);
-    jsonData['links'] = linksArray;
-
-    
-    const jsonString = JSON.stringify(jsonData, null, 2) + ',';
-    if (action == 0) {
-	// Presenta el JSON en un alert
-	alert("JSON generated:\n\n" + jsonString);
-    } else if (action ==1) {
-	// Copia al portapapeles
-	navigator.clipboard.writeText(jsonString)
-	    .then(function() {
-                    var form= document.getElementById("videoform");
-                    form.classList.add("blink");
-                    setTimeout(function() {
-                        form.classList.remove("blink");
-                    }, 500); // Restore after 500ms
-                })
-                .catch(function(error) {
-                    console.error('Error al copiar al portapapeles: ', error);
+    function fillForm(obj) {
+        for (var key in obj) {
+            let val = obj[key];
+            if (key == "tags") {
+                let other = [];
+                val.forEach(t => {
+                    let cb = document.querySelector(`input[name="tags"][value="${t}"]`);
+                    if (cb) cb.checked = true; else other.push(t);
                 });
-    } else {
-	
-	// Add to videos JSON array, or replace if it existed
-	var idx = jsonArray.findIndex(function(obj) {
-	    return obj.id === jsonData.id;
-	});
-	if (idx != -1) {
-	    jsonArray[idx] = jsonData;
-	    msg = "Video modificado en la lista\n";
-	} else {
-	    jsonArray.unshift(jsonData);
-	    msg = "Video añadido a la lista\n";
-	}
-
-	// Copy array to clipboard
-	var text = JSON.stringify(jsonArray, null, 1);
-	
-	navigator.clipboard.writeText(text);
-	msg = 
-	alert(msg + "Lista copiada al portapapeles ("+jsonArray.length+" videos)");
+                document.getElementById("othertags").value = other.join(', ');
+            } else if (key == "links") {
+                document.getElementById("links").value = val.map(l => `${l.name} ${l.url}`).join('\n');
+            } else {
+                let el = document.getElementById(key);
+                if (el) el.value = val;
+            }
+        }
     }
-}
 
-  function parseQueries() {
-      var urlParams = new URLSearchParams(window.location.search);
-      videoid = urlParams.get("id");
-      console.log('Video ID from URL:', videoid); // Debug log
-  }
+    function getProcessedData() {
+        const form = document.getElementById('videoform');
+        const formData = new FormData(form);
+        const jsonData = {};
+        let tags = [];
 
+        formData.forEach((value, key) => {
+            if (key === 'tags') tags.push(value);
+            else if (key === 'othertags' && value) {
+                tags = tags.concat(value.split(',').map(t => t.trim()).filter(t => t));
+            } else if (key !== 'links') {
+                jsonData[key] = value;
+            }
+        });
 
-  // Generate checkboxes on page load
-  window.onload = generateCheckboxes;
-  parseQueries();
-  loadJsonArray();
+        jsonData['tags'] = tags;
+        
+        // --- GENERACIÓN DE ID ALFANUMÉRICO PURO (Sin espacios ni guiones) ---
+        // Elimina cualquier cosa que no sea letra o número
+        const cleanDate = (jsonData['date'] || "").replace(/[^a-z0-9]/gi, '');
+        const cleanTitle = (jsonData['title'] || "").replace(/[^a-z0-9]/gi, '');
+        jsonData['id'] = cleanDate + cleanTitle;
 
-  
+        const linksText = formData.get('links') || "";
+        jsonData['links'] = linksText.split('\n').map(line => {
+            const p = line.trim().split(/\s+/);
+            if (p.length >= 2) {
+                const url = p.pop();
+                const name = p.join(" ");
+                return { name, url };
+            }
+            return null;
+        }).filter(l => l);
 
-  
+        return jsonData;
+    }
+
+    function submitVideo() {
+        const data = getProcessedData();
+        if (!data.title || !data.date) { alert('Title and Date required'); return; }
+
+        const sendData = new FormData();
+        for (let key in data) {
+            if (key === 'tags') data.tags.forEach(t => sendData.append('tags', t));
+            else if (key === 'links') {
+                // Mantenemos el formato de texto para que parse_links en el server funcione
+                sendData.append('links', document.getElementById('links').value);
+            } else {
+                sendData.append(key, data[key]);
+            }
+        }
+        sendData.append('othertags', document.getElementById('othertags').value);
+
+        fetch('/add_video', { method: 'POST', body: sendData })
+        .then(r => r.json())
+        .then(res => {
+            if (res.success) {
+                alert(res.message);
+                if (videoid) window.location.href = '/videos';
+                else location.reload();
+            } else alert('Error: ' + res.error);
+        });
+    }
+
+    function generateJSON(action) {
+        const data = getProcessedData();
+        const jsonString = JSON.stringify(data, null, 2) + ',';
+        if (action === 1) {
+            navigator.clipboard.writeText(jsonString).then(() => {
+                document.getElementById("videoform").classList.add("blink");
+                setTimeout(() => document.getElementById("videoform").classList.remove("blink"), 500);
+            });
+        }
+    }
+
+    function cleanForm() { location.href = window.location.pathname; }
+    function openDepot() { window.open("https://nokia.sharepoint.com/sites/blspain/SiteAssets/SitePages/Videos", "_blank"); }
 </script>
 </body>
 </html>

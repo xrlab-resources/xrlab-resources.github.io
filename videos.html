@@ -262,7 +262,8 @@
     
     <div class="button-bar-right">
       <button id="editButton" onclick="toggleEdit()">Edit</button>
-      <button onclick="window.location.href='/videos/new'">Add</button>
+      <button onclick="window.location.href='newvideo.html'">Add</button>
+      <button onclick="instructions()">i</button>
     </div>
   </div>
 
@@ -363,6 +364,22 @@
     `;
   }
 
+  function instructions() {
+      txt = "UPDATE INSTRUCTIONS\n";
+      txt += "Recommended process to update this event list:\n";
+      txt += " 1. Using git clone the repository that contains these files\n";
+      txt += " 2. Launch python3 resourcemanager.py\n";
+      txt += " 3. In a browser open 127.0.0.1:5000\n";
+      txt += " 4. Use the Edit or Add buttons here to modify/add content\n";
+      txt += " 5. If desired, upload icons photos to img/videoicons subdir (and add them to git)\n";
+      txt += " 6. If desired, upload videos to the Intranet (open it using Depot button)\n";
+      txt += " 7. commit and push to the repository using git\n";
+      txt += "Good luck!\n";
+   
+      alert(txt);
+  }
+
+  
   function addOption(select, val) {
     const option = document.createElement('option');
     option.value = val;

@@ -6,6 +6,7 @@ A Flask web server that provides an interface to add events to the events.json f
 
 import json
 import os
+import re
 from datetime import datetime
 from flask import Flask, request, render_template, jsonify, redirect, url_for, send_from_directory
 from flask_cors import CORS
@@ -122,63 +123,72 @@ def get_videos():
     videos = load_videos()
     return jsonify(videos)
 
+
 @app.route('/add_video', methods=['POST'])
 def add_video():
-    """Handle video form submission and add video to videos.json."""
     try:
-        # Get form data
+        # 1. Recoger datos del formulario
         form_data = request.form
-        
-        # Parse the video data
+        title_raw = form_data.get('title', '').strip()
+        date_raw = form_data.get('date', '').strip()
+
+        if not title_raw or not date_raw:
+            return jsonify({'error': 'Missing required fields: title, date'}), 400
+
+        # 2. Generar ID limpio (sin nada que no sea letra o número)
+        # Usamos re.sub que ya importamos antes
+        clean_title = re.sub(r'[^a-zA-Z0-9]', '', title_raw)
+        clean_date = re.sub(r'[^a-zA-Z0-9]', '', date_raw)
+        generated_id = clean_date + clean_title
+
+        # 3. Construir el objeto final
         video_data = {
-            'title': form_data.get('title', '').strip(),
+            'title': title_raw,
             'type': form_data.get('type', 'tech').strip(),
-            'date': form_data.get('date', '').strip(),
+            'category': form_data.get('category', '').strip(), # IMPORTANTE
+            'date': date_raw,
             'duration': form_data.get('duration', '').strip(),
             'photo': form_data.get('photo', '').strip(),
             'description': form_data.get('description', '').strip(),
             'links': parse_links(form_data.get('links', '')),
             'tags': parse_tags(form_data.getlist('tags'), form_data.get('othertags', '')),
-            'id': form_data.get('date', '') + form_data.get('title', '')
+            'id': generated_id  # Aquí nos aseguramos de que la clave 'id' EXISTE
         }
-        
-        # Validate required fields
-        if not video_data['title'] or not video_data['date']:
-            return jsonify({'error': 'Missing required fields: title, date'}), 400
-        
-        # Load existing videos
+
+        # 4. Cargar videos actuales
         videos = load_videos()
-        
-        # Check if video already exists (by ID)
+
+        # 5. Buscar si ya existe para actualizar o insertar
         existing_index = None
         for i, video in enumerate(videos):
-            if video.get('id') == video_data['id']:
+            # Usamos .get('id') por seguridad por si algún video viejo no tuviera ID
+            if video.get('id') == generated_id:
                 existing_index = i
                 break
-        
-        # Add or update video
+
         if existing_index is not None:
             videos[existing_index] = video_data
             message = "Video updated successfully"
         else:
-            videos.insert(0, video_data)  # Add to beginning
+            videos.insert(0, video_data)
             message = "Video added successfully"
-        
-        # Save videos
+
+        # 6. Guardar
         if save_videos(videos):
             return jsonify({
                 'success': True,
                 'message': message,
-                'video': video_data,
                 'total_videos': len(videos)
             })
         else:
-            return jsonify({'error': 'Failed to save videos'}), 500
-            
+            return jsonify({'error': 'Failed to save to JSON file'}), 500
+
     except Exception as e:
-        print(f"Error adding video: {e}")
+        # Esto te imprimirá en la consola de Flask exactamente qué falló
+        print(f"Error detallado: {str(e)}")
         return jsonify({'error': f'Server error: {str(e)}'}), 500
 
+    
 @app.route('/events.json')
 def get_events():
     """Serve the events JSON file."""
