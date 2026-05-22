@@ -1,5 +1,44 @@
 [
   {
+    "title": "5GForum 2026",
+    "type": "conference",
+    "date": "2026-05-11",
+    "duration": "2",
+    "location": "Sevilla",
+    "photo": "",
+    "description": "One year more Nokia was represented by XRLab in the national event for the 5G (and now also 6G) ecosystem. We presented several demos in our booth, and Alvaro Villegas gave a keynote about the confluence of AI, XR and 6G.",
+    "links": [
+      {
+        "name": "website",
+        "url": "https://www.5gforum.es/5g-forum-2026/"
+      }
+    ],
+    "tags": [
+      "talk",
+      "ext",
+      "event",
+      "tradeshow",
+      "demo",
+      "alvarov"
+    ],
+    "id": "2026-05-115GForum 2026"
+  },
+  {
+    "title": "Nokia Spain 100th anniversary",
+    "type": "event",
+    "date": "2026-01-29",
+    "duration": "",
+    "location": "Madrid",
+    "photo": "",
+    "description": "XRLab and the innovation that we do was represented by Alvaro Villegas in the 100 year anniversary dinner of Nokia Spain, celebrated in Madrid. Among the speeched from institutional representatives (from National and Regional governments) there was an explicit recognition to the innovation work that we have been doing in the last two decades, really gratifying.",
+    "links": [],
+    "tags": [
+      "event",
+      "alvarov"
+    ],
+    "id": "2026-01-29Nokia Spain 100th anniversary"
+  },
+  {
     "title": "CHI Conference 2026",
     "type": "conference",
     "date": "2026-04-13",
@@ -18,7 +57,8 @@
       "event",
       "tradeshow",
       "conference",
-      "demo"
+      "demo",
+      "alvarov"
     ],
     "id": "2026-04-13CHI Conference 2026"
   },
@@ -75,7 +115,8 @@
     ],
     "tags": [
       "ext",
-      "conference"
+      "conference",
+      "alvarov"
     ],
     "id": "2025-12-08Globecom 2025"
   },
