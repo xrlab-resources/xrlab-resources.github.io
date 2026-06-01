@@ -49,6 +49,30 @@
     }
   },
   {
+    "name": "eucnc",
+    "conference": {
+      "url": "10.0.50.104:5000",
+      "id": "session-3",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "keysight-mal",
+    "conference": {
+      "url": "10.0.50.104:5000",
+      "id": "session-4",
+      "code": "nokia123"
+    }
+  },
+  {
+    "name": "nokia-mad",
+    "conference": {
+      "url": "10.0.50.104:5000",
+      "id": "session-5",
+      "code": "nokia123"
+    }
+  },
+  {
     "name": "dev",
     "conference": {
       "url": "10.0.50.105:5000",

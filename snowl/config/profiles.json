@@ -13,7 +13,7 @@
   },
   {
     "profile": "guest",
-    "rooms": ["local", "xrlab-guest"]
+    "rooms": ["local", "keysight-mal", "nokia-mad", "eucnc", "xrlab-guest"]
   },
   {
     "profile": "uma",
