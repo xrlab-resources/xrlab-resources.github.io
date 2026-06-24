@@ -1,5 +1,55 @@
 [
   {
+    "title": "L4S demo",
+    "type": "tech",
+    "category": "Technology",
+    "date": "Jun2026",
+    "duration": "07:50",
+    "photo": "",
+    "description": "A complete live demo of L4S feature in our 5G lab at Nokia Spain premises",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/UYv-vBk6WOA"
+      },
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/:v:/r/sites/blspain/SiteAssets/SitePages/Videos/202606_L4Sdemo_EN.mp4?csf=1&web=1&e=g9rSiM"
+      }
+    ],
+    "tags": [
+      "ext",
+      "tech",
+      "demo"
+    ],
+    "id": "Jun2026L4Sdemo"
+  },
+  {
+    "title": "COP-PILOT testbed",
+    "type": "project promo",
+    "category": "Projects",
+    "date": "June2026",
+    "duration": "02:52",
+    "photo": "",
+    "description": "Visit to Matanza de Soria to do some tests and meet project partners",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/pz09rJtX_l4"
+      },
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/:v:/r/sites/blspain/SiteAssets/SitePages/Videos/202606_COP_PILOT.mp4?csf=1&web=1&e=rqLx4X"
+      }
+    ],
+    "tags": [
+      "ext",
+      "tech",
+      "demo"
+    ],
+    "id": "June2026COPPILOTtestbed"
+  },
+  {
     "title": "6GVERSUS Trial 1",
     "type": "project promo",
     "category": "Projects",
