@@ -24,7 +24,7 @@
     "mac": "00:04:4b:e6:f1:34",
     "location": "juan home",
     "responsible": "juan",
-    "comments": "splitted"
+    "comments": "ripped"
   },
   {
     "name": "gauss",
@@ -76,7 +76,7 @@
   {
     "name": "kepler",
     "mac": "48:b0:2d:ec:1d:10",
-    "location": "FJXIII",
+    "location": "FJXXIII",
     "responsible": "pablo",
     "password": "incluvers0"
   },
@@ -122,13 +122,14 @@
     "mac": "48:b0:2d:c1:74:94",
     "location": "xrlab",
     "responsible": "victoria",
-    "comments": "despiezado"
+    "comments": "ripped"
   },
   {
     "name": "hamming",
     "mac": "48:b0:2d:5c:45:41",
     "location": "xrlab",
-    "responsible": "jaime"
+    "responsible": "",
+    "comments": "ripped"
   },
   {
     "name": "vaughan",
@@ -148,8 +149,8 @@
       "rearId": 5
     },
     "mac": "3c:6d:66:18:ec:70",
-    "location": "FJXIII",
-    "responsible": "Pablo"
+    "location": "FJXXIII",
+    "responsible": "pablo"
   },
   {
     "name": "mendel",
@@ -158,10 +159,10 @@
       "rearId": 3
     },
     "mac": "3c:6d:66:18:e1:8f",
-    "location": "xrlab",
-    "responsible": "",
+    "location": "FJXXIII",
+    "responsible": "juan",
     "password": "incluvers0",
-    "comments": "The performance is low. To be tested"
+    "comments": ""
   },
   {
     "name": "bacon",
@@ -170,7 +171,7 @@
       "rearId": 7
     },
     "mac": "3c:6d:66:18:c7:c9",
-    "location": "FJXIII",
+    "location": "FJXXIII",
     "responsible": "pablo",
     "password": "incluvers0"
   },
@@ -181,7 +182,7 @@
       "rearId": 9
     },
     "mac": "3c:6d:66:18:e8:b3",
-    "location": "FJXIII",
+    "location": "FJXXIII",
     "responsible": "pablo"
   },
   {
@@ -191,7 +192,8 @@
       "rearId": 11
     },
     "mac": "3c:6d:66:18:e3:f9",
-    "location": "",
-    "responsible": ""
+    "location": "FJXXIII",
+    "responsible": "juan",
+    "password": "incluvers0"
   }
 ]
