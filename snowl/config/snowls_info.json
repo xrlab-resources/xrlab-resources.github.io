@@ -24,7 +24,7 @@
     "mac": "00:04:4b:e6:f1:34",
     "location": "juan home",
     "responsible": "juan",
-    "comments": "ripped"
+    "comments": "ripped, missing parts"
   },
   {
     "name": "gauss",
@@ -33,7 +33,7 @@
       "rearId": 15
     },
     "mac": "3c:6d:66:22:b6:6d",
-    "location": "xrlab meeting room",
+    "location": "xrlab demo room",
     "responsible": "alvaro"
   },
   {
@@ -70,7 +70,7 @@
     "name": "davinci",
     "mac": "48:b0:2d:d9:63:09",
     "location": "xrlab",
-    "comment": "Some issues of video streaming. Not totaly identified yet.",
+    "comment": "It reboots randomly",
     "responsible": ""
   },
   {
@@ -115,14 +115,18 @@
     },
     "location": "xrlab",
     "responsible": "alvaro",
-    "comments": "5G & Lab Pano"
+    "comments": "5G & Lab Pano, 1 camera not working"
   },
   {
     "name": "pascal",
     "mac": "48:b0:2d:c1:74:94",
     "location": "xrlab",
-    "responsible": "victoria",
-    "comments": "ripped"
+    "cameras": {
+      "frontId": 0,
+      "rearId": 1
+    },
+    "responsible": "juan",
+    "comments": ""
   },
   {
     "name": "hamming",
@@ -183,7 +187,8 @@
     },
     "mac": "3c:6d:66:18:e8:b3",
     "location": "FJXXIII",
-    "responsible": "pablo"
+    "responsible": "pablo",
+    "comments": "Not located"
   },
   {
     "name": "agustin",
