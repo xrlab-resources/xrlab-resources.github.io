@@ -22,7 +22,7 @@
   {
     "name": "disarli",
     "mac": "00:04:4b:e6:f1:34",
-    "location": "juan home",
+    "location": "xrlab",
     "responsible": "juan",
     "comments": "ripped, missing parts"
   },
@@ -64,21 +64,22 @@
     "mac": "48:b0:2d:ec:41:76",
     "location": "xrlab",
     "comment": "CSI port doesn't work: only 1 cam available",
-    "responsible": "alvaro izquierdo"
+    "responsible": ""
   },
   {
     "name": "davinci",
     "mac": "48:b0:2d:d9:63:09",
     "location": "xrlab",
-    "comment": "It reboots randomly",
+    "comment": "It shutdowns randomly",
     "responsible": ""
   },
   {
     "name": "kepler",
     "mac": "48:b0:2d:ec:1d:10",
-    "location": "FJXXIII",
-    "responsible": "pablo",
-    "password": "incluvers0"
+    "location": "xrlab",
+    "responsible": "",
+    "password": "incluvers0",
+    "comments": "It was used for Incluverso"
   },
   {
     "name": "bernoulli",
@@ -115,7 +116,7 @@
     },
     "location": "xrlab",
     "responsible": "alvaro",
-    "comments": "5G & Lab Pano, 1 camera not working"
+    "comments": "5G & Lab Pano"
   },
   {
     "name": "pascal",
@@ -163,7 +164,7 @@
       "rearId": 3
     },
     "mac": "3c:6d:66:18:e1:8f",
-    "location": "FJXXIII",
+    "location": "house FJXXIII",
     "responsible": "juan",
     "password": "incluvers0",
     "comments": ""
@@ -188,7 +189,7 @@
     "mac": "3c:6d:66:18:e8:b3",
     "location": "FJXXIII",
     "responsible": "pablo",
-    "comments": "Not located"
+    "comments": ""
   },
   {
     "name": "agustin",
@@ -197,7 +198,7 @@
       "rearId": 11
     },
     "mac": "3c:6d:66:18:e3:f9",
-    "location": "FJXXIII",
+    "location": "house FJXXIII",
     "responsible": "juan",
     "password": "incluvers0"
   }
