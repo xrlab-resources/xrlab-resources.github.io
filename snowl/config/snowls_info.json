@@ -4,7 +4,8 @@
     "mac": "48:b0:2d:d9:63:f4",
     "cameras": {
       "frontId": 18,
-      "rearId": 19
+      "rearId": 19,
+      "seat_front_sensor": 0
     },
     "location": "juan home",
     "responsible": "juan"
@@ -13,8 +14,9 @@
     "name": "ikki",
     "mac": "48:b0:2d:d9:5e:a6",
     "cameras": {
-      "frontId": 14,
-      "rearId": 15
+      "frontId": 24,
+      "rearId": 25,
+      "seat_front_sensor": 0
     },
     "location": "juan desk",
     "responsible": "juan"
@@ -30,7 +32,8 @@
     "name": "gauss",
     "cameras": {
       "frontId": 14,
-      "rearId": 15
+      "rearId": 15,
+      "seat_front_sensor": 1
     },
     "mac": "3c:6d:66:22:b6:6d",
     "location": "xrlab demo room",
@@ -54,7 +57,8 @@
     "mac": "48:b0:2d:ec:41:6c",
     "cameras": {
       "frontId": 12,
-      "rearId": 13
+      "rearId": 13,
+      "seat_front_sensor": 0
     },
     "location": "xrlab",
     "responsible": "alvaro"
@@ -63,12 +67,23 @@
     "name": "kelvin",
     "mac": "48:b0:2d:ec:41:76",
     "location": "xrlab",
-    "comment": "CSI port doesn't work: only 1 cam available",
-    "responsible": ""
+    "comment": "Red case",
+    "responsible": "",
+    "cameras": {
+      "frontId": 28,
+      "rearId": 29,
+      "seat_front_sensor": 1,
+      "upright_flip": 2
+    }
   },
   {
     "name": "davinci",
     "mac": "48:b0:2d:d9:63:09",
+    "cameras": {
+      "frontId": 22,
+      "rearId": 23,
+      "seat_front_sensor": 1
+    },
     "location": "xrlab",
     "comment": "It shutdowns randomly",
     "responsible": ""
@@ -78,8 +93,7 @@
     "mac": "48:b0:2d:ec:1d:10",
     "location": "xrlab",
     "responsible": "",
-    "password": "incluvers0",
-    "comments": "It was used for Incluverso"
+    "comments": "Some HW issues that make crash when two cameras capture at the same time. It was used for Incluverso"
   },
   {
     "name": "bernoulli",
@@ -96,7 +110,8 @@
     "mac": "48:b0:2d:5c:4b:4a",
     "cameras": {
       "frontId": 20,
-      "rearId": 21
+      "rearId": 21,
+      "seat_front_sensor": 1
     },
     "location": "xrlab",
     "responsible": "sara"
@@ -111,12 +126,13 @@
     "name": "shannon",
     "mac": "48:b0:2d:ec:41:34",
     "cameras": {
-      "frontId": 0,
-      "rearId": 1
+      "frontId": 26,
+      "rearId": 27,
+      "seat_front_sensor": 0
     },
     "location": "xrlab",
-    "responsible": "alvaro",
-    "comments": "5G & Lab Pano"
+    "responsible": "pablo",
+    "comments": "Módem 5G. Pruebas PPDR"
   },
   {
     "name": "pascal",
@@ -126,8 +142,8 @@
       "frontId": 0,
       "rearId": 1
     },
-    "responsible": "juan",
-    "comments": ""
+    "responsible": "jaime",
+    "comments": "Drone"
   },
   {
     "name": "hamming",
@@ -141,7 +157,8 @@
     "mac": "48:b0:2d:d9:5d:a0",
     "cameras": {
       "frontId": 16,
-      "rearId": 17
+      "rearId": 17,
+      "seat_front_sensor": 0
     },
     "location": "xrlab",
     "responsible": "alvaro",
@@ -164,7 +181,7 @@
       "rearId": 3
     },
     "mac": "3c:6d:66:18:e1:8f",
-    "location": "house FJXXIII",
+    "location": "Jose Luis (FJXXIII)",
     "responsible": "juan",
     "password": "incluvers0",
     "comments": ""
@@ -172,34 +189,46 @@
   {
     "name": "bacon",
     "cameras": {
-      "frontId": 6,
-      "rearId": 7
+      "frontId": 30,
+      "rearId": 31,
+      "seat_front_sensor": 0
     },
     "mac": "3c:6d:66:18:c7:c9",
-    "location": "FJXXIII",
-    "responsible": "pablo",
+    "location": "Piso Alfonso XIII (FJXXIII)",
+    "responsible": "juan",
     "password": "incluvers0"
   },
   {
     "name": "aquino",
     "cameras": {
       "frontId": 8,
-      "rearId": 9
+      "rearId": 9,
+      "seat_front_sensor": 0
     },
     "mac": "3c:6d:66:18:e8:b3",
     "location": "FJXXIII",
-    "responsible": "pablo",
+    "responsible": "juan",
     "comments": ""
   },
   {
     "name": "agustin",
     "cameras": {
       "frontId": 10,
-      "rearId": 11
+      "rearId": 11,
+      "seat_front_sensor": 1
     },
     "mac": "3c:6d:66:18:e3:f9",
-    "location": "house FJXXIII",
+    "location": "Mila (FJXXIII)",
     "responsible": "juan",
-    "password": "incluvers0"
+    "password": "incluvers0",
+    "comments": "Random touchscreen issues: it doesn't respond to touch"
+  },
+  {
+    "name": "einstein",
+    "cameras": {},
+    "mac": "3c:6d:66:2c:ed:9c",
+    "location": "xrlab",
+    "responsible": "alvaro",
+    "comments": "NVIDIA Jetson Orin NX"
   }
 ]

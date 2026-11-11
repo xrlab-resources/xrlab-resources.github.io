@@ -142,5 +142,53 @@
     "sensor": "imx477",
     "lens": "ed230155",
     "orientation": "rear"
+  },
+  {
+    "id": 24,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": 25,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
+  },
+  {
+    "id": 26,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": 27,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
+  },
+  {
+    "id": 28,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": 29,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
+  },
+  {
+    "id": 30,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "front"
+  },
+  {
+    "id": 31,
+    "sensor": "imx477",
+    "lens": "ed230155",
+    "orientation": "rear"
   }
 ]

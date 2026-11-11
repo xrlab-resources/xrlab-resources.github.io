@@ -1,0 +1,120 @@
+{
+  "schema_version": 2,
+  "camera_ids": {
+    "front": 22,
+    "rear": 23
+  },
+  "seat_front_sensor": 1,
+  "composite": {
+    "width": 3840,
+    "height": 2160,
+    "eye_width": 2160,
+    "eye_height": 1920,
+    "rotate_fix": "cw90",
+    "sensor": "imx477",
+    "mode": 1
+  },
+  "lenses": {
+    "front": {
+      "sensor": 1,
+      "circle": {
+        "cx": 2043.95,
+        "cy": 1215.57,
+        "r": 1529.98
+      },
+      "theta_ref_deg": 92.95,
+      "rim_correction_deg": -1.7728,
+      "rim_exponent": 6,
+      "principal_shift_px": [
+        0.0,
+        -3.337
+      ],
+      "vignetting": {
+        "strength": 0.1721,
+        "exponent": 32
+      }
+    },
+    "rear": {
+      "sensor": 0,
+      "circle": {
+        "cx": 1868.09,
+        "cy": 1061.65,
+        "r": 1535.47
+      },
+      "theta_ref_deg": 92.5943,
+      "rim_correction_deg": -1.7728,
+      "rim_exponent": 6,
+      "principal_shift_px": [
+        0.0,
+        3.337
+      ],
+      "vignetting": {
+        "strength": 0.1721,
+        "exponent": 32
+      }
+    }
+  },
+  "extrinsics": {
+    "rear_to_front": [
+      [
+        -0.99999487,
+        0.00171174,
+        0.00270813
+      ],
+      [
+        0.00159049,
+        0.99902325,
+        -0.04415904
+      ],
+      [
+        -0.00278107,
+        -0.04415451,
+        -0.99902084
+      ]
+    ],
+    "ypr_vs_nominal_deg": [
+      -0.1553,
+      2.5309,
+      0.0912
+    ]
+  },
+  "panorama": {
+    "projection": "equirect",
+    "width": 3840,
+    "height": 1920
+  },
+  "blend": {
+    "band_deg": 3.0,
+    "edge_fade_deg": 0.4
+  },
+  "quality": {
+    "solved": true,
+    "fit": "full",
+    "frames": 12,
+    "inliers": 215,
+    "median_seam_error_deg": 0.205,
+    "p90_seam_error_deg": 0.403,
+    "seams_with_matches": [
+      "+90",
+      "-90"
+    ],
+    "sessions": [
+      {
+        "name": "legacy",
+        "frames": 6,
+        "samples_left_sensor": 0,
+        "confident": true
+      },
+      {
+        "name": "20260930-123233",
+        "frames": 6,
+        "samples_left_sensor": 1,
+        "confident": true
+      }
+    ],
+    "skipped_sessions": {
+      "20260929-195438": "too dark (lights off?)"
+    },
+    "solved_at": "2026-09-30T12:38:42"
+  }
+}

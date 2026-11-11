@@ -1,0 +1,112 @@
+{
+  "k_convention": "opencv_fisheye",
+  "image_width": 3840,
+  "image_height": 2160,
+  "K_orig": [
+    [
+      963.7089195518517,
+      0,
+      1854.0917365478217
+    ],
+    [
+      0,
+      969.9880306017686,
+      1062.8630214010268
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "K": [
+    [
+      963.7089195518517,
+      0,
+      1854.0917365478217
+    ],
+    [
+      0,
+      969.9880306017686,
+      1062.8630214010268
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "D": [
+    0.002312754346843425,
+    0.007105601711901132,
+    -0.021770489921421395,
+    0.00679241733395617
+  ],
+  "rms": 4.46158807214192,
+  "balance": 0.4,
+  "views_used": 16,
+  "views_excluded": [
+    "snapshot-00011.jpg",
+    "snapshot-00012.jpg",
+    "snapshot-00013.jpg",
+    "snapshot-00014.jpg",
+    "snapshot-00015.jpg",
+    "snapshot-00016.jpg",
+    "snapshot-00017.jpg",
+    "snapshot-00018.jpg",
+    "snapshot-00019.jpg",
+    "snapshot-00020.jpg",
+    "snapshot-00021.jpg",
+    "snapshot-00027.jpg",
+    "snapshot-00028.jpg",
+    "snapshot-00029.jpg",
+    "snapshot-00030.jpg",
+    "snapshot-00031.jpg",
+    "snapshot-00032.jpg",
+    "snapshot-00033.jpg",
+    "snapshot-00034.jpg",
+    "snapshot-00035.jpg",
+    "snapshot-00036.jpg",
+    "snapshot-00037.jpg",
+    "snapshot-00038.jpg",
+    "snapshot-00039.jpg",
+    "snapshot-00040.jpg",
+    "snapshot-00041.jpg",
+    "snapshot-00042.jpg",
+    "snapshot-00043.jpg",
+    "snapshot-00044.jpg",
+    "snapshot-00045.jpg",
+    "snapshot-00046.jpg",
+    "snapshot-00047.jpg",
+    "snapshot-00048.jpg",
+    "snapshot-00049.jpg",
+    "snapshot-00050.jpg",
+    "snapshot-00051.jpg",
+    "snapshot-00052.jpg",
+    "snapshot-00053.jpg",
+    "snapshot-00054.jpg",
+    "snapshot-00056.jpg",
+    "snapshot-00057.jpg",
+    "snapshot-00059.jpg",
+    "snapshot-00060.jpg",
+    "snapshot-00061.jpg",
+    "snapshot-00062.jpg",
+    "snapshot-00064.jpg",
+    "snapshot-00065.jpg",
+    "snapshot-00066.jpg",
+    "snapshot-00067.jpg",
+    "snapshot-00068.jpg",
+    "snapshot-00069.jpg",
+    "snapshot-00070.jpg",
+    "snapshot-00071.jpg",
+    "snapshot-00072.jpg",
+    "snapshot-00073.jpg",
+    "snapshot-00074.jpg",
+    "snapshot-00075.jpg",
+    "snapshot-00079.jpg",
+    "snapshot-00080.jpg",
+    "snapshot-00081.jpg",
+    "snapshot-00084.jpg",
+    "snapshot-00088.jpg"
+  ]
+}

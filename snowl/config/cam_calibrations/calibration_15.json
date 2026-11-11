@@ -1,46 +1,182 @@
 {
+  "k_convention": "opencv_fisheye",
   "image_width": 3840,
   "image_height": 2160,
-  "K_orig": [
-    [
-      1021.3988903324382,
-      0.0,
-      1935.4532984605794
-    ],
-    [
-      0.0,
-      1024.0558748375354,
-      1064.975193602738
-    ],
-    [
-      0.0,
-      0.0,
-      1.0
-    ]
-  ],
   "K": [
     [
-      1021.3988903324382,
-      0.0,
-      1935.4532984605794
+      1067.4421755230621,
+      0,
+      1906.785509170122
     ],
     [
-      0.0,
-      1024.0558748375354,
-      1064.975193602738
+      0,
+      1074.8558944089555,
+      1111.7459858075063
     ],
     [
-      0.0,
-      0.0,
-      1.0
+      0,
+      0,
+      1
+    ]
+  ],
+  "K_orig": [
+    [
+      1067.4421755230621,
+      0,
+      1906.785509170122
+    ],
+    [
+      0,
+      1074.8558944089555,
+      1111.7459858075063
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "K_rect": [
+    [
+      535.0987375417216,
+      0,
+      1924.7431330530578
+    ],
+    [
+      0,
+      538.8151651921344,
+      1091.3948855488502
+    ],
+    [
+      0,
+      0,
+      1
     ]
   ],
   "D": [
-    -0.01410217048164731,
-    -0.00895107675304098,
-    0.00036897896589178794,
-    0.00014036080148488377
+    -0.03735724258583854,
+    0.014681013422482292,
+    -0.015536684506343277,
+    0.0035102766267268697
   ],
-  "rms": 3.399691427827225,
-  "balance": 0.0
+  "rms": 5.211969583161238,
+  "balance": 0.4,
+  "views_used": 42,
+  "views_detected": 68,
+  "views_excluded": [
+    "snapshot-00030.jpg",
+    "snapshot-00031.jpg",
+    "snapshot-00032.jpg",
+    "snapshot-00033.jpg",
+    "snapshot-00034.jpg",
+    "snapshot-00035.jpg",
+    "snapshot-00036.jpg",
+    "snapshot-00037.jpg",
+    "snapshot-00038.jpg",
+    "snapshot-00040.jpg",
+    "snapshot-00041.jpg",
+    "snapshot-00042.jpg",
+    "snapshot-00044.jpg",
+    "snapshot-00047.jpg",
+    "snapshot-00061.jpg",
+    "snapshot-00062.jpg",
+    "snapshot-00063.jpg",
+    "snapshot-00068.jpg",
+    "snapshot-00070.jpg",
+    "snapshot-00071.jpg",
+    "snapshot-00072.jpg",
+    "snapshot-00077.jpg",
+    "snapshot-00078.jpg",
+    "snapshot-00079.jpg",
+    "snapshot-00094.jpg",
+    "snapshot-00111.jpg"
+  ],
+  "views_not_detected": [
+    "snapshot-00000.jpg",
+    "snapshot-00001.jpg",
+    "snapshot-00002.jpg",
+    "snapshot-00003.jpg",
+    "snapshot-00004.jpg",
+    "snapshot-00005.jpg",
+    "snapshot-00006.jpg",
+    "snapshot-00007.jpg",
+    "snapshot-00017.jpg",
+    "snapshot-00018.jpg",
+    "snapshot-00019.jpg",
+    "snapshot-00020.jpg",
+    "snapshot-00028.jpg",
+    "snapshot-00029.jpg",
+    "snapshot-00039.jpg",
+    "snapshot-00043.jpg",
+    "snapshot-00045.jpg",
+    "snapshot-00048.jpg",
+    "snapshot-00049.jpg",
+    "snapshot-00050.jpg",
+    "snapshot-00051.jpg",
+    "snapshot-00052.jpg",
+    "snapshot-00053.jpg",
+    "snapshot-00054.jpg",
+    "snapshot-00055.jpg",
+    "snapshot-00056.jpg",
+    "snapshot-00057.jpg",
+    "snapshot-00058.jpg",
+    "snapshot-00059.jpg",
+    "snapshot-00060.jpg",
+    "snapshot-00064.jpg",
+    "snapshot-00065.jpg",
+    "snapshot-00066.jpg",
+    "snapshot-00067.jpg",
+    "snapshot-00073.jpg",
+    "snapshot-00074.jpg",
+    "snapshot-00075.jpg",
+    "snapshot-00076.jpg",
+    "snapshot-00080.jpg",
+    "snapshot-00081.jpg",
+    "snapshot-00082.jpg",
+    "snapshot-00083.jpg",
+    "snapshot-00084.jpg",
+    "snapshot-00085.jpg",
+    "snapshot-00092.jpg",
+    "snapshot-00093.jpg",
+    "snapshot-00101.jpg",
+    "snapshot-00103.jpg",
+    "snapshot-00104.jpg",
+    "snapshot-00113.jpg"
+  ],
+  "board": {
+    "type": "checkerboard",
+    "detector": "auto",
+    "pattern": [
+      9,
+      7
+    ],
+    "square_m": 0.02
+  },
+  "coverage": {
+    "corners": 2646,
+    "max_theta_deg": 85.01,
+    "p95_theta_deg": 70.09,
+    "rim_fraction": 0.0518,
+    "theta_hist_deg": {
+      "0-10": 92,
+      "10-20": 325,
+      "20-30": 469,
+      "30-40": 574,
+      "40-50": 498,
+      "50-60": 337,
+      "60-70": 214,
+      "70-80": 111,
+      "80-90": 26,
+      "90-100": 0
+    },
+    "usable_theta_deg": 91.1
+  },
+  "quality_warnings": [
+    "RMS 5.21 px > 2.0 px"
+  ],
+  "image_circle": {
+    "cx": 1899.8,
+    "cy": 1118.31,
+    "r": 1518.71
+  }
 }

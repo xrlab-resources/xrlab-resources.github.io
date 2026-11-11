@@ -1,7 +1,7 @@
 [
   {
     "profile": "dev",
-    "rooms": ["local", "test", "dev", "xrlab-5g", "xrlab-old"]
+    "rooms": ["local", "test", "dev", "dev-k8s", "xrlab-5g"]
   },
   {
     "profile": "production",
@@ -13,11 +13,11 @@
   },
   {
     "profile": "guest",
-    "rooms": ["local", "keysight-mal", "nokia-mad", "eucnc", "xrlab-guest"]
+    "rooms": ["local", "keysight-mal", "nokia-mad", "xrlab-guest"]
   },
   {
-    "profile": "uma",
-    "rooms": ["local", "6gsandbox"]
+    "profile": "telefonica",
+    "rooms": ["local", "cabina"]
   },
   {
     "profile": "juan23",

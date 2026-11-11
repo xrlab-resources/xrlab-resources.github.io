@@ -49,7 +49,7 @@
     }
   },
   {
-    "name": "eucnc",
+    "name": "cabina",
     "conference": {
       "url": "10.0.50.104:5000",
       "id": "session-3",
@@ -89,6 +89,14 @@
     }
   },
   {
+    "name": "dev-k8s",
+    "conference": {
+      "url": "10.0.50.105:15000",
+      "id": "session-1",
+      "code": "nokia123"
+    }
+  },
+  {
     "name": "xrlab-5g",
     "conference": {
       "url": "10.0.50.110:5000",
@@ -102,24 +110,6 @@
     "conference": {
       "url": "192.168.23.12:5000",
       "id": "session-1",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "6gsandbox",
-    "isLocal": false,
-    "conference": {
-      "url": "10.11.23.39:5000",
-      "id": "session-1",
-      "code": "nokia123"
-    }
-  },
-  {
-    "name": "xrlab-old",
-    "isLocal": false,
-    "conference": {
-      "url": "192.168.223.2:5000",
-      "id": "xrlab",
       "code": "nokia123"
     }
   }

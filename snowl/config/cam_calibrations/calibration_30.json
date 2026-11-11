@@ -1,0 +1,160 @@
+{
+  "k_convention": "opencv_fisheye",
+  "image_width": 3840,
+  "image_height": 2160,
+  "K": [
+    [
+      990.8332265265709,
+      0,
+      2010.3644398064832
+    ],
+    [
+      0,
+      993.5910860299582,
+      998.8820422547734
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "K_orig": [
+    [
+      990.8332265265709,
+      0,
+      2010.3644398064832
+    ],
+    [
+      0,
+      993.5910860299582,
+      998.8820422547734
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "K_rect": [
+    [
+      478.7533419417688,
+      0,
+      1881.4949300078215
+    ],
+    [
+      0,
+      480.08589157626284,
+      1038.2931910976004
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "D": [
+    -0.007460507353548437,
+    -0.005402339880832324,
+    -0.0016347513174701234,
+    0.00023445640647785742
+  ],
+  "rms": 3.1443874624100263,
+  "balance": 0.4,
+  "views_used": 100,
+  "views_detected": 146,
+  "views_excluded": [
+    "snapshot-00020.jpg",
+    "snapshot-00022.jpg",
+    "snapshot-00023.jpg",
+    "snapshot-00024.jpg",
+    "snapshot-00025.jpg",
+    "snapshot-00026.jpg",
+    "snapshot-00027.jpg",
+    "snapshot-00028.jpg",
+    "snapshot-00030.jpg",
+    "snapshot-00031.jpg",
+    "snapshot-00034.jpg",
+    "snapshot-00036.jpg",
+    "snapshot-00038.jpg",
+    "snapshot-00040.jpg",
+    "snapshot-00041.jpg",
+    "snapshot-00042.jpg",
+    "snapshot-00043.jpg",
+    "snapshot-00044.jpg",
+    "snapshot-00045.jpg",
+    "snapshot-00046.jpg",
+    "snapshot-00050.jpg",
+    "snapshot-00051.jpg",
+    "snapshot-00052.jpg",
+    "snapshot-00053.jpg",
+    "snapshot-00054.jpg",
+    "snapshot-00055.jpg",
+    "snapshot-00064.jpg",
+    "snapshot-00066.jpg",
+    "snapshot-00068.jpg",
+    "snapshot-00069.jpg",
+    "snapshot-00070.jpg",
+    "snapshot-00071.jpg",
+    "snapshot-00072.jpg",
+    "snapshot-00073.jpg",
+    "snapshot-00074.jpg",
+    "snapshot-00075.jpg",
+    "snapshot-00080.jpg",
+    "snapshot-00085.jpg",
+    "snapshot-00094.jpg",
+    "snapshot-00133.jpg",
+    "snapshot-00137.jpg",
+    "snapshot-00144.jpg",
+    "snapshot-00147.jpg",
+    "snapshot-00150.jpg",
+    "snapshot-00151.jpg",
+    "snapshot-00153.jpg"
+  ],
+  "views_not_detected": [
+    "snapshot-00015.jpg",
+    "snapshot-00132.jpg",
+    "snapshot-00134.jpg",
+    "snapshot-00135.jpg",
+    "snapshot-00136.jpg",
+    "snapshot-00148.jpg",
+    "snapshot-00149.jpg",
+    "snapshot-00152.jpg"
+  ],
+  "board": {
+    "type": "checkerboard",
+    "detector": "auto",
+    "pattern": [
+      9,
+      7
+    ],
+    "square_m": 0.02
+  },
+  "coverage": {
+    "corners": 6300,
+    "max_theta_deg": 89.53,
+    "p95_theta_deg": 81.14,
+    "rim_fraction": 0.1522,
+    "theta_hist_deg": {
+      "0-10": 293,
+      "10-20": 772,
+      "20-30": 878,
+      "30-40": 915,
+      "40-50": 875,
+      "50-60": 828,
+      "60-70": 780,
+      "70-80": 603,
+      "80-90": 356,
+      "90-100": 0
+    },
+    "usable_theta_deg": 96.71
+  },
+  "quality_warnings": [
+    "RMS 3.14 px > 2.0 px"
+  ],
+  "image_circle": {
+    "cx": 2001.92,
+    "cy": 1006.38,
+    "r": 1528.25
+  }
+}
