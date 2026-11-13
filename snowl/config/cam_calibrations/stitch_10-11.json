@@ -1,0 +1,124 @@
+{
+  "schema_version": 2,
+  "camera_ids": {
+    "front": 10,
+    "rear": 11
+  },
+  "seat_front_sensor": 1,
+  "composite": {
+    "width": 3840,
+    "height": 2160,
+    "eye_width": 2160,
+    "eye_height": 1920,
+    "rotate_fix": "cw90",
+    "sensor": "imx477",
+    "mode": 1
+  },
+  "lenses": {
+    "front": {
+      "sensor": 1,
+      "circle": {
+        "cx": 1998.52,
+        "cy": 1010.74,
+        "r": 1523.76
+      },
+      "theta_ref_deg": 96.4689,
+      "rim_correction_deg": 0.0148,
+      "rim_exponent": 6,
+      "principal_shift_px": [
+        0.0,
+        -10.384
+      ],
+      "vignetting": {
+        "strength": 0.4768,
+        "exponent": 32
+      }
+    },
+    "rear": {
+      "sensor": 0,
+      "circle": {
+        "cx": 1953.6,
+        "cy": 1091.69,
+        "r": 1522.5
+      },
+      "theta_ref_deg": 95.9266,
+      "rim_correction_deg": 0.0148,
+      "rim_exponent": 6,
+      "principal_shift_px": [
+        0.0,
+        10.384
+      ],
+      "vignetting": {
+        "strength": 0.4768,
+        "exponent": 32
+      }
+    }
+  },
+  "extrinsics": {
+    "rear_to_front": [
+      [
+        -0.99999228,
+        0.0029329,
+        -0.00261413
+      ],
+      [
+        0.00301492,
+        0.99948499,
+        -0.03194786
+      ],
+      [
+        0.00251908,
+        -0.03195549,
+        -0.99948612
+      ]
+    ],
+    "ypr_vs_nominal_deg": [
+      0.1499,
+      1.8308,
+      0.1728
+    ]
+  },
+  "panorama": {
+    "projection": "equirect",
+    "width": 3840,
+    "height": 1920
+  },
+  "blend": {
+    "band_deg": 3.0,
+    "edge_fade_deg": 0.4
+  },
+  "quality": {
+    "solved": true,
+    "fit": "full",
+    "frames": 18,
+    "inliers": 733,
+    "median_seam_error_deg": 0.197,
+    "p90_seam_error_deg": 0.396,
+    "seams_with_matches": [
+      "+90",
+      "-90"
+    ],
+    "sessions": [
+      {
+        "name": "20261105-113205",
+        "frames": 6,
+        "samples_left_sensor": 1,
+        "confident": true
+      },
+      {
+        "name": "20261105-113334",
+        "frames": 6,
+        "samples_left_sensor": 1,
+        "confident": true
+      },
+      {
+        "name": "20261105-113541",
+        "frames": 6,
+        "samples_left_sensor": 1,
+        "confident": true
+      }
+    ],
+    "skipped_sessions": {},
+    "solved_at": "2026-11-05T11:41:30"
+  }
+}

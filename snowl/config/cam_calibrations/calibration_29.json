@@ -1,0 +1,150 @@
+{
+  "k_convention": "opencv_fisheye",
+  "image_width": 3840,
+  "image_height": 2160,
+  "K": [
+    [
+      1034.3846479235824,
+      0,
+      2043.7877765769701
+    ],
+    [
+      0,
+      1038.9472583041736,
+      1099.8521669556162
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "K_orig": [
+    [
+      1034.3846479235824,
+      0,
+      2043.7877765769701
+    ],
+    [
+      0,
+      1038.9472583041736,
+      1099.8521669556162
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "K_rect": [
+    [
+      497.3749628473415,
+      0,
+      1889.8397375563013
+    ],
+    [
+      0,
+      499.56885481305164,
+      1091.0557576671997
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "D": [
+    -0.035991936024755894,
+    0.016716762526302883,
+    -0.012516574524978133,
+    0.0022011688746112535
+  ],
+  "rms": 2.6336191537819076,
+  "balance": 0.4,
+  "views_used": 82,
+  "views_detected": 94,
+  "views_excluded": [
+    "snapshot-00041.jpg",
+    "snapshot-00045.jpg",
+    "snapshot-00061.jpg",
+    "snapshot-00088.jpg",
+    "snapshot-00089.jpg",
+    "snapshot-00092.jpg",
+    "snapshot-00093.jpg",
+    "snapshot-00095.jpg",
+    "snapshot-00105.jpg",
+    "snapshot-00106.jpg",
+    "snapshot-00110.jpg",
+    "snapshot-00111.jpg"
+  ],
+  "views_not_detected": [
+    "snapshot-00000.jpg",
+    "snapshot-00001.jpg",
+    "snapshot-00002.jpg",
+    "snapshot-00003.jpg",
+    "snapshot-00004.jpg",
+    "snapshot-00005.jpg",
+    "snapshot-00006.jpg",
+    "snapshot-00007.jpg",
+    "snapshot-00008.jpg",
+    "snapshot-00018.jpg",
+    "snapshot-00019.jpg",
+    "snapshot-00038.jpg",
+    "snapshot-00042.jpg",
+    "snapshot-00043.jpg",
+    "snapshot-00044.jpg",
+    "snapshot-00058.jpg",
+    "snapshot-00059.jpg",
+    "snapshot-00060.jpg",
+    "snapshot-00112.jpg",
+    "snapshot-00113.jpg",
+    "snapshot-00114.jpg",
+    "snapshot-00115.jpg",
+    "snapshot-00116.jpg",
+    "snapshot-00117.jpg",
+    "snapshot-00118.jpg",
+    "snapshot-00119.jpg",
+    "snapshot-00120.jpg",
+    "snapshot-00121.jpg",
+    "snapshot-00122.jpg",
+    "snapshot-00123.jpg",
+    "snapshot-00124.jpg",
+    "snapshot-00125.jpg"
+  ],
+  "board": {
+    "type": "checkerboard",
+    "detector": "auto",
+    "pattern": [
+      9,
+      7
+    ],
+    "square_m": 0.02
+  },
+  "coverage": {
+    "corners": 5166,
+    "max_theta_deg": 89.01,
+    "p95_theta_deg": 76.69,
+    "rim_fraction": 0.1181,
+    "theta_hist_deg": {
+      "0-10": 132,
+      "10-20": 419,
+      "20-30": 687,
+      "30-40": 865,
+      "40-50": 865,
+      "50-60": 898,
+      "60-70": 690,
+      "70-80": 479,
+      "80-90": 131,
+      "90-100": 0
+    },
+    "usable_theta_deg": 93.68
+  },
+  "quality_warnings": [
+    "RMS 2.63 px > 2.0 px"
+  ],
+  "image_circle": {
+    "cx": 2039.28,
+    "cy": 1091.67,
+    "r": 1519.67
+  }
+}

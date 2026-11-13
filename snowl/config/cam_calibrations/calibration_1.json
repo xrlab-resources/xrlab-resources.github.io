@@ -1,4 +1,5 @@
 {
+  "k_convention": "opencv_fisheye",
   "image_width": 3840,
   "image_height": 2160,
   "K": [

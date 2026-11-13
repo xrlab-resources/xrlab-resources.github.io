@@ -1,0 +1,194 @@
+{
+  "k_convention": "opencv_fisheye",
+  "image_width": 3840,
+  "image_height": 2160,
+  "K": [
+    [
+      988.5867790085192,
+      0,
+      1861.1532831363456
+    ],
+    [
+      0,
+      991.3166395036108,
+      1032.233454647835
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "K_orig": [
+    [
+      988.5867790085192,
+      0,
+      1861.1532831363456
+    ],
+    [
+      0,
+      991.3166395036108,
+      1032.233454647835
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "K_rect": [
+    [
+      0.0031679959535614727,
+      0,
+      3503.997799536271
+    ],
+    [
+      0,
+      0.0031767439837656706,
+      2663.9975444304905
+    ],
+    [
+      0,
+      0,
+      1
+    ]
+  ],
+  "D": [
+    0.013029017168400806,
+    -0.04357387816805819,
+    0.021515003185478127,
+    -0.004100003986316862
+  ],
+  "rms": 3.7734168369264616,
+  "balance": 0.4,
+  "views_used": 59,
+  "views_detected": 67,
+  "views_excluded": [
+    "snapshot-00016.jpg",
+    "snapshot-00024.jpg",
+    "snapshot-00033.jpg",
+    "snapshot-00045.jpg",
+    "snapshot-00071.jpg",
+    "snapshot-00074.jpg",
+    "snapshot-00081.jpg",
+    "snapshot-00119.jpg"
+  ],
+  "views_not_detected": [
+    "snapshot-00000.jpg",
+    "snapshot-00001.jpg",
+    "snapshot-00002.jpg",
+    "snapshot-00003.jpg",
+    "snapshot-00017.jpg",
+    "snapshot-00018.jpg",
+    "snapshot-00019.jpg",
+    "snapshot-00020.jpg",
+    "snapshot-00021.jpg",
+    "snapshot-00022.jpg",
+    "snapshot-00023.jpg",
+    "snapshot-00034.jpg",
+    "snapshot-00035.jpg",
+    "snapshot-00036.jpg",
+    "snapshot-00037.jpg",
+    "snapshot-00038.jpg",
+    "snapshot-00039.jpg",
+    "snapshot-00040.jpg",
+    "snapshot-00041.jpg",
+    "snapshot-00042.jpg",
+    "snapshot-00043.jpg",
+    "snapshot-00044.jpg",
+    "snapshot-00052.jpg",
+    "snapshot-00053.jpg",
+    "snapshot-00054.jpg",
+    "snapshot-00055.jpg",
+    "snapshot-00056.jpg",
+    "snapshot-00057.jpg",
+    "snapshot-00058.jpg",
+    "snapshot-00059.jpg",
+    "snapshot-00060.jpg",
+    "snapshot-00061.jpg",
+    "snapshot-00067.jpg",
+    "snapshot-00068.jpg",
+    "snapshot-00069.jpg",
+    "snapshot-00076.jpg",
+    "snapshot-00077.jpg",
+    "snapshot-00078.jpg",
+    "snapshot-00079.jpg",
+    "snapshot-00080.jpg",
+    "snapshot-00085.jpg",
+    "snapshot-00086.jpg",
+    "snapshot-00087.jpg",
+    "snapshot-00088.jpg",
+    "snapshot-00089.jpg",
+    "snapshot-00090.jpg",
+    "snapshot-00091.jpg",
+    "snapshot-00092.jpg",
+    "snapshot-00093.jpg",
+    "snapshot-00094.jpg",
+    "snapshot-00095.jpg",
+    "snapshot-00096.jpg",
+    "snapshot-00097.jpg",
+    "snapshot-00098.jpg",
+    "snapshot-00099.jpg",
+    "snapshot-00100.jpg",
+    "snapshot-00101.jpg",
+    "snapshot-00102.jpg",
+    "snapshot-00103.jpg",
+    "snapshot-00104.jpg",
+    "snapshot-00105.jpg",
+    "snapshot-00106.jpg",
+    "snapshot-00107.jpg",
+    "snapshot-00108.jpg",
+    "snapshot-00109.jpg",
+    "snapshot-00110.jpg",
+    "snapshot-00120.jpg",
+    "snapshot-00127.jpg",
+    "snapshot-00128.jpg",
+    "snapshot-00129.jpg",
+    "snapshot-00130.jpg",
+    "snapshot-00131.jpg",
+    "snapshot-00132.jpg",
+    "snapshot-00133.jpg",
+    "snapshot-00134.jpg",
+    "snapshot-00135.jpg",
+    "snapshot-00136.jpg",
+    "snapshot-00137.jpg",
+    "snapshot-00138.jpg",
+    "snapshot-00139.jpg"
+  ],
+  "board": {
+    "type": "checkerboard",
+    "detector": "auto",
+    "pattern": [
+      9,
+      7
+    ],
+    "square_m": 0.02
+  },
+  "coverage": {
+    "corners": 3717,
+    "max_theta_deg": 88.33,
+    "p95_theta_deg": 71.04,
+    "rim_fraction": 0.0565,
+    "theta_hist_deg": {
+      "0-10": 204,
+      "10-20": 561,
+      "20-30": 525,
+      "30-40": 571,
+      "40-50": 671,
+      "50-60": 614,
+      "60-70": 361,
+      "70-80": 164,
+      "80-90": 46,
+      "90-100": 0
+    },
+    "usable_theta_deg": 97.43
+  },
+  "quality_warnings": [
+    "RMS 3.77 px > 2.0 px"
+  ],
+  "image_circle": {
+    "cx": 1864.48,
+    "cy": 1031.98,
+    "r": 1526.62
+  }
+}
