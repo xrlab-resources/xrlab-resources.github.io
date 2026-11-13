@@ -1,5 +1,29 @@
 [
   {
+    "title": "OwlDrone First Flight",
+    "type": "tech",
+    "category": "The Owl",
+    "date": "October 2026",
+    "duration": "3:45",
+    "photo": "",
+    "description": "First test flight of our large drone (Matrice 600) with an onboarded Snowl, showing the subjective perspective of immersive flying and checking that we can remotely control it through the commercial 5G network",
+    "links": [
+      {
+        "name": "YouTube",
+        "url": "https://youtu.be/k2GaJ_JsCjU"
+      },
+      {
+        "name": "Intranet",
+        "url": "https://nokia.sharepoint.com/:v:/r/sites/blspain/SiteAssets/SitePages/Videos/202610_OwlDron_FirstFlight.mp4?d=w53cf3d3d218c47e1a49f45f3ec1543f4&csf=1&web=1&e=0waLvY"
+      }
+    ],
+    "tags": [
+      "ext",
+      "demo"
+    ],
+    "id": "October2026OwlDroneFirstFlight"
+  },
+  {
     "title": "L4S gaming demo",
     "type": "tech",
     "category": "",
